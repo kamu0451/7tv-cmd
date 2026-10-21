@@ -44,9 +44,11 @@ quicker), nothing is published, and Mozilla may still review the add-on later an
 breaks a policy:
 
 1. Log in at addons.mozilla.org, open Developer Hub -> "Manage API Keys" and generate a key pair.
-2. In the repo, with the keys in the environment (never in a file):
+2. In the repo, with the keys in the environment:
    `WEB_EXT_API_KEY=<issuer> WEB_EXT_API_SECRET=<secret> npm run sign`
-   (PowerShell: `$env:WEB_EXT_API_KEY="<issuer>"; $env:WEB_EXT_API_SECRET="<secret>"; npm run sign`).
+   (PowerShell: `$env:WEB_EXT_API_KEY="<issuer>"; $env:WEB_EXT_API_SECRET="<secret>"; npm run sign`),
+   or put those two lines (`NAME=value`) in a `.env` file in the repo root; it is ignored by git
+   and `npm run sign` reads it when present.
 3. Install the signed `web-ext-artifacts/*.xpi` through `about:addons` -> gear icon -> "Install
    Add-on From File".
 

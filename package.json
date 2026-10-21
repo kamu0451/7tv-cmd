@@ -20,7 +20,7 @@
     "typecheck": "tsc --noEmit",
     "build": "node scripts/build.mjs",
     "zip": "node scripts/zip.mjs",
-    "sign": "web-ext sign --source-dir dist/firefox --artifacts-dir web-ext-artifacts --channel unlisted",
+    "sign": "node --env-file-if-exists=.env node_modules/web-ext/bin/web-ext.js sign --source-dir dist/firefox --artifacts-dir web-ext-artifacts --channel unlisted",
     "lint": "web-ext lint --source-dir dist/firefox",
     "test": "vitest run",
     "test:browser": "node scripts/test-browser.mjs",
