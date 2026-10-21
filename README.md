@@ -50,7 +50,12 @@ breaks a policy:
    or put those two lines (`NAME=value`) in a `.env` file in the repo root; it is ignored by git
    and `npm run sign` reads it when present.
 3. Install the signed `web-ext-artifacts/*.xpi` through `about:addons` -> gear icon -> "Install
-   Add-on From File".
+   Add-on From File" (or open the file's `file:///` path in Firefox).
+4. Open `about:addons` -> 7tv-cmd -> "Permissions and data" and make sure both optional
+   permissions are on: "Access your data for sites in the twitch.tv domain" (without it the
+   content script never runs and nothing appears) and "Access your data for moo.bot" (Moobot).
+   Firefox treats both as optional for a Manifest V3 add-on; when the signed build replaced a
+   temporary add-on with the same id, it installed without a prompt and both were off.
 
 The add-on id `7tv-cmd@example.com` becomes permanent at the first signing; change it in
 `scripts/build.mjs` before then if you want another. The build is TypeScript bundled by esbuild, so
