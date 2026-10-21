@@ -4,6 +4,14 @@
   "private": true,
   "description": "Twitch chat bot-command autocomplete WebExtension (Firefox and Chrome, Manifest V3)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamu0451/7tv-cmd.git"
+  },
+  "homepage": "https://github.com/kamu0451/7tv-cmd#readme",
+  "bugs": {
+    "url": "https://github.com/kamu0451/7tv-cmd/issues"
+  },
   "type": "module",
   "engines": {
     "node": ">=22"
