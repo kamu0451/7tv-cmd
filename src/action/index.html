@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- Manual refresh page (docs/SPEC.md section 5.5). Plain HTML, ASCII only, no framework. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>7tv-cmd</title>
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0e0e10;
+      --muted: #53535f;
+      --line: #dedee3;
+      --accent: #772ce8;
+      --accent-fg: #ffffff;
+      --bad: #b3261e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #18181b;
+        --fg: #efeff1;
+        --muted: #adadb8;
+        --line: #3a3a3d;
+        --accent: #9147ff;
+        --accent-fg: #ffffff;
+        --bad: #ff8a80;
+      }
+    }
+    html, body { margin: 0; background: var(--bg); color: var(--fg); }
+    body {
+      width: 340px;
+      padding: 14px 16px 16px;
+      box-sizing: border-box;
+      font: 13px/1.45 Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h1 { margin: 0 0 2px; font-size: 15px; font-weight: 700; }
+    #channel { margin: 0 0 10px; color: var(--muted); }
+    #channel strong { color: var(--fg); }
+    table { width: 100%; border-collapse: collapse; margin: 0 0 10px; }
+    th, td { padding: 4px 6px 4px 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { font-weight: 600; color: var(--muted); font-size: 12px; }
+    td.num, th.num { text-align: right; padding: 4px 0 4px 14px; white-space: nowrap; }
+    td:nth-child(2) { white-space: nowrap; }
+    td.status-error { color: var(--bad); }
+    .detail { display: block; color: var(--muted); font-size: 11px; word-break: break-word; }
+    #note { min-height: 18px; margin: 0 0 8px; color: var(--muted); }
+    button {
+      font: inherit; font-weight: 600; padding: 6px 14px; border: 0; cursor: pointer;
+      background: var(--accent); color: var(--accent-fg);
+    }
+    button:disabled { opacity: 0.5; cursor: default; }
+  </style>
+</head>
+<body>
+  <h1>7tv-cmd</h1>
+  <p id="channel">Looking for a channel...</p>
+  <table id="providers" hidden>
+    <thead><tr><th>Provider</th><th>Status</th><th class="num">Commands</th><th class="num">Age</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p id="note"></p>
+  <button id="refresh" type="button" disabled>Refresh</button>
+  <script src="index.js"></script>
+</body>
+</html>

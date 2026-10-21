@@ -1,0 +1,342 @@
+{
+  "provider": "botrix",
+  "visits": [
+    {
+      "url": "https://botrix.live/p/auronplay/commands",
+      "visitedAt": "2026-10-21T11:54:43.276Z",
+      "documentStatus": 200,
+      "finalUrl": "https://botrix.live/p/auronplay/commands",
+      "title": "auronplay Commands | BotRix - Cloud Streaming Bot for Twitch, Kick, YouTube & Discord",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://botrix.live/p/auronplay/commands",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "public, max-age=30",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "server-timing": "cfCacheStatus;desc=\"BYPASS\"\ncfEdge;dur=170,cfOrigin;dur=147",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 24487,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/assets/i18n/en.json?v=9fca6a9e",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-csrf-token": "<redacted>",
+            "referer": "https://botrix.live/p/auronplay/commands",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "etag": "W/\"1228-65db6894e5625\"",
+            "age": "422472",
+            "content-type": "application/json",
+            "vary": "accept-encoding",
+            "cache-control": "max-age=2592000, public",
+            "server": "cloudflare"
+          },
+          "responseBytes": 4648,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/assets/i18n/en/common.json?v=9fca6a9e",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-csrf-token": "<redacted>",
+            "referer": "https://botrix.live/p/auronplay/commands",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "etag": "W/\"1819-65df3aebdf910\"",
+            "age": "422472",
+            "content-type": "application/json",
+            "vary": "accept-encoding",
+            "cache-control": "max-age=2592000, public",
+            "server": "cloudflare"
+          },
+          "responseBytes": 6169,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/assets/i18n/en/routes/public.json?v=9fca6a9e",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-csrf-token": "<redacted>",
+            "referer": "https://botrix.live/p/auronplay/commands",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "etag": "W/\"2218-65df60bc5efa5\"",
+            "age": "422471",
+            "content-type": "application/json",
+            "vary": "accept-encoding",
+            "cache-control": "max-age=2592000, public",
+            "server": "cloudflare"
+          },
+          "responseBytes": 8728,
+          "postData": null
+        },
+        {
+          "method": "POST",
+          "url": "https://botrix.live/cdn-cgi/rum?",
+          "resourceType": "xhr",
+          "status": 204,
+          "contentType": "text/plain",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/p/auronplay/commands",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "access-control-max-age": "86400",
+            "access-control-allow-credentials": "true",
+            "access-control-allow-methods": "POST,OPTIONS",
+            "access-control-allow-origin": "https://botrix.live",
+            "content-type": "text/plain",
+            "vary": "Origin, accept-encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 0,
+          "postData": "<present, 843 bytes>"
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live//api/public/commands?user=auronplay&platform=twitch",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-csrf-token": "<redacted>",
+            "referer": "https://botrix.live/p/auronplay/commands",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=150",
+            "content-type": "application/json",
+            "vary": "accept-encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 2,
+          "postData": null
+        }
+      ]
+    },
+    {
+      "url": "https://botrix.live/docs/#/?id=_6-terms-and-conditions",
+      "visitedAt": "2026-10-21T11:55:41.118Z",
+      "documentStatus": 200,
+      "finalUrl": "https://botrix.live/docs/#/?id=_6-terms-and-conditions",
+      "title": "6. Terms and Conditions",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "content-type": "text/html",
+            "last-modified": "Sun, 19 Oct 2025 17:10:14 GMT",
+            "server": "cloudflare",
+            "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=7,cfOrigin;dur=380",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 1149,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/docs/README.md?v=7.0",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/markdown",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "etag": "W/\"122c-63d95f5144d9b\"",
+            "content-type": "text/markdown",
+            "last-modified": "Sat, 30 Aug 2025 14:28:51 GMT",
+            "server": "cloudflare"
+          },
+          "responseBytes": 4667,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/docs/_navbar.md?v=7.0",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/markdown",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "etag": "W/\"cb-6167848838442\"",
+            "content-type": "text/markdown",
+            "last-modified": "Fri, 19 Apr 2024 19:42:08 GMT",
+            "server": "cloudflare"
+          },
+          "responseBytes": 203,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/docs/commands.md?v=7.0",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/markdown",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "etag": "W/\"760d-64fe90925c763\"",
+            "content-type": "text/markdown",
+            "last-modified": "Mon, 20 Apr 2026 19:09:19 GMT",
+            "server": "cloudflare"
+          },
+          "responseBytes": 30273,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/docs/tos.md?v=7.0",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/markdown",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "etag": "W/\"9a77-658ae11ce83ac\"",
+            "content-type": "text/markdown",
+            "last-modified": "Mon, 10 Aug 2026 09:35:06 GMT",
+            "server": "cloudflare"
+          },
+          "responseBytes": 39707,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://botrix.live/docs/docs/guidelines.md?v=7.0",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/markdown",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "cache-control": "max-age=604800",
+            "etag": "W/\"aae-638b53acfed7f\"",
+            "content-type": "text/markdown",
+            "last-modified": "Sun, 29 Jun 2025 12:41:27 GMT",
+            "server": "cloudflare"
+          },
+          "responseBytes": 2744,
+          "postData": null
+        },
+        {
+          "method": "POST",
+          "url": "https://botrix.live/cdn-cgi/rum?",
+          "resourceType": "xhr",
+          "status": 204,
+          "contentType": "text/plain",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://botrix.live/docs/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "content-type": "application/json",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "access-control-max-age": "86400",
+            "access-control-allow-credentials": "true",
+            "access-control-allow-methods": "POST,OPTIONS",
+            "access-control-allow-origin": "https://botrix.live",
+            "content-type": "text/plain",
+            "vary": "Origin, accept-encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 0,
+          "postData": "<present, 829 bytes>"
+        }
+      ]
+    }
+  ],
+  "note": "Trimmed to document/xhr/fetch/websocket/eventsource requests on the provider own hosts; cookies and authorization values redacted; User-Agent was the stock Chromium one (Playwright)."
+}

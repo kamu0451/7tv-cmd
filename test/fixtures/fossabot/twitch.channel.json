@@ -1,0 +1,19 @@
+{
+  "channel": {
+    "id": "426448839558516736",
+    "login": "twitch",
+    "display_name": "Twitch",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f264cd5-7a34-4083-a0c7-eb1b01076499-profile_image-300x300.png",
+    "slug": "twitch",
+    "broadcaster_type": "partner",
+    "provider": "twitch",
+    "provider_id": "12826",
+    "provider_url": "twitch.tv/twitch",
+    "created_at": "2023-03-22T18:35:26.387288Z"
+  },
+  "parent": {
+    "id": "426448839579488256",
+    "type": "channel",
+    "parent_id": "426448839558516736"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "roles": [
+    {
+      "id": "CAEQERoENTM2Mg",
+      "name": "Moderator",
+      "default": true
+    },
+    {
+      "id": "CAEQERoENTM2Ng",
+      "name": "Broadcaster",
+      "default": true
+    }
+  ],
+  "commands": [
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2MTg",
+      "name": "followage",
+      "response": "@$(sender) has been following for $(followage)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2MjI",
+      "name": "twitter",
+      "response": "https://twitter.com/ipqforshort",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2MjM",
+      "name": "sens",
+      "response": "IPQ uses the Logitech G502 at a constant 800 DPI. MC: 40%, ask for more",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2MjY",
+      "name": "prime",
+      "response": "/me Hey there! Do you want to know about Twitch Prime? Oh! You may be asking, \"What's Twitch Prime?\" Let me tell ya! When you connect your Amazon account to your Twitch account, you can get 1 free sub to ANY streamer on Twitch, every month! With that said, if you are feeling generous and want to support me then head over to https://subs.twitch.tv/ipqow <3",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2Mjc",
+      "name": "sub",
+      "response": "You can sub to IPQ by clicking here -> https://subs.twitch.tv/ipqow <3 All subs are greatly appreciated, Thank you",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2Mjk",
+      "name": "donate",
+      "response": "all dons are hugely appreciated! https://link.ipqow.com/tip <3",
+      "type": "custom",
+      "aliases": [
+        "tip"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2MzM",
+      "name": "help",
+      "response": "@$(user), The commands for this channel are available at: https://fossabot.com/commands/$(channel)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2Mzk",
+      "name": "vods",
+      "response": "/me IPQ's VODs Channel \u279c https://youtube.com/channel/UCSiacFEI1_yKL1qvMI00FbA?sub_confirmation=1",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NDQ",
+      "name": "chatstats",
+      "response": "https://stats.streamelements.com/c/ipqow",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NDU",
+      "name": "design",
+      "response": "I made all the stream design so ask me anything about it and ill try my best to help",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NDY",
+      "name": "end",
+      "response": "Thanks for watching! Make sure to check out my socials. https://discord.gg/eYjadDYYJf \u2022 https://youtube.com/ipqow\u2022 https://twitter.com/ipqforshort. Have a great night!",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg",
+        "CAEQERoENTM2Ng"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NDk",
+      "name": "lurk",
+      "response": "@$(sender) is becoming a lurking Larry. Have fun Lurking",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NTI",
+      "name": "ninja",
+      "response": "Ninja literally made gaming mainstream. Before him people looked down on gaming like it was only for nerds or whatever. He made it okay for everyone to play video games without beings called a virgin or nerd.",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NTQ",
+      "name": "socials",
+      "response": "https://discord.gg/eYjadDYYJf // https://youtube.com/@ipqow // https://twitter.com/ipqforshort // https://instagram.com/ipqow1",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NTg",
+      "name": "whereisipq",
+      "response": "modCheck modCheck @IPQow? modCheck modCheck",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFMzA2NTk",
+      "name": "youtube",
+      "response": "https://link.ipqow.com/yt",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNjc5ODY1",
+      "name": "vanish",
+      "response": "/timeout @$(sender) 1",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNjc5ODg3",
+      "name": "valrank",
+      "response": "$(valorant.rank) ewValorant",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODY1OTUy",
+      "name": "srstats",
+      "response": "https://songrequest.tv/stats/ipqow",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODY1OTUz",
+      "name": "lotuslabs",
+      "response": "GO CHECK OUT LOTUSLABS \u279c https://lotuslabs.dev",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTg5NDA2",
+      "name": "lol",
+      "response": "$(setgame League of Legends)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTk1MTEx",
+      "name": "fishprice",
+      "response": "$(rngphrase @${sender}, we're looking at \u00a3$(randint 0 99).$(randint 0 9)$(randint 0 9) rn, ${sender}, \u00a3$(random.0-99).$(random.0-9)$(random.0-9)!)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTk1NTM2",
+      "name": "10hourstream",
+      "response": "$(countdown 2027-05-13 10:34:00) until the 10 hour stream",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTk1NTU2",
+      "name": "weather",
+      "response": "$(rngphrase 'sunny!' 'raining' 'not a cloud in the sky' 'lots of clouds in the sky' 'torrential downpour' 'snow storm')",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTk1NTcy",
+      "name": "s",
+      "response": "https://ipqow.com/socials",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoHZGFkam9rZQ",
+      "name": "dadjoke",
+      "response": "Tells an unfunny dad joke.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKYWNjb3VudGFnZQ",
+      "name": "accountage",
+      "response": "Fossabot created their account 2 years and 3 months ago.",
+      "type": "default",
+      "aliases": [
+        "accage",
+        "age"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLYWNjb3VudGRhdGU",
+      "name": "accountsince",
+      "response": "Fossabot created their account on 28 April 2018.",
+      "type": "default",
+      "aliases": [
+        "accdate",
+        "accsince",
+        "accountdate"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEZmFjdA",
+      "name": "fact",
+      "response": "Posts a useless random fact in chat.",
+      "type": "default",
+      "aliases": [
+        "randomfact"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGZW1vdGVz",
+      "name": "emotes",
+      "response": "Shows all Twitch/BetterTTV/FrankerfaceZ/7tv emotes in chat, or reload with \"!emotes reload\"",
+      "type": "default",
+      "aliases": [
+        "listemotes"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoJZWRpdHF1b3Rl",
+      "name": "editquote",
+      "response": "Edits a chat quote.",
+      "type": "default",
+      "aliases": [
+        "updatequote"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKZGljdGlvbmFyeQ",
+      "name": "dictionary",
+      "response": "(noun) Kappa: The tenth letter of the Greek alphabet.",
+      "type": "default",
+      "aliases": [
+        "define",
+        "dict"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZGVsZXRlcXVvdGU",
+      "name": "deletequote",
+      "response": "Deletes a chat quote.",
+      "type": "default",
+      "aliases": [
+        "delquote",
+        "removequote"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEbnVrZQ",
+      "name": "nuke",
+      "response": "Mass remove messages in chat by username/message content.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZ2FtZXNwbGF5ZWQ",
+      "name": "gamesplayed",
+      "response": "Returns all games played in the latest or current stream.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEZ2FtZQ",
+      "name": "game",
+      "response": "Returns the currently played game on stream.",
+      "type": "default",
+      "aliases": [
+        "currentgame"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKZm9sbG93ZGF0ZQ",
+      "name": "followsince",
+      "response": "Fossabot has been following Aiden since 28 April 2018.",
+      "type": "default",
+      "aliases": [
+        "followtime"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZmlsZXNheXN0b3A",
+      "name": "filesaystop",
+      "response": "Cancels a running filesay job in chat, if one is running.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoHZmlsZXNheQ",
+      "name": "filesay",
+      "response": "Outputs the contents of a remote file in chat, splitting by each line.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEcGluZw",
+      "name": "ping",
+      "response": "Fossabot has been online for 3 days and 2 hours.",
+      "type": "default",
+      "aliases": [
+        "botuptime"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoFdGl0bGU",
+      "name": "title",
+      "response": "Returns the current stream title.",
+      "type": "default",
+      "aliases": [
+        "currenttitle"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGdXB0aW1l",
+      "name": "uptime",
+      "response": "Returns how long the stream has been online/offline for.",
+      "type": "default",
+      "aliases": [
+        "streamtime",
+        "howlong",
+        "live",
+        "downtime",
+        "offline"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoMbGlzdGNvbW1hbmRz",
+      "name": "commands",
+      "response": "The commands for this channel are available at: https://fossa.bot/$(channel.slug)/commands",
+      "type": "default",
+      "aliases": [
+        "cmds",
+        "comds",
+        "cmdlist",
+        "comlist",
+        "commandlist",
+        "listcmds",
+        "help"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoHc2V0Z2FtZQ",
+      "name": "setgame",
+      "response": "Changes the currently played game on stream.",
+      "type": "default",
+      "aliases": [
+        "changegame"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": false,
+      "enabled_online": true,
+      "id": "CAEQBxoEY2xpcA",
+      "name": "clip",
+      "response": "Creates a clip of the current stream.",
+      "type": "default",
+      "aliases": [
+        "createclip"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZWRpdGNvbW1hbmQ",
+      "name": "editcmd",
+      "response": "Edits a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "editcom",
+        "editcommand",
+        "updatecmd",
+        "updatecommand"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKYWRkY29tbWFuZA",
+      "name": "addcmd",
+      "response": "Adds a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "addcom",
+        "addcommand",
+        "createcmd",
+        "createcommand"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoNZGVsZXRlY29tbWFuZA",
+      "name": "delcmd",
+      "response": "Deletes a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "delcom",
+        "delcommand",
+        "removecmd",
+        "removecommand"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGcGVybWl0",
+      "name": "permit",
+      "response": "Permit someone to not be caught by any Fossabot filters for 60 seconds.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKc2V0Y29tbWFuZA",
+      "name": "setcmd",
+      "response": "Edits a custom chat command if exists, else creates the command.",
+      "type": "default",
+      "aliases": [
+        "setcom",
+        "setcommand"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoIc2V0dGl0bGU",
+      "name": "settitle",
+      "response": "Changes the current stream title.",
+      "type": "default",
+      "aliases": [
+        "changetitle"
+      ],
+      "role_ids": [
+        "CAEQERoENTM2Mg"
+      ]
+    }
+  ]
+}

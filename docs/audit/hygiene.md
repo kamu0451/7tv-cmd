@@ -1,0 +1,81 @@
+# Pre-publish audit: repository hygiene
+
+Scope: read-only audit of the 545 tracked files (git ls-files) at HEAD plus the 13-commit history, ahead of the first push to a public GitHub repo. Ran: node scans (scratchpad, not in repo) over every tracked non-binary file for ID1..ID4 (case-insensitive, ID2 whole-word, in-word ID2 hits listed separately, plus file names), machine-path patterns, email regex, secret keywords, long hex and base64-looking strings, non-ASCII bytes, README.md and PROVIDERS.md backticked-path existence, JSON field scan of the 33 docs/critics JSON files; rg -a over all tracked files including PNG/webm bytes; git count-objects, ls-files --eol, status --ignored, git log author metadata; git grep of every one of the 13 revisions for ID1..ID4 and machine paths. PNGs viewed (8): docs/critics/r1/p5-firefox-action.png, docs/critics/r1/int-firefox-lirik-01-bang.png, docs/critics/r1/p3-prod-7tv-popout-d-colon.png, docs/critics/final/firefox-twitch-01-bang.png, docs/critics/final/7tv-coconutb-07-colon.png, docs/critics/final/plain-twitch-04-tab.png, docs/recordings/gate-7tv-bang/frames/01-idle.png, docs/recordings/ours-bang-light/frames/02-trigger.png. Result in one line: HEAD has zero identity strings and zero secrets; the git HISTORY still carries ID1 and ID2/ID3/ID4 strings, which a normal push would publish.
+
+ID1 note: the in-word hits for ID1 at HEAD are all the English word "repeat" (18 lines, e.g. the JavaScript string-repeat call in test/unit/url.test.ts:29); no standalone ID1 anywhere at HEAD. ID2 whole-word, ID2 in-word, ID3 and ID4 have zero hits at HEAD, in file names, and in PNG/webm bytes.
+
+### HYG-1 (critical): git history contains ID1 and ID2/ID3/ID4 strings and machine paths
+
+Files (history only, absent at HEAD): scripts/workflows/gate-research.js (ID1, commits 5ab7ef5, f0a4b8c, 7d82be0, 762c5b7, dbdf48a, 5fe73a8), scripts/workflows/build-round.js (ID1), scripts/workflows/judge-round.js (ID1 x3 and ID2/ID3/ID4 string(s) x2, from 7d82be0 through 762c5b7, dbdf48a, 5fe73a8), docs/critics/r2/checks-browser.log, checks-unit.log, checks-zip.log, p5-critic.md (ID1, commit 69e93f9). Commit 2f2c288 ("Scrub machine paths ...") fixed HEAD but did not rewrite earlier commits.
+
+Claim: the first push publishes all 13 revisions, so the four identity strings and the machine path are public even though HEAD is clean.
+
+Evidence: loop of `git grep -a -I -c -i -E '<ID1 pattern, excluding the word "repeat">' <rev>` and `git grep -a -I -c -i -E '<ID2|ID4 pattern>' <rev>` over `git rev-list --all`:
+`5ab7ef5 ... ID1files=1`, `7d82be0 ... ID1files=3 ID234files=1 machinepathfiles=3`, `762c5b7 ... ID1files=3 ID234files=1`, `69e93f9 ... ID1files=4 ID234files=0 machinepathfiles=5`; revisions 2f2c288, 4972a18, fc9b1a7, 8d91d98 show 0/0.
+
+Fix: do not push the existing history. Create a single fresh root commit from the current clean tree (for example an orphan branch, `git checkout --orphan public && git add` of the audited file list && commit), push only that branch, then re-run the identity grep on the new history. Rewriting with filter-repo is the alternative but the orphan commit is simpler and also drops the rest of the round-by-round noise. Remember the commit author setting (HYG-8) before making that commit.
+
+### HYG-2 (major): the owner's own test session is described in public-facing docs
+
+Files: README.md:175 and :182, docs/LEDGER.md:115-141, docs/integration-r2.md:28-36.
+Claim: these paragraphs record a private session: time window (17:15 to 17:20), build sha, Firefox 158.0.1 on "the owner's daily profile, logged in", "six other add-ons", that a real chat message was sent "with the owner's words", the channel being the owner's own with StreamElements only and 26 commands, and a sampled list of that channel's command names (sens, specs, storage, settings, fps, psu, case, mouse, fpshow, headset, crosshair, launchparams). Combined, that is enough to find the owner's channel. The screenshots are correctly kept out of the repo, but the text identifies what they showed.
+Evidence: `rg -n -i "owner" README.md docs/integration-r2.md docs/LEDGER.md`: README.md:175 "Tested by the owner in Firefox 158 with 7TV installed, logged in, on the owner's own channel (StreamElements, 26 commands)"; docs/LEDGER.md:138 "(they show the owner's channel name and stay out of the repo)".
+Fix: reduce to one neutral sentence in README ("also tried by hand in Firefox with 7TV installed, logged in; list, filter, Tab insert and send worked"), and delete or generalize the LEDGER 115-141 and integration-r2 28-36 paragraphs (drop the time, profile, add-on count, channel traits and command-name sample).
+
+### HYG-3 (minor): repository weight and screenshot volume
+
+Evidence: `git count-objects -vH`: count 685 loose, size 14.28 MiB, in-pack 0 (not yet packed; PNG does not compress, so a pack stays about 14 to 17 MiB). Tracked total 22,082,127 bytes: 253 PNG = 17,409,214 bytes (79 percent), 1 webm = 2,860,001, 149 JSON = 940,710, 45 md = 365,413. By directory: docs/critics 289 files 15.2 MB (r1 109 PNG 8.8 MB, r2 53 PNG 3.4 MB, final 45 PNG 2.6 MB), docs/recordings 63 files 5.6 MB (5 recording dirs, 46 frames plus video.webm 2.86 MB). Ten largest files: docs/recordings/ref-7tv-colon-dark/video.webm 2.86 MB; docs/critics/r1/p3c-spa-caedrel.png 614 KB; p3-test-native-channel-d-slash.png 378 KB; p3-test-native-channel-b-pick.png 359 KB; p3-test-native-channel-d-at.png 348 KB; p3-test-native-channel-a-filter.png 324 KB; package-lock.json 207 KB; docs/critics/r2/p4c-r2-alias-150.png 159 KB; docs/critics/r1/p4c-alias-150.png 158 KB; docs/critics/r1/p4c-7tv-upwrap.png 123 KB.
+Claim: 22 MB is acceptable for GitHub, but 253 critic screenshots for a 28-file source tree buries the project; a visitor sees 379 of 545 files under docs.
+Fix (candidates, no deletion done): docs/critics/r1 (109 PNG, superseded by r2 and final), docs/critics/r1/p3-* and p3c-* (about 25 PNG, largest ones), docs/recordings/ref-7tv-colon-light and ours-bang-light (light-theme duplicates of the dark runs) and video.webm. Keep docs/critics/final and one set of recordings referenced from README. If any are trimmed, trim before the fresh root commit in HYG-1 so they never enter history.
+
+### HYG-4 (minor): package.json metadata for a public repo
+
+Evidence: package.json has name "7tv-cmd", version "0.1.0", description, "license": "MIT", "type": "module", scripts, devDependencies; no repository, homepage, bugs, author, keywords, engines or files fields. LICENSE is the complete MIT text (1076 bytes, grant, conditions and warranty disclaimer present; holder "the 7tv-cmd authors", no owner name). package-lock.json: 437 resolved entries, all registry.npmjs.org, 437 integrity hashes.
+Claim: `"private": true` only makes `npm publish` refuse; it does not affect a GitHub repo and is correct for a browser extension that is not an npm package, so keep it. Missing `engines` is the practical gap: the scripts and README assume Node 22 (the workflow scripts say "node 22"), but nothing states it.
+Fix: add `"engines": {"node": ">=22"}`, `"repository": {"type":"git","url":"git+https://github.com/<account>/<repo>.git"}`, `"bugs"` and `"homepage"` once the repo URL is decided, and an `author` only if the owner chooses a public one (the project rule keeps the owner name out; leave it absent).
+
+### HYG-5 (minor): tracked docs cite files that are not in the repo; internal process material is front and centre
+
+Evidence: counts of tracked files citing ignored or untracked paths: `.pw-profiles` 37 files, `vendor/7tv-patched` 25 files, `tools/dev/out` 11 files, "scratchpad" 4 files (docs/LEDGER.md:138, docs/critics/r1/p3-critic.md:14, docs/critics/r1/truth-critic.md:98, docs/gate-7tv.md:3). README.md:127 and :153 name `vendor/7tv-patched` and `.pw-profiles/browser-live`; README states vendor is "not in the repo" and points to docs/reference-7tv-popup.md, so that one is disclosed. test/browser/soak.mjs hardcodes `.pw-profiles/browser-live` and `dist/chrome` (known as final-critic F-2). README.md:10 "Status: round 2 build"; scripts/workflows/{build-round,gate-research,judge-round}.js are agent-orchestration scripts (they mention agents and model names), docs/critics holds 289 critic and fix reports.
+Claim: not a leak, but a visitor meets round/critic/ledger vocabulary before the product, and README link targets such as the ignored logs in `.pw-profiles/*.log` cannot be followed.
+Fix: decide whether docs/critics and scripts/workflows belong in the public repo; if kept, add a one-paragraph docs/README (or a README section) saying they are the development record, and change "Status: round 2 build" to a plain version status. Reword the 4 "scratchpad" citations to "a local scratch directory (not in the repo)".
+
+### HYG-6 (minor): .gitignore does not cover likely future leaks
+
+Evidence: .gitignore lists node_modules/, dist/, web-ext-artifacts/, vendor/, test-results/, playwright-report/, .pw-profiles/, *.log (with `!docs/critics/**/*.log`), *.stackdump, .DS_Store, Thumbs.db, test/fixture-page/dist/, tools/dev/out/. `git status --porcelain --ignored` shows exactly those eight present ignored directories and nothing untracked. Tracked generated-looking files, all deliberate evidence: 26 *.log, docs/critics/r2/browser.exit, docs/critics/r2/p4-critic-match.txt, docs/critics/**/dom.json, timings.json, docs/critics/final/logs/*.json, docs/providers/*.network.json, PROVIDERS.md (assembled by tools/dev/assemble-providers.mjs). No dist, zip, xpi or crx tracked.
+Claim: `npm run sign` takes keys from WEB_EXT_API_KEY and WEB_EXT_API_SECRET (README.md:43); a future `.env` or a signed `.xpi` outside web-ext-artifacts would be picked up by `git add`.
+Fix: add `.env`, `.env.*`, `*.xpi`, `*.zip`, `*.crx`, `.idea/`, `.vscode/`, `coverage/`.
+
+### HYG-7 (note): third-party and credential-shaped content that is fine but worth knowing
+
+Evidence and judgement:
+- Secret keyword scan (token, secret, api_key, password, Bearer, cookie, sessionid, client_id, private key, authorization): 37 files hit; none holds a credential. README.md:43-44 uses `<issuer>` and `<secret>` placeholders; docs/providers/streamlabs.network.json:367,396,425,454 show `"authorization": "<redacted>"`; the *.network.json notes say cookies and authorization were stripped; test/unit/adapters-fetch.test.ts:125-126 assert the headers are absent.
+- docs/providers/fossabot.network.json:58,78,98 carries `"fossadev-client-id"` (a public id the Fossabot web app sends to every visitor, not a secret).
+- test/fixtures/streamelements/coconutb.commands.json:2628 holds a Discord CDN attachment URL with an expired signature (ex=67535dcc, Dec 2024); harmless, but it can be replaced by a plain placeholder URL.
+- Long hex hits (9): docs/gate-7tv.json:4-6 and docs/gate-7tv.md:7-9 are git commit SHAs of 7TV/FFZ repos; fixtures hold a Gyazo id, a bot reply hash and the Discord signature above.
+- Email regex: only `7tv-cmd@example.com` (gecko add-on id, README.md:48, scripts/build.mjs:29, docs/SPEC.md:513, several tests and logs). Neutral, by design.
+- Fixtures (test/fixtures, docs/providers) and logs hold real public bot command text from real Twitch channels (coconutb, lirik, nickmercs, kaajak1, twitchdev and others); screenshots show other chatters' public user names and chat lines (for example docs/critics/r1/int-firefox-lirik-01-bang.png). No private data, but they are other people's content; PROVIDERS.md already records what was fetched and under which terms.
+
+### HYG-8 (note): commit author metadata uses the GitHub identity
+
+Evidence: `git log --format='%an | %ae | %cn | %ce' | sort | uniq -c`: 13 commits, all `ID3 | <numeric-id>+ID3@users.noreply.github.com`. No Co-Authored-By, Claude, Anthropic or "Generated with" text in any commit message (rg count empty). No remote, tags, stashes or other branches.
+Claim: this is the GitHub noreply form, so it exposes only the public GitHub handle (ID3) and its numeric id. ID3 is on the forbidden list for tracked files; commit metadata is a separate surface and cannot be avoided if the push comes from that account, so it needs an owner decision, not a file edit. If a neutral author is wanted, set `user.name` and `user.email` before the fresh root commit in HYG-1.
+
+### HYG-9 (note): sampled screenshots are clean
+
+Evidence: all 8 viewed PNGs show only a Twitch popout chat page (header "Stream Chat", gift leaderboard, chat or the extension popup list, chat input with the logged-out "Chat" button and no avatar) or the extension action popup alone on a dark page (docs/critics/r1/p5-firefox-action.png). None shows a browser top bar, tab strip, user avatar, user name or desktop. All 253 PNGs are page-viewport captures at 1280 wide; no OS-level screenshot was in the sample. The chat contents are third-party public chat (see HYG-7). Surface not covered: the other 245 PNGs were not viewed (see Not checked).
+
+### HYG-10 (note): line endings, non-ASCII, links, JSON
+
+Evidence: `git ls-files --eol`: 288 text files i/lf w/lf, 254 binary (253 PNG + 1 webm) i/-text, 3 files i/lf w/crlf (docs/critics/r1/logs/int-e2e-3.log, int-e2e-4.log, int-e2e-5.log: CRLF only in this machine's working tree through autocrlf; the index is LF and .gitattributes sets `* text=auto eol=lf`, so GitHub shows LF). Non-ASCII bytes: 0 tracked text files (byte scan over all non-binary files; per-directory counts empty); the earlier rg listing of "non-ASCII" files was only PNG/webm binaries. All 33 docs/critics JSON files parse; none holds a machine path or identity string (the pattern hits are https:// URLs, and docs/critics/r1/p5-critic.json:1 quotes a drive-letter path with the literal placeholder `<account>`; the same placeholder is at docs/critics/r1/p5-critic.md:36).
+README.md and PROVIDERS.md: markdown links `[..](..)` with a relative target: none broken. README.md has 62 backticked path-like tokens, 27 do not resolve to a tracked path: 15 are bare file names that all exist elsewhere in the tree (keyboard.spec.ts and live.spec.ts in test/browser; int-*.log, soak-*.log, build.log, tb-all.log in docs/critics/r1/logs; int-chromium-coconutb-05-escape.png, int-chromium-coconutb-06-midword.png, int-7tv-coconutb-01-bang.png in docs/critics/r1), and the rest are intentionally absent build output, URLs or ignored paths (dist/firefox, dist/chrome, dist/firefox/manifest.json, web-ext-artifacts/*.xpi, web-ext-artifacts/7tv-cmd-<browser>-<version>.zip, .pw-profiles/..., vendor/7tv-patched, about:debugging, chrome://extensions, storage.local, the gecko id). PROVIDERS.md: 71 backticked tokens that do not resolve, all URL paths, API routes, MIME types or bare fixture names (for example `_negative-noheader.commands.json` exists as test/fixtures/nightbot/_negative-noheader.commands.json; `coconutb.commands-default.json` as test/fixtures/streamelements/coconutb.commands-default.json). No broken repo path found. docs/LEDGER.md:193 mentions docs/integration-notes.md as the name NOT used; docs/providers/botrix.md:61 mentions "docs/README.md 404" as a remote fetch result; neither is a dead link.
+Fix: none required. Optional: make the bare names in README full paths so they are clickable.
+
+## Not checked
+
+- 245 of the 253 PNGs were not viewed (only the 8 listed above); a frame-by-frame pass, or a run of OCR/pixel checks over the browser-chrome region, would cover the rest. webm content (docs/recordings/ref-7tv-colon-dark/video.webm, 2.86 MB) was not played.
+- PNG/webm metadata was searched only with rg -a for the identity strings, machine paths, AppData and scratchpad (zero hits); EXIF/tEXt fields were not parsed individually.
+- Binary objects in git history (PNG blobs) were skipped by the history grep (git grep -I); only text blobs were scanned across the 13 revisions. Commit messages were checked for attribution lines only, not for identity strings beyond the author fields.
+- Third-party licensing of fixture text and of the 7TV reference recordings (what a public repo may redistribute) was not assessed.
+- The README/PROVIDERS claim accuracy (versus the code) is outside this lens.
+- No network: nothing about the GitHub side (repo name availability, branch protection, security settings) was checked.

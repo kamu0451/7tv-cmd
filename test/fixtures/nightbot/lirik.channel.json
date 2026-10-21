@@ -1,0 +1,14 @@
+{
+  "channel": {
+    "_id": "5a8afd44280d2872dd8f3b7f",
+    "createdAt": "2018-02-19T16:37:24.000Z",
+    "updatedAt": "2019-09-06T18:58:34.654Z",
+    "name": "lirik",
+    "displayName": "LIRIK",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/27fdad08-a2c2-4e0b-8983-448c39519643-profile_image-300x300.png",
+    "provider": "twitch",
+    "providerId": "23161357",
+    "admin": false
+  },
+  "status": 200
+}

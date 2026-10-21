@@ -1,0 +1,19 @@
+{
+  "channel": {
+    "id": "751",
+    "login": "ipqow",
+    "display_name": "IPQow",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2087ad8d-e7ab-48b0-b6a6-ad522729937f-profile_image-300x300.png",
+    "slug": "ipqow",
+    "broadcaster_type": "affiliate",
+    "provider": "twitch",
+    "provider_id": "207735538",
+    "provider_url": "twitch.tv/ipqow",
+    "created_at": "2022-01-24T01:24:51.590462Z"
+  },
+  "parent": {
+    "id": "751",
+    "type": "channel",
+    "parent_id": "751"
+  }
+}

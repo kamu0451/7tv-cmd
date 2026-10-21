@@ -1,0 +1,2210 @@
+[
+  {
+    "_id": "5d195555441a3491cba321cb",
+    "command": "accountage",
+    "commandId": "accountage",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 30,
+      "global": 10
+    },
+    "aliases": [
+      "accage",
+      "created"
+    ],
+    "regex": "",
+    "description": "${user} was created 1 year 5 months 27 days 1 hour ago."
+  },
+  {
+    "commandId": "alerts",
+    "aliases": [],
+    "cooldown": {
+      "user": 3,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Manage alert settings including skip, pause, play, mute, and unmute.",
+    "enabled": false,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "subCommands": [
+      "mute",
+      "unmute",
+      "skip",
+      "pause",
+      "unpause"
+    ],
+    "commands": [
+      {
+        "commandId": "alerts_mute",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Mute alert sounds.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "mute"
+      },
+      {
+        "commandId": "alerts_unmute",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Unmute alert sounds.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "unmute"
+      },
+      {
+        "commandId": "alerts_skip",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Skip the currently playing alert.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "skip"
+      },
+      {
+        "commandId": "alerts_pause",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Pause alert playback.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "pause"
+      },
+      {
+        "commandId": "alerts_unpause",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Resume alert playback.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "unpause"
+      }
+    ],
+    "command": "alerts"
+  },
+  {
+    "commandId": "bingo",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Play a game of emote-bingo",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleEnabled": true,
+    "moduleId": "bingo",
+    "regex": "",
+    "subCommands": [
+      "ffz",
+      "bttv",
+      "7tv",
+      "twitch",
+      "all",
+      "cancel"
+    ],
+    "commands": [
+      {
+        "commandId": "bingo_ffz",
+        "aliases": [
+          "frankerz"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Start a bingo game with FFZ emotes.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "ffz"
+      },
+      {
+        "commandId": "bingo_bttv",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Start a bingo game with BTTV emotes.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "bttv"
+      },
+      {
+        "commandId": "bingo_7tv",
+        "aliases": [
+          "seventv",
+          "thirdpartything",
+          "yeahbut7tv"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Start a bingo game with 7TV emotes.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "7tv"
+      },
+      {
+        "commandId": "bingo_twitch",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Start a bingo game with Twitch emotes.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "twitch"
+      },
+      {
+        "commandId": "bingo_all",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Start a bingo game with all emotes.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "all"
+      },
+      {
+        "commandId": "bingo_cancel",
+        "aliases": [
+          "end",
+          "stop",
+          "exit"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Cancel the currently running bingo game.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "cancel"
+      }
+    ],
+    "command": "bingo"
+  },
+  {
+    "commandId": "bot",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Mute, unmute or remove the bot.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "subCommands": [
+      "mute",
+      "unmute",
+      "part"
+    ],
+    "commands": [
+      {
+        "commandId": "bot_mute",
+        "aliases": [
+          "stfu",
+          "supershutthefuckup"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Mute the bot in this channel.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 1000,
+        "moduleId": "",
+        "regex": "",
+        "command": "mute"
+      },
+      {
+        "commandId": "bot_unmute",
+        "aliases": [
+          "comeback",
+          "babyrage",
+          "wakeup"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Unmute the bot in this channel.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 1000,
+        "moduleId": "",
+        "regex": "",
+        "command": "unmute"
+      },
+      {
+        "commandId": "bot_part",
+        "aliases": [
+          "leave",
+          "remove",
+          "exit",
+          "quit",
+          "gtfo",
+          "fuckoff"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Remove the bot from this channel.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 1000,
+        "moduleId": "",
+        "regex": "",
+        "command": "part"
+      }
+    ],
+    "command": "bot"
+  },
+  {
+    "_id": "5d7b291f45d377689233ed8f",
+    "command": "emotestats",
+    "commandId": "chatstats",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 30,
+      "global": 15
+    },
+    "aliases": [
+      "twitchstats",
+      "es"
+    ],
+    "regex": "",
+    "description": "https://stats.StreamElements.com/c/$(channel) PogChamp"
+  },
+  {
+    "commandId": "command",
+    "aliases": [
+      "cmd"
+    ],
+    "cooldown": {
+      "user": 3,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Add, edit and delete chat commands.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "subCommands": [
+      "add",
+      "remove",
+      "edit",
+      "alias",
+      "options",
+      "show"
+    ],
+    "commands": [
+      {
+        "commandId": "command_add",
+        "aliases": [
+          "+"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Add a new custom command.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "add"
+      },
+      {
+        "commandId": "command_remove",
+        "aliases": [
+          "delete",
+          "del",
+          "rem",
+          "-"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Remove an existing custom command.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "remove"
+      },
+      {
+        "commandId": "command_update",
+        "aliases": [
+          "update"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Edit an existing custom command.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "edit"
+      },
+      {
+        "commandId": "command_alias",
+        "aliases": [
+          "aliases"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Manage aliases for custom commands.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "subCommands": [
+          "show",
+          "+",
+          "remove"
+        ],
+        "command": "alias"
+      },
+      {
+        "commandId": "command_options",
+        "aliases": [
+          "option",
+          "opt",
+          "opts",
+          "o",
+          "\ud83d\udd27"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Configure options for a custom command.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "options"
+      },
+      {
+        "commandId": "command_show",
+        "aliases": [
+          "debug"
+        ],
+        "cooldown": {
+          "user": 3,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Display information about a custom command.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "show"
+      }
+    ],
+    "command": "command"
+  },
+  {
+    "commandId": "commands",
+    "aliases": [
+      "cmds"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "You can find a list of all Commands here https://StreamElements.com/${channel.alias}/commands",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "commands"
+  },
+  {
+    "_id": "5c71ebce0387325ee5766af4",
+    "command": "bet",
+    "commandId": "contest_bet",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 5,
+      "global": 0
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Bet on a contest."
+  },
+  {
+    "commandId": "contest_contest",
+    "aliases": [],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Show the currently active contest.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "contest"
+  },
+  {
+    "commandId": "docs",
+    "aliases": [
+      "documentation"
+    ],
+    "cooldown": {
+      "user": 3,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Find the StreamElements documentation here: https://docs.StreamElements.com",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "docs"
+  },
+  {
+    "_id": "5d8a7dc445d3776892e61dca",
+    "command": "duel",
+    "commandId": "duel",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": false,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "duel",
+    "cost": 0,
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Duel another chatter for points"
+  },
+  {
+    "commandId": "duel_accept",
+    "aliases": [],
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Accept a duel request from another chatter",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": true,
+    "moduleId": "duel",
+    "regex": "",
+    "command": "accept"
+  },
+  {
+    "commandId": "duel_cancel",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Cancel a duel request to another chatter",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": true,
+    "moduleId": "duel",
+    "regex": "",
+    "command": "cancelduel"
+  },
+  {
+    "_id": "5d7b283b45d3776892271571",
+    "command": "deny",
+    "commandId": "duel_deny",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": false,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "duel",
+    "cost": 0,
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Deny a duel request from another chatter"
+  },
+  {
+    "commandId": "edit_counter",
+    "aliases": [
+      "editcount"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Edit a custom ${count <name>}/${getcount <name>} counter",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "editcounter"
+  },
+  {
+    "commandId": "editpoints",
+    "aliases": [
+      "editpoints",
+      "bonus"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Give points to viewers. Use 'all' for all chatters",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "addpoints"
+  },
+  {
+    "commandId": "eightball",
+    "aliases": [
+      "eightball",
+      "69ball",
+      "420ball"
+    ],
+    "cooldown": {
+      "user": 10,
+      "global": 3
+    },
+    "cost": 0,
+    "description": "Ask the magic 8-ball a question",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": true,
+    "moduleId": "eightball",
+    "regex": "",
+    "command": "8ball"
+  },
+  {
+    "commandId": "emotecount",
+    "aliases": [
+      "ecount"
+    ],
+    "cooldown": {
+      "user": 5,
+      "global": 15
+    },
+    "cost": 0,
+    "description": "Retrieves the usage count of a specified emote.",
+    "enabled": false,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "emotecount"
+  },
+  {
+    "_id": "5c7211d80387325ee5c4152a",
+    "command": "emotes",
+    "commandId": "emotes",
+    "subCommands": [
+      "ffz",
+      "bttv",
+      "7tv",
+      "update"
+    ],
+    "commands": [
+      {
+        "commandId": "emotes_ffz",
+        "aliases": [
+          "frankerz",
+          "frankerfacez",
+          "frankerface"
+        ],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show active FFZ emotes in the channel.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "ffz"
+      },
+      {
+        "commandId": "emotes_bttv",
+        "aliases": [
+          "bettertv",
+          "betterttv",
+          "bettertwitch",
+          "bettertwitchtv"
+        ],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show active BTTV emotes in the channel.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "bttv"
+      },
+      {
+        "commandId": "emotes_7tv",
+        "aliases": [
+          "seventv"
+        ],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show active 7TV emotes in the channel.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "7tv"
+      },
+      {
+        "commandId": "emotes_update",
+        "aliases": [
+          "reload",
+          "refresh"
+        ],
+        "cooldown": {
+          "user": 120,
+          "global": 120
+        },
+        "cost": 0,
+        "description": "Refresh and update the emote cache.",
+        "enabled": false,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "update"
+      }
+    ],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 15,
+      "global": 20
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Active BTTV emotes in chat: Clap KKaper gachiBASS gachiGASM monkaS"
+  },
+  {
+    "commandId": "filesay",
+    "aliases": [],
+    "cooldown": {
+      "user": 30,
+      "global": 30
+    },
+    "cost": 0,
+    "description": "Outputs the contents of a file in chat.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "filesay"
+  },
+  {
+    "_id": "5c7331f70387325ee580a186",
+    "command": "followage",
+    "commandId": "followage",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 20,
+      "global": 10
+    },
+    "aliases": [
+      "fo",
+      "howlong"
+    ],
+    "regex": "",
+    "description": "${user1} has been following ${user2} for 1 year 5 months 27 days 1 hour"
+  },
+  {
+    "commandId": "giveaway",
+    "aliases": [],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Show the currently active giveaway.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "giveaway"
+  },
+  {
+    "commandId": "giveaway_enter",
+    "aliases": [
+      "ticket"
+    ],
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Buy tickets for a giveaway.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "enter"
+  },
+  {
+    "_id": "5d83f00745d3776892912b03",
+    "command": "givepoints",
+    "commandId": "givepoints",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 30,
+      "global": 5
+    },
+    "aliases": [
+      "transfer",
+      "give"
+    ],
+    "regex": "",
+    "description": "Transfer points to another user."
+  },
+  {
+    "commandId": "hypecup",
+    "aliases": [],
+    "cooldown": {
+      "user": 1,
+      "global": 1
+    },
+    "cost": 0,
+    "description": "Control the HypeCup.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "subCommands": [
+      "clear"
+    ],
+    "commands": [
+      {
+        "commandId": "hypecup_clear",
+        "aliases": [
+          "reset"
+        ],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Clear and reset the HypeCup.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 2000,
+        "moduleId": "",
+        "regex": "",
+        "command": "clear"
+      }
+    ],
+    "command": "hypecup"
+  },
+  {
+    "commandId": "kappagen",
+    "aliases": [
+      "emotesplosion"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "KappaGen emotesplosions.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "kappagen"
+  },
+  {
+    "_id": "5cafc6b47abe3834bc2889bb",
+    "command": "leaderboard",
+    "commandId": "leaderboard",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "aliases": [
+      "ranklist",
+      "ranks",
+      "rank"
+    ],
+    "regex": "",
+    "description": "Check out the $(pointsname) Leaderboard here https://StreamElements.com/${channel.alias}/leaderboard"
+  },
+  {
+    "commandId": "level",
+    "aliases": [],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Set a viewers access level. Reset with !level <username> reset.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "level"
+  },
+  {
+    "commandId": "module",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Enable or disable modules via chat.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "module"
+  },
+  {
+    "commandId": "next",
+    "aliases": [
+      "nextsong",
+      "whatisthenextsonghomie"
+    ],
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "next song: MrSuicideSheep - WE WON ZULUL [2m3s] requested by LordFluffyButt https://youtu.be/9OG-Qr1qAe4",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "next"
+  },
+  {
+    "commandId": "nuke",
+    "aliases": [],
+    "cooldown": {
+      "user": 30,
+      "global": 30
+    },
+    "cost": 0,
+    "description": "Mass remove messages by message",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "nuke"
+  },
+  {
+    "commandId": "nukeuser",
+    "aliases": [
+      "nukeusername"
+    ],
+    "cooldown": {
+      "user": 30,
+      "global": 30
+    },
+    "cost": 0,
+    "description": "Mass remove messages by user",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "nukeuser"
+  },
+  {
+    "_id": "5c71ed2d0387325ee582953d",
+    "command": "pepes",
+    "commandId": "pepes",
+    "commands": [],
+    "accessLevel": 1000,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 5
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Enable or disable pepes in bot responses."
+  },
+  {
+    "commandId": "permit",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Prevent a viewer from getting timed out for 60 seconds.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "permit"
+  },
+  {
+    "commandId": "ping",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 15
+    },
+    "cost": 0,
+    "description": "",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "admin",
+    "regex": "",
+    "command": "ping"
+  },
+  {
+    "_id": "5cd0eb572d71c21dda41fc53",
+    "command": "points",
+    "commandId": "points",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 5,
+      "global": 1
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "$(user) has $(user.points) $(pointsname) and is rank $(user.points_rank) on the leaderboard."
+  },
+  {
+    "commandId": "queue",
+    "aliases": [],
+    "cooldown": {
+      "user": 3,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Create and manage queues with your viewers.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": true,
+    "moduleId": "audienceQueue",
+    "regex": "",
+    "subCommands": [
+      "close",
+      "open",
+      "pause",
+      "unpause",
+      "remove",
+      "pick",
+      "position",
+      "join",
+      "list"
+    ],
+    "commands": [
+      {
+        "commandId": "queue_close",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Close the currently active queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "close"
+      },
+      {
+        "commandId": "queue_open",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Open a new queue for viewers to join.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "open"
+      },
+      {
+        "commandId": "queue_pause",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Pause the queue so no new viewers can join.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "pause"
+      },
+      {
+        "commandId": "queue_unpause",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Resume the queue to allow new viewers to join.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "unpause"
+      },
+      {
+        "commandId": "queue_remove",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Remove a viewer from the queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "remove"
+      },
+      {
+        "commandId": "queue_pick",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Select a specific viewer from the queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "pick"
+      },
+      {
+        "commandId": "queue_position",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Check your position in the queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "position"
+      },
+      {
+        "commandId": "queue_join",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "Join the currently active queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "join"
+      },
+      {
+        "commandId": "queue_list",
+        "aliases": [],
+        "cooldown": {
+          "user": 0,
+          "global": 0
+        },
+        "cost": 0,
+        "description": "List the viewers currently in the queue.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "audienceQueue",
+        "regex": "",
+        "command": "list"
+      }
+    ],
+    "command": "queue"
+  },
+  {
+    "_id": "5c7627cc0387325ee5461585",
+    "command": "quote",
+    "commandId": "quote",
+    "subCommands": [
+      "add",
+      "remove"
+    ],
+    "commands": [
+      {
+        "commandId": "quote_add",
+        "aliases": [
+          "+"
+        ],
+        "cooldown": {
+          "user": 10,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Add a new quote.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "add"
+      },
+      {
+        "commandId": "quote_remove",
+        "aliases": [
+          "rem",
+          "delete",
+          "del",
+          "-"
+        ],
+        "cooldown": {
+          "user": 10,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Delete a Quote.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 500,
+        "moduleId": "",
+        "regex": "",
+        "command": "remove"
+      }
+    ],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 5,
+      "global": 10
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "Show a random Quote, or search by #ID or text."
+  },
+  {
+    "commandId": "raffle_cancel",
+    "aliases": [
+      "rafflecancel"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Cancel an active raffle",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleEnabled": true,
+    "moduleId": "raffle",
+    "regex": "",
+    "command": "cancelraffle"
+  },
+  {
+    "commandId": "raffle_join",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Join an active raffle",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": true,
+    "moduleId": "raffle",
+    "regex": "",
+    "command": "join"
+  },
+  {
+    "_id": "5deda048f40c9769f666a67b",
+    "command": "raffle",
+    "commandId": "raffle_multiraffle",
+    "commands": [],
+    "accessLevel": 1000,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "raffle",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "aliases": [
+      "mraffle",
+      "multiraffle"
+    ],
+    "regex": "",
+    "description": "Start a raffle with multiple winners"
+  },
+  {
+    "_id": "5e083f57cac29a13cd01eaaf",
+    "command": "sraffle",
+    "commandId": "raffle_singleraffle",
+    "commands": [],
+    "accessLevel": 1000,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "raffle",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "aliases": [
+      "singleraffle"
+    ],
+    "regex": "",
+    "description": "Start a raffle with a single winner"
+  },
+  {
+    "_id": "5cd0e2d62d71c21dda09d55c",
+    "command": "roulette",
+    "commandId": "roulette",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": false,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "roulette",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "aliases": [
+      "gamble"
+    ],
+    "regex": "",
+    "description": "gamble your life away"
+  },
+  {
+    "_id": "5c71eccd0387325ee57f4fd1",
+    "command": "setgame",
+    "commandId": "setgame",
+    "commands": [],
+    "accessLevel": 500,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 15
+    },
+    "aliases": [
+      "game"
+    ],
+    "regex": "",
+    "description": "Update the channels game."
+  },
+  {
+    "commandId": "setpoints",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Set the points of a viewer.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 1000,
+    "moduleId": "",
+    "regex": "",
+    "command": "setpoints"
+  },
+  {
+    "_id": "5c71ece90387325ee5804eae",
+    "command": "settitle",
+    "commandId": "settitle",
+    "commands": [],
+    "accessLevel": 500,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 15
+    },
+    "aliases": [
+      "setitle",
+      "title"
+    ],
+    "regex": "",
+    "description": "Update the stream title."
+  },
+  {
+    "_id": "5d7b280845d37768922420dd",
+    "command": "slots",
+    "commandId": "slotmachine",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": false,
+    "enabledOffline": true,
+    "moduleEnabled": true,
+    "moduleId": "slotmachine",
+    "cost": 0,
+    "cooldown": {
+      "user": 30,
+      "global": 0
+    },
+    "aliases": [
+      "slotmachine",
+      "slot",
+      "sm",
+      "smp"
+    ],
+    "regex": "",
+    "description": "Play the slot machine"
+  },
+  {
+    "commandId": "srclearqueue",
+    "aliases": [
+      "mrclear"
+    ],
+    "cooldown": {
+      "user": 10,
+      "global": 10
+    },
+    "cost": 0,
+    "description": "Clear the entire MediaRequest queue.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "srclear"
+  },
+  {
+    "commandId": "srpause",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Pause songrequest playback.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "pause"
+  },
+  {
+    "commandId": "srplay",
+    "aliases": [
+      "resume"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Resume songrequest playback.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "play"
+  },
+  {
+    "commandId": "srqueue",
+    "aliases": [
+      "songlist"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 10
+    },
+    "cost": 0,
+    "description": "you can see the songrequest queue here https://StreamElements.com/${channel.alias}/mediarequest",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "songqueue"
+  },
+  {
+    "commandId": "srremove",
+    "aliases": [
+      "songs.pop()"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 10
+    },
+    "cost": 0,
+    "description": "Remove a users songs, or a single song from the queue.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "removesong"
+  },
+  {
+    "commandId": "srskip",
+    "aliases": [
+      "skipsong"
+    ],
+    "cooldown": {
+      "user": 0,
+      "global": 10
+    },
+    "cost": 0,
+    "description": "Skip the current song",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "skip"
+  },
+  {
+    "_id": "5cd216b82d71c21ddadbcf0d",
+    "command": "song",
+    "commandId": "srsong",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 15
+    },
+    "aliases": [],
+    "regex": "",
+    "description": "current song: harambe.waw - WE WON ZULUL [2m3s] requested by nuuls https://youtu.be/9OG-Qr1qAe4"
+  },
+  {
+    "commandId": "srsongrequest",
+    "aliases": [
+      "sr"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 3
+    },
+    "cost": 0,
+    "description": "Request a song by youtube id, url or video title.",
+    "enabled": false,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": false,
+    "moduleId": "songrequest",
+    "regex": "",
+    "command": "songrequest"
+  },
+  {
+    "commandId": "srvolume",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Change the songrequest volume.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "volume"
+  },
+  {
+    "_id": "5d83029545d37768926503e1",
+    "command": "when",
+    "commandId": "srwhen",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 0,
+      "global": 15
+    },
+    "aliases": [
+      "mysong"
+    ],
+    "regex": "",
+    "description": "\"My Summer Car - Radio Chill\" is at #2 in the queue and is playing 2 mins 3 secs"
+  },
+  {
+    "commandId": "store_items",
+    "aliases": [
+      "store"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Available items are: item1, item2, item3 https://StreamElements.com/${channel.alias}/store",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "items"
+  },
+  {
+    "commandId": "store_redeem",
+    "aliases": [
+      "buy"
+    ],
+    "cooldown": {
+      "user": 5,
+      "global": 1
+    },
+    "cost": 0,
+    "description": "You successfully redeemed item1 for 420 points.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "redeem"
+  },
+  {
+    "commandId": "store_update_items_close",
+    "aliases": [],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Disable all items in the Stream Store.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "closestore"
+  },
+  {
+    "commandId": "store_update_items_open",
+    "aliases": [],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Enable all items in the Stream Store.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "openstore"
+  },
+  {
+    "commandId": "store_update_items_sfx_close",
+    "aliases": [
+      "closesfx"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Disable all Sound Effect items in the Stream Store.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "disablesfx"
+  },
+  {
+    "commandId": "store_update_items_sfx_open",
+    "aliases": [
+      "opensfx"
+    ],
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Enable all Sound Effect items in the Stream Store.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "enablesfx"
+  },
+  {
+    "commandId": "timer",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 5
+    },
+    "cost": 0,
+    "description": "Enable/disable timers",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleId": "",
+    "regex": "",
+    "command": "timer"
+  },
+  {
+    "_id": "5c71ec850387325ee57c900e",
+    "command": "tip",
+    "commandId": "tip",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "aliases": [
+      "donate"
+    ],
+    "regex": "",
+    "description": "You can Tip to $(channel) using this link https://StreamElements.com/${channel.alias}/tip"
+  },
+  {
+    "_id": "5cd4e97d2d71c21dda834688",
+    "command": "rank",
+    "commandId": "top",
+    "subCommands": [
+      "points",
+      "alltime",
+      "online",
+      "offline"
+    ],
+    "commands": [
+      {
+        "commandId": "top_points",
+        "aliases": [
+          "coconuts"
+        ],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show the top viewers by current points.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "points"
+      },
+      {
+        "commandId": "top_alltime",
+        "aliases": [],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show the top viewers by all-time points earned.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "alltime"
+      },
+      {
+        "commandId": "top_online",
+        "aliases": [],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "Show the top viewers by time spent online.",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "online"
+      },
+      {
+        "commandId": "top_offline",
+        "aliases": [],
+        "cooldown": {
+          "user": 15,
+          "global": 5
+        },
+        "cost": 0,
+        "description": "",
+        "enabled": true,
+        "enabledOffline": true,
+        "enabledOnline": true,
+        "accessLevel": 100,
+        "moduleId": "",
+        "regex": "",
+        "command": "offline"
+      }
+    ],
+    "accessLevel": 100,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 30,
+      "global": 20
+    },
+    "aliases": [
+      "ranks"
+    ],
+    "regex": "",
+    "description": "Show the top of the leaderboard."
+  },
+  {
+    "_id": "5c778bcc0387325ee5b84c4d",
+    "command": "uptime",
+    "commandId": "uptime",
+    "commands": [],
+    "accessLevel": 100,
+    "enabled": false,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 15,
+      "global": 5
+    },
+    "aliases": [
+      "downtime"
+    ],
+    "regex": "",
+    "description": "${channel} has been streaming for 2 hours 20 mins"
+  },
+  {
+    "commandId": "vanish",
+    "aliases": [],
+    "cooldown": {
+      "user": 60,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "The user vanishes in a puff of smoke.",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "vanish"
+  },
+  {
+    "commandId": "votekick_votekick",
+    "aliases": [],
+    "cooldown": {
+      "user": 0,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Vote to kick a user from the chat.",
+    "enabled": false,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 500,
+    "moduleEnabled": false,
+    "moduleId": "votekick",
+    "regex": "",
+    "command": "votekick"
+  },
+  {
+    "commandId": "voteskip",
+    "aliases": [],
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Vote to skip the current song",
+    "enabled": false,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleEnabled": false,
+    "moduleId": "songrequest",
+    "regex": "",
+    "command": "voteskip"
+  },
+  {
+    "_id": "5c73321c0387325ee581d665",
+    "command": "viewtime",
+    "commandId": "watchtime",
+    "commands": [],
+    "accessLevel": 500,
+    "enabled": true,
+    "enabledOnline": true,
+    "enabledOffline": true,
+    "moduleId": "",
+    "cost": 0,
+    "cooldown": {
+      "user": 20,
+      "global": 10
+    },
+    "aliases": [
+      "vt"
+    ],
+    "regex": "",
+    "description": "${user} has spent ${user.time_online|'0 seconds'} watching ${channel}"
+  },
+  {
+    "commandId": "wrongsong",
+    "aliases": [
+      "ctrl-z",
+      "heybuddyithinkyougotthewrongsong"
+    ],
+    "cooldown": {
+      "user": 10,
+      "global": 0
+    },
+    "cost": 0,
+    "description": "Removes your last song from the queue",
+    "enabled": true,
+    "enabledOffline": true,
+    "enabledOnline": true,
+    "accessLevel": 100,
+    "moduleId": "",
+    "regex": "",
+    "command": "wrongsong"
+  }
+]

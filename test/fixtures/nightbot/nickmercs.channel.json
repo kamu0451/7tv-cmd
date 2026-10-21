@@ -1,0 +1,14 @@
+{
+  "channel": {
+    "_id": "56c7f20970447e267df5b5e8",
+    "createdAt": "2016-02-20T04:56:41.000Z",
+    "updatedAt": "2022-01-21T20:43:41.284Z",
+    "name": "nickmercs",
+    "displayName": "NICKMERCS",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3c347ed-1a7a-40a2-8bee-8a7c4426eb33-profile_image-300x300.png",
+    "provider": "twitch",
+    "providerId": "15564828",
+    "admin": false
+  },
+  "status": 200
+}

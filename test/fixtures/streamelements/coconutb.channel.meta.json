@@ -1,0 +1,19 @@
+{
+  "url": "https://api.streamelements.com/kappa/v2/channels/coconutb",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": null,
+    "access-control-allow-origin": "*",
+    "x-ratelimit-bucket": "global",
+    "x-ratelimit-limit": "10000",
+    "x-ratelimit-remaining": "9999",
+    "x-ratelimit-reset": "1792583616012"
+  },
+  "fetchedAt": "2026-10-21T11:53:38.359Z",
+  "bytes": 472
+}

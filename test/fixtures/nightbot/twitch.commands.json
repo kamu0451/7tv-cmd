@@ -1,0 +1,50 @@
+{
+  "_total": 4,
+  "commands": [
+    {
+      "_id": "681b9b4236a7c8a42d0ae1f3",
+      "createdAt": "2025-05-07T17:41:22.000Z",
+      "updatedAt": "2025-05-07T17:42:23.707Z",
+      "name": "!youtube",
+      "alias": "",
+      "message": "Check out the official Twitch Youtube channel here: https://www.youtube.com/twitch",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6824d992db0d73f043b87902",
+      "createdAt": "2025-05-14T17:57:38.000Z",
+      "updatedAt": "2025-05-14T17:57:38.533Z",
+      "name": "!twitchcon",
+      "alias": "",
+      "message": "Are you ready for TwitchCon Rotterdam? Check out the schedule and plan your trip here: https://www.twitchcon.com/rotterdam-2025/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6826410e36a7c8a42dac1828",
+      "createdAt": "2025-05-15T19:31:26.000Z",
+      "updatedAt": "2025-05-15T19:31:26.509Z",
+      "name": "!donate",
+      "alias": "",
+      "message": "Donate to DOTS RPG here: https://tinyurl.com/mvshucth",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "681b9babdb0d73f0434c6013",
+      "createdAt": "2025-05-07T17:43:07.000Z",
+      "updatedAt": "2025-05-07T17:43:07.539Z",
+      "name": "!creatorcamp",
+      "alias": "",
+      "message": "Check out the Creator Camp here: https://www.twitch.tv/creatorcamp/en/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    }
+  ],
+  "status": 200
+}

@@ -1,0 +1,19 @@
+{
+  "channel": {
+    "id": "28372",
+    "login": "twitchdev",
+    "display_name": "TwitchDev",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a6381c7-d0c0-4576-b179-38bd5ce1d6af-profile_image-300x300.png",
+    "slug": "twitchdev",
+    "broadcaster_type": "partner",
+    "provider": "twitch",
+    "provider_id": "141981764",
+    "provider_url": "twitch.tv/twitchdev",
+    "created_at": "2022-02-06T07:18:17.231587Z"
+  },
+  "parent": {
+    "id": "28369",
+    "type": "channel",
+    "parent_id": "28372"
+  }
+}

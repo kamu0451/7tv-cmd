@@ -1,0 +1,112 @@
+{
+  "provider": "streamelements",
+  "visitedUrl": "https://streamelements.com/coconutb/commands",
+  "visitedAt": "2026-10-21T11:50:59.870Z",
+  "gotoError": null,
+  "page": {
+    "title": "StreamElements | CoconutB",
+    "finalUrl": "https://streamelements.com/coconutb/commands",
+    "textHead": "Log in\nC\ncoconutb's profile\ntwitch.tv/coconutb\n\nEarn 5 Coconuts every 10 minutes\n\nSubscribers earn 2x points\n\nProfile\nLeaderboard\nLoyalty Store\nCommands\nMedia Request\nTip CoconutB\nChat Stats\nChannel commands\n\nA list of chat commands enabled in chat\n\nAll commands (218)\nDefault (58)\nCustom (160)\nCOMMAND\n\tPERMISSIONS\n\tRESPONSE\n!247\tEveryone\tCheck out the 24/7 channel for non-stop content while I'm offline! https://www.twitch.tv/coconutb__247\n!250k\tEveryone\tduelbits.com/250k-xmas Click here to claim",
+    "textLen": 20864
+  },
+  "tallyByHostAndType": {
+    "streamelements.com document": 1,
+    "streamelements.com stylesheet": 1,
+    "streamelements.com manifest": 1,
+    "streamelements.com script": 2,
+    "static.cloudflareinsights.com script": 1,
+    "streamelements.com xhr": 1,
+    "api.streamelements.com fetch": 4,
+    "streamelements.com image": 2,
+    "streamelements.com font": 2,
+    "static-cdn.jtvnw.net image": 1,
+    "cdn.streamelements.com image": 1
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://streamelements.com/coconutb/commands",
+      "resourceType": "document",
+      "status": 200,
+      "contentType": "text/html",
+      "responseBytes": 3729,
+      "accessControlAllowOrigin": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "requestHeaders": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      },
+      "bodyPreview": null,
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.streamelements.com/kappa/v2/channels/coconutb",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 472,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "origin": "https://streamelements.com",
+        "referer": "https://streamelements.com/"
+      },
+      "bodyPreview": "{\"profile\":{\"title\":\"coconutb's profile\",\"headerImage\":\"https://cdn.streamelements.com/static/user/profile_header_default.png\"},\"_id\":\"5a2483d1eae4510001c047e5\",\"avatar\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/0149120c-37ef-43ad-98e5-bb07bc7ea6ad-profile_image-300x300.png\",\"username\":\"coconu",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.streamelements.com/kappa/v2/bot/commands/5a2483d1eae4510001c047e5",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 89449,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "origin": "https://streamelements.com",
+        "referer": "https://streamelements.com/"
+      },
+      "bodyPreview": "[{\"cooldown\":{\"user\":15,\"global\":5},\"_id\":\"69f6a851f7f3c23d07852245\",\"channel\":\"5a2483d1eae4510001c047e5\",\"command\":\"247\",\"aliases\":[],\"keywords\":[],\"titleKeywords\":[],\"enabled\":true,\"enabledOnline\":true,\"enabledOffline\":true,\"hidden\":false,\"cost\":0,\"type\":\"say\",\"accessLevel\":100,\"reply\":\"Check out ",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.streamelements.com/kappa/v2/bot/commands/5a2483d1eae4510001c047e5/default",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 32423,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "origin": "https://streamelements.com",
+        "referer": "https://streamelements.com/"
+      },
+      "bodyPreview": "[{\"_id\":\"5d195555441a3491cba321cb\",\"command\":\"accountage\",\"commandId\":\"accountage\",\"commands\":[],\"accessLevel\":100,\"enabled\":true,\"enabledOnline\":true,\"enabledOffline\":true,\"moduleId\":\"\",\"cost\":0,\"cooldown\":{\"user\":30,\"global\":10},\"aliases\":[\"accage\",\"created\"],\"regex\":\"\",\"description\":\"${user} was ",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.streamelements.com/kappa/v2/loyalty/5a2483d1eae4510001c047e5",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 335,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "origin": "https://streamelements.com",
+        "referer": "https://streamelements.com/"
+      },
+      "bodyPreview": "{\"loyalty\":{\"bonuses\":{\"raid\":0,\"follow\":0,\"tip\":0,\"subscriber\":500,\"cheer\":100,\"host\":0},\"name\":\"Coconuts\",\"enabled\":true,\"amount\":5,\"subscriberMultiplier\":2,\"ignored\":[],\"interval\":10},\"_id\":\"5a2483d1eae4510001c047fd\",\"updatedAt\":\"2020-05-03T21:25:05.197Z\",\"createdAt\":\"2017-12-03T23:08:01.998Z\",\"c",
+      "providerDomain": true
+    }
+  ],
+  "note": "Cookies and authorization values stripped; pseudo headers, baggage and sentry-trace removed; analytics, error-reporting and /cdn-cgi/ entries dropped (count in droppedNoiseEntries). Static assets (script/stylesheet/image/font) are only tallied in tallyByHostAndType.",
+  "droppedNoiseEntries": 1
+}

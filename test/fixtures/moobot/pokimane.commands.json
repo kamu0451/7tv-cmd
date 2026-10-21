@@ -1,0 +1,10 @@
+{
+  "list": [
+    {
+      "type": "custom",
+      "identifier": "topic",
+      "response": "Topic: <text> (by <by> <when> ago)"
+    }
+  ],
+  "_total": 1
+}

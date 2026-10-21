@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "title": "ludwigahgren's profile",
+    "headerImage": "https://cdn.streamelements.com/static/user/profile_header_default.png"
+  },
+  "_id": "5bb4010a860cde54a36f2339",
+  "provider": "twitch",
+  "suspended": false,
+  "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bde8aaf5-35d4-4503-9797-842401da900f-profile_image-300x300.png",
+  "username": "ludwig",
+  "alias": "ludwig",
+  "displayName": "Ludwig",
+  "providerId": "40934651",
+  "isPartner": true,
+  "broadcasterType": "partner",
+  "inactive": false
+}

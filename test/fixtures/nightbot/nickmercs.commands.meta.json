@@ -1,0 +1,16 @@
+{
+  "url": "https://api.nightbot.tv/1/commands",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1",
+    "nightbot-channel": "56c7f20970447e267df5b5e8"
+  },
+  "responseHeaders": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": null,
+    "access-control-allow-origin": null
+  },
+  "fetchedAt": "2026-10-21T11:53:33.040Z",
+  "bytes": 29929
+}

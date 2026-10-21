@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="tw-root--theme-dark" lang="en">
+<head>
+<meta charset="utf-8">
+<title>7tv-cmd popup dev page</title>
+<!--
+  Dev harness for part 4 (docs/SPEC.md section 7). Twitch-like popout chat at 1280x800 with a fake
+  chat input placed where the recorded one sits (docs/recordings/ref-7tv-colon-dark/dom.json:
+  input rect x18 y711 w1189 h41; anchor x13 w1254). ?theme=light switches the html class.
+  The popup bundle is built by tools/dev/popup-dev.mjs into tools/dev/out/popup-dev.js
+  (window.__tvcmdDev = { createPopup, filterCommands, providerBadge }). No network.
+-->
+<style>
+  html, body { margin: 0; height: 100%; }
+  body { font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; overflow: hidden; }
+  html.tw-root--theme-dark body { background: rgb(24, 24, 27); color: rgb(239, 239, 241); }
+  html.tw-root--theme-light body { background: rgb(255, 255, 255); color: rgb(14, 14, 16); }
+  .header { height: 40px; line-height: 40px; text-align: center; font-weight: 600; font-size: 14px; border-bottom: 1px solid rgba(128, 128, 128, 0.25); }
+  .welcome { position: absolute; left: 20px; top: 122px; color: rgb(173, 173, 184); }
+  html.tw-root--theme-light .welcome { color: rgb(83, 83, 95); }
+  #anchor { position: absolute; left: 13px; top: 707px; width: 1254px; height: 49px; box-sizing: border-box; }
+  #editor {
+    position: absolute; left: 5px; top: 4px; width: 1189px; height: 41px; box-sizing: border-box;
+    padding: 10px 10px; border: 2px solid rgb(145, 71, 255); border-radius: 4px; outline: none; white-space: pre;
+  }
+  html.tw-root--theme-dark #editor { background: rgb(24, 24, 27); }
+  html.tw-root--theme-light #editor { background: rgb(255, 255, 255); }
+  .footer { position: absolute; left: 0; right: 0; top: 760px; height: 40px; }
+  .chat-btn { position: absolute; right: 8px; top: 2px; padding: 0 10px; height: 30px; line-height: 30px; border-radius: 15px; background: rgb(145, 71, 255); color: #fff; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="header">Stream Chat</div>
+  <div class="welcome">Welcome to the chat room!</div>
+  <div id="anchor"><div id="editor" contenteditable="true" spellcheck="false"></div></div>
+  <div class="footer"><span class="chat-btn">Chat</span></div>
+  <script>
+    if (new URLSearchParams(location.search).get('theme') === 'light') {
+      document.documentElement.className = 'tw-root--theme-light';
+    }
+  </script>
+  <script src="out/popup-dev.js"></script>
+</body>
+</html>

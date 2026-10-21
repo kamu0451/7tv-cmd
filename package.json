@@ -1,0 +1,37 @@
+{
+  "name": "7tv-cmd",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Twitch chat bot-command autocomplete WebExtension (Firefox and Chrome, Manifest V3)",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "zip": "node scripts/zip.mjs",
+    "sign": "web-ext sign --source-dir dist/firefox --artifacts-dir web-ext-artifacts --channel unlisted",
+    "lint": "web-ext lint --source-dir dist/firefox",
+    "test": "vitest run",
+    "test:browser": "node scripts/test-browser.mjs",
+    "start:firefox": "web-ext run --source-dir dist/firefox --start-url https://www.twitch.tv/popout/coconutb/chat",
+    "record": "node tools/pw/record.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/chrome": "^0.0.300",
+    "@types/firefox-webext-browser": "^120.0.5",
+    "esbuild": "^0.28.2",
+    "playwright": "1.62.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "slate": "0.146.0",
+    "slate-dom": "0.147.0",
+    "slate-react": "0.147.1",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.5",
+    "web-ext": "^10.8.0"
+  }
+}

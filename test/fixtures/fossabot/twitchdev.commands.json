@@ -1,0 +1,380 @@
+{
+  "roles": [
+    {
+      "id": "CAEQERoGMjI0ODUx",
+      "name": "Broadcaster",
+      "default": true
+    },
+    {
+      "id": "CAEQERoGMjI0ODUz",
+      "name": "Moderator",
+      "default": true
+    },
+    {
+      "id": "CAEQERoGMjI0ODU1",
+      "name": "[Imported] Channel Editor",
+      "default": false
+    },
+    {
+      "id": "CAEQERoGMjI0ODU0",
+      "name": "[Imported] Channel Admin",
+      "default": false
+    }
+  ],
+  "commands": [
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2ODk",
+      "name": "discord",
+      "response": "Join the TwitchDev Discord: https://link.twitch.tv/devchat",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTA",
+      "name": "uptime",
+      "response": "@$(user), $(uptime)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTE",
+      "name": "commands",
+      "response": "@$(user), The commands for this channel are available at: https://fossabot.com/commands/$(channel)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTM",
+      "name": "title",
+      "response": "@$(user), $(title)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": false,
+      "id": "CAEQBhoFNzM2OTQ",
+      "name": "downtime",
+      "response": "@$(user), $(downtime)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTU",
+      "name": "twitter",
+      "response": "Follow the TwitchDev Twitter: https://twitter.com/twitchdev",
+      "type": "custom",
+      "aliases": [
+        "x"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTY",
+      "name": "github",
+      "response": "Check out the TwitchDev GitHub here: https://github.com/twitchdev",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTc",
+      "name": "extensions",
+      "response": "Get started with making a Twitch extension! https://github.com/twitchdev/extension-getting-started",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTg",
+      "name": "sandbox",
+      "response": "Extension sandbox: https://glass.twitch.tv/extensions/sandbox ",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM2OTk",
+      "name": "hosts",
+      "response": "Your host is: Jon Bulava -- https://twitter.com/jbulava",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDA",
+      "name": "trello-npm",
+      "response": "Check out the Trello board for npm start twitch-dev-aws: https://trello.com/b/3dDMJC6X/qaextension",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDE",
+      "name": "docs",
+      "response": "Check out the Twitch API docs - https://dev.twitch.tv/docs",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDM",
+      "name": "build",
+      "response": "Today we are building a chatbot for giveways. Join -> https://glitch.com/~hungry-dinghy",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDQ",
+      "name": "soon",
+      "response": "Soon \u2122 \ufe0f ",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDU",
+      "name": "bugs",
+      "response": "Report bugs that are affecting developer related products at Twitch: github.com/twitchdev/bugs",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDY",
+      "name": "uservoice",
+      "response": "TwitchDev Uservoice: https://twitch.uservoice.com/forums/310213-developers",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MDc",
+      "name": "issues",
+      "response": "TwitchDev GitHub Issues: https://github.com/twitchdev/issues/issues",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTE",
+      "name": "docissues",
+      "response": "TwitchDev Documentation Issues: https://twitch.uservoice.com/forums/310213-developers?category_id=358000",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTI",
+      "name": "eventsub",
+      "response": "EventSub Docs: https://dev.twitch.tv/docs/eventsub",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTM",
+      "name": "pointsapi",
+      "response": "Channel Points API: https://dev.twitch.tv/docs/api/reference#create-custom-rewards",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTU",
+      "name": "cli",
+      "response": "Twitch API CLI tool: https://github.com/twitchdev/twitch-cli",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTY",
+      "name": "calc",
+      "response": "$(math \"$(query)\")",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoGMjI0ODUz",
+        "CAEQERoGMjI0ODU1",
+        "CAEQERoGMjI0ODU0",
+        "CAEQERoGMjI0ODUx"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoFNzM3MTc",
+      "name": "v5",
+      "response": "Twitch API v5 shutdown notice: https://discuss.dev.twitch.tv/t/legacy-twitch-api-v5-shutdown-details-and-timeline/32649",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNDQ5MzEx",
+      "name": "gameengineplugin",
+      "response": "https://dev.twitch.tv/docs/game-engine-plugins/",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNDQ5MzE1",
+      "name": "websocket",
+      "response": "https://dev.twitch.tv/docs/eventsub/handling-websocket-events/",
+      "type": "custom",
+      "aliases": [
+        "eventsocket",
+        "websockets",
+        "eventsockets"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNTA1NDcz",
+      "name": "conduit",
+      "response": "https://discuss.dev.twitch.tv/t/rfc-0017-introducing-a-new-eventsub-transport-type-conduit/46972/",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNzA1NDgw",
+      "name": "pubsub",
+      "response": "https://discuss.dev.twitch.com/t/legacy-pubsub-deprecation-and-shutdown-timeline",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGNzA1NDg0",
+      "name": "hackathon",
+      "response": "https://twitchstreamertools.devpost.com/",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKYWRkY29tbWFuZA",
+      "name": "addcmd",
+      "response": "Adds a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "addcom",
+        "addcommand",
+        "createcmd",
+        "createcommand"
+      ],
+      "role_ids": [
+        "CAEQERoGMjI0ODUz"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZWRpdGNvbW1hbmQ",
+      "name": "editcmd",
+      "response": "Edits a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "editcom",
+        "editcommand",
+        "updatecmd",
+        "updatecommand"
+      ],
+      "role_ids": [
+        "CAEQERoGMjI0ODUz"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoNZGVsZXRlY29tbWFuZA",
+      "name": "delcmd",
+      "response": "Deletes a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "delcom",
+        "delcommand",
+        "removecmd",
+        "removecommand"
+      ],
+      "role_ids": [
+        "CAEQERoGMjI0ODUz"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGcGVybWl0",
+      "name": "permit",
+      "response": "Permit someone to not be caught by any Fossabot filters for 60 seconds.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoGMjI0ODUz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.streamelements.com/kappa/v2/bot/commands/5a2483d1eae4510001c047e5/default",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": null,
+    "access-control-allow-origin": "*",
+    "x-ratelimit-bucket": "global",
+    "x-ratelimit-limit": "10000",
+    "x-ratelimit-remaining": "9999",
+    "x-ratelimit-reset": "1792583697314"
+  },
+  "fetchedAt": "2026-10-21T11:54:59.656Z",
+  "bytes": 32423
+}

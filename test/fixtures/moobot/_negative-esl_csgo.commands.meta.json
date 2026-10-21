@@ -1,0 +1,18 @@
+{
+  "url": "https://moo.bot/a/1/channel/public/commands/list",
+  "method": "POST",
+  "requestBody": "channel=936264266&_limit=100&_offset=0&_order=identifier",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1",
+    "accept": "application/json",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  "responseHeaders": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-cache, no-store, must-revalidate, private, no-cache, must-revalidate, max-age=60",
+    "access-control-allow-origin": "https://moo.bot"
+  },
+  "fetchedAt": "2026-10-21T11:57:15.056Z",
+  "bytes": 22
+}

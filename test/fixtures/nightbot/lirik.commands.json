@@ -1,0 +1,16 @@
+{
+  "_total": 1,
+  "commands": [
+    {
+      "_id": "6084071a6dfc9a2842783311",
+      "createdAt": "2021-04-24T11:55:06.000Z",
+      "updatedAt": "2021-04-24T11:55:06.044Z",
+      "name": "~wut",
+      "message": "WutFace",
+      "userLevel": "moderator",
+      "count": 0,
+      "coolDown": 5
+    }
+  ],
+  "status": 200
+}

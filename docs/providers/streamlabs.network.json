@@ -1,0 +1,854 @@
+{
+  "provider": "streamlabs",
+  "visits": [
+    {
+      "url": "https://streamlabs.com/coconutb/commands",
+      "visitedAt": "2026-10-21T11:55:23.981Z",
+      "documentStatus": 200,
+      "finalUrl": "https://streamlabs.com/coconutb",
+      "title": "coconutb / Streamlabs",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/coconutb/commands",
+          "resourceType": "document",
+          "status": 302,
+          "contentType": "text/html; charset=utf-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare"
+          },
+          "responseBytes": null,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/coconutb/p/commands/",
+          "resourceType": "document",
+          "status": 301,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "server": "cloudflare",
+            "vary": "accept-encoding"
+          },
+          "responseBytes": null,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/coconutb/p/commands",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "age": "11",
+            "content-type": "text/html; charset=utf-8",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding, Origin"
+          },
+          "responseBytes": 42022,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/user/coconutb",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "499",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 303,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/build/assets/i18n/languagesnames.json?http",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "vary": "accept-encoding",
+            "cache-control": "public, max-age=14400",
+            "etag": "W/\"6ad7d797-201\"",
+            "age": "2642",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "content-type": "application/json",
+            "last-modified": "Tue, 20 Oct 2026 21:05:27 GMT",
+            "server": "cloudflare",
+            "access-control-allow-headers": "X-Requested-With,X-CSRF-TOKEN"
+          },
+          "responseBytes": 513,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/build/assets/i18n/en-US/tip.json?http",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "vary": "accept-encoding",
+            "cache-control": "public, max-age=14400",
+            "etag": "W/\"6ad7d797-29fa7\"",
+            "age": "4218",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "content-type": "application/json",
+            "last-modified": "Tue, 20 Oct 2026 21:05:27 GMT",
+            "server": "cloudflare",
+            "access-control-allow-headers": "X-Requested-With,X-CSRF-TOKEN"
+          },
+          "responseBytes": 171943,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/build/assets/i18n/en-US/tip.json?http",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "vary": "accept-encoding",
+            "cache-control": "public, max-age=14400",
+            "etag": "W/\"6ad7d797-29fa7\"",
+            "age": "4218",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "content-type": "application/json",
+            "last-modified": "Tue, 20 Oct 2026 21:05:27 GMT",
+            "server": "cloudflare",
+            "access-control-allow-headers": "X-Requested-With,X-CSRF-TOKEN"
+          },
+          "responseBytes": 171943,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/chatbot/data/twitch_account",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 212,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/cloudbot/status",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 62,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/media-share/queue",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/p/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 14572,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/site/coconutb",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 1788,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/tip",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 2536,
+          "postData": null
+        },
+        {
+          "method": "POST",
+          "url": "https://r2d2.streamlabs.com/web/data/ping",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://streamlabs.com/",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*",
+            "content-type": "application/json"
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "access-control-allow-methods": "GET, POST, OPTIONS",
+            "access-control-allow-origin": "https://streamlabs.com",
+            "content-type": "text/html; charset=UTF-8",
+            "vary": "accept-encoding",
+            "server": "cloudflare",
+            "access-control-allow-headers": "*"
+          },
+          "responseBytes": 5,
+          "postData": "<present, 204 bytes>"
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/csrf-token",
+          "resourceType": "xhr",
+          "status": 401,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "authorization": "<redacted>",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "x-ratelimit-remaining": "493",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 30,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/csrf-token",
+          "resourceType": "xhr",
+          "status": 401,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "authorization": "<redacted>",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "x-ratelimit-remaining": "492",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 30,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/csrf-token",
+          "resourceType": "xhr",
+          "status": 401,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "authorization": "<redacted>",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "x-ratelimit-remaining": "488",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 30,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/csrf-token",
+          "resourceType": "xhr",
+          "status": 401,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "authorization": "<redacted>",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb/commands",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "cache-control": "no-cache, private",
+            "x-ratelimit-remaining": "486",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 30,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/stream/status",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "487",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 48,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/tip/currencies",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "age": "4282",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 3938,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/merchandise/store-products",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "487",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 5740,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/leaderboard/tip?interval=month",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "490",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 229,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/tip/currencies",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "age": "4283",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 3938,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/pro",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "484",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 8959,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/pro",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "age": "0",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 8959,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/merchandise/store-settings?lang=en-US",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "485",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 233771,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/merchandise/store-size-guides",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "484",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 9102,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/pro/gif/trending?per_page=24",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "483",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 9117,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/emotes",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "age": "4251",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 19479,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/pro/gif/trending?per_page=24",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "age": "0",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 9117,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/socials",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "481",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 200,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://streamlabs.com/api/v6/58ccea3e0417e0b/twitch/channel-emotes",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "x-xsrf-token": "<redacted>",
+            "referer": "https://streamlabs.com/coconutb",
+            "accept-language": "en-US",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*"
+          },
+          "responseHeaders": {
+            "x-ratelimit-remaining": "481",
+            "x-ratelimit-limit": "500",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding, Origin",
+            "server": "cloudflare"
+          },
+          "responseBytes": 25,
+          "postData": null
+        }
+      ]
+    }
+  ],
+  "note": "Trimmed to document/xhr/fetch/websocket/eventsource requests on the provider own hosts; cookies and authorization values redacted; User-Agent was the stock Chromium one (Playwright)."
+}

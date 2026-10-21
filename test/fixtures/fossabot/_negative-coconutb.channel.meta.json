@@ -1,0 +1,19 @@
+{
+  "url": "https://fossabot.com/api/v2/cached/channels/by-slug/coconutb",
+  "method": "GET",
+  "status": 404,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "content-type": "application/json",
+    "cache-control": "max-age=30",
+    "access-control-allow-origin": "*",
+    "x-ratelimit-bucket": "ip",
+    "x-ratelimit-remaining": "29",
+    "x-ratelimit-reset": "1792583460",
+    "x-ratelimit-total": "30"
+  },
+  "fetchedAt": "2026-10-21T11:55:00.258Z",
+  "bytes": 84
+}

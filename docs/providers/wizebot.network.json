@@ -1,0 +1,240 @@
+{
+  "provider": "wizebot",
+  "visits": [
+    {
+      "url": "https://wizebot.tv/en/streamings",
+      "visitedAt": "2026-10-21T11:51:27.243Z",
+      "documentStatus": 200,
+      "finalUrl": "https://wizebot.tv/en/streamings",
+      "title": "Streamings list | WizeBot - Your bot and all-in-one solution for Twitch",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://wizebot.tv/en/streamings",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 25616,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://wizebot.tv/api/global_datas.php",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://wizebot.tv/en/streamings",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/javascript, */*; q=0.01",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 894,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://support.wizebot.tv/support_monit/eta.php?t=1792583482343",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://wizebot.tv/",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/javascript, */*; q=0.01",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "access-control-allow-origin": "*",
+            "content-type": "application/json",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 2493,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://wizebot.tv/api/global_datas.php",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://wizebot.tv/en/streamings",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/javascript, */*; q=0.01",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 894,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://wizebot.tv/api/streamings_list.php?_=1792583482459",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "application/json",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://wizebot.tv/en/streamings",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "application/json, text/javascript, */*; q=0.01",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "responseHeaders": {
+            "content-type": "application/json",
+            "vary": "Accept-Encoding",
+            "server": "cloudflare"
+          },
+          "responseBytes": 1802979,
+          "postData": null
+        }
+      ]
+    },
+    {
+      "url": "https://viewer.wizebot.tv/",
+      "visitedAt": "2026-10-21T11:51:46.983Z",
+      "documentStatus": 200,
+      "finalUrl": "https://login.wizebot.tv/auth/tool/viewer",
+      "title": "Viewer Panel - Login - Wize.Bot",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://viewer.wizebot.tv/",
+          "resourceType": "document",
+          "status": 302,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "cloudflare"
+          },
+          "responseBytes": null,
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "https://login.wizebot.tv/auth/tool/viewer",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 14684,
+          "postData": null
+        }
+      ]
+    },
+    {
+      "url": "https://support.wizebot.tv/docs/commands",
+      "visitedAt": "2026-10-21T11:52:29.090Z",
+      "documentStatus": 200,
+      "finalUrl": "https://support.wizebot.tv/docs/commands",
+      "title": "Documentation - Wize.Bot",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://support.wizebot.tv/docs/commands",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-type": "text/html; charset=UTF-8",
+            "server": "cloudflare",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 39341,
+          "postData": null
+        },
+        {
+          "method": "POST",
+          "url": "https://support.wizebot.tv/load_page.php",
+          "resourceType": "xhr",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://support.wizebot.tv/docs/commands",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-requested-with": "XMLHttpRequest",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "accept": "*/*",
+            "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+          },
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "vary": "Accept-Encoding",
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "server": "cloudflare"
+          },
+          "responseBytes": 70459,
+          "postData": "<present, 99 bytes>"
+        }
+      ]
+    }
+  ],
+  "note": "Trimmed to document/xhr/fetch/websocket/eventsource requests on the provider own hosts; cookies and authorization values redacted; User-Agent was the stock Chromium one (Playwright)."
+}

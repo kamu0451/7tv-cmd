@@ -1,0 +1,15 @@
+{
+  "status": {
+    "autojoin": false,
+    "joined": true,
+    "moderated": false
+  },
+  "channel": {
+    "trial": true,
+    "points": 0,
+    "userid": "936264266",
+    "username": "esl_csgo"
+  },
+  "version": 476,
+  "assistant": "1.1.14"
+}

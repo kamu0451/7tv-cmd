@@ -1,0 +1,14 @@
+{
+  "url": "https://botrix.live/api/public/commands?user=auronplay&platform=twitch",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "cache-control": "max-age=150",
+    "content-type": "application/json"
+  },
+  "fetchedAt": "2026-10-21T11:54:09.769Z",
+  "bytes": 2
+}

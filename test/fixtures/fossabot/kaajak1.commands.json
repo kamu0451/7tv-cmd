@@ -1,0 +1,796 @@
+{
+  "roles": [
+    {
+      "id": "CAEQERoHMTExNjA5Mw",
+      "name": "Moderator",
+      "default": true
+    }
+  ],
+  "commands": [
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTUz",
+      "name": "sens",
+      "response": "0.1 1600 (changes often)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU0",
+      "name": "res",
+      "response": "either fullhd or 1440p (test 1280x960)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU1",
+      "name": "rank",
+      "response": "The goat is $(valorant.rank) $(valorant.rank_rating) RR",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU2",
+      "name": "mouse",
+      "response": "lamzu maya",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU3",
+      "name": "keyboard",
+      "response": "INZONE KBD - https://imgur.com/a/Srics7B ACTUATION POINT - WSAD 0.5 RAPID TRIGGER 0.1 (Current) | VENOM - https://imgur.com/a/jJZGOLW",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU4",
+      "name": "mousepad",
+      "response": "Pulsar Saturn Pro SOFT",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTU5",
+      "name": "wiek",
+      "response": "21 ;)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTYw",
+      "name": "wzrost",
+      "response": "172",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTYx",
+      "name": "crosshair",
+      "response": "1422 inner",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTYy",
+      "name": "ranga",
+      "response": "https://tracker.gg/valorant/profile/riot/FNATIC%23mommy",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTYz",
+      "name": "myszka",
+      "response": "fnatic lamzu maya (test beast x mini pro)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTY0",
+      "name": "tiktok",
+      "response": "https://www.tiktok.com/@kaajak999",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTY1",
+      "name": "skates",
+      "response": "xraypad jade",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTY2",
+      "name": "kovaaks",
+      "response": "KovaaKsCrossfiringFlawlessGunsmith KovaaKsSwitchingBrickredEgg KovaaKsBindingThinPayload",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTY4",
+      "name": "birthday",
+      "response": "Aug 8th",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTY5",
+      "name": "from",
+      "response": "Poland",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTcw",
+      "name": "mousesettings",
+      "response": "https://imgur.com/a/di1tey7",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTcx",
+      "name": "duo",
+      "response": "Minny",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTcy",
+      "name": "polling",
+      "response": "4k",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTcz",
+      "name": "delay",
+      "response": "25 seconds",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTc0",
+      "name": "grip",
+      "response": "claw",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTc1",
+      "name": "team",
+      "response": "FNATIC",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTc3",
+      "name": "nvidia",
+      "response": "https://clips.twitch.tv/ConcernedPuzzledGrasshopperKappaRoss-Ory1hRDpKrBvmmfy",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTc4",
+      "name": "fps",
+      "response": "Optimized by https://twitter.com/TweakingGuy",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTc5",
+      "name": "instagram",
+      "response": "https://www.instagram.com/kaajak0/",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTgw",
+      "name": "x",
+      "response": "https://twitter.com/kaajakval",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTgx",
+      "name": "twitter",
+      "response": "https://twitter.com/kaajakval",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTgz",
+      "name": "settings",
+      "response": "https://www.twitch.tv/kaajak1/clip/HonorableHorribleLlamaPipeHype-d0mzkUViCqbsGe5e",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTg0",
+      "name": "wooting",
+      "response": "d981f4fa37c106bbd8f39fbbd6e97d93bfc6",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTg2",
+      "name": "podkladka",
+      "response": "pulsar saturn pro soft",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTg4",
+      "name": "celownik",
+      "response": "0;c;1;s;1;P;u;000000FF;o;1;d;1;f;0;0b;0;1b;0;S;t;000000FF;s;0.5;o;1",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTkw",
+      "name": "tracker",
+      "response": "https://tracker.gg/valorant/profile/riot/FNATIC%23mommy",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU4NTkx",
+      "name": "klawiatura",
+      "response": "INZONE KBD - https://imgur.com/a/Srics7B ACTUATION POINT - WSAD 0.5 RAPID TRIGGER 0.1 (Current) | VENOM - https://imgur.com/a/jJZGOLW",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODU5NTM1",
+      "name": "discord",
+      "response": "https://discord.gg/5R2GuNjUgv",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODY2MTYx",
+      "name": "where",
+      "response": "Berlin",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODY2MTY1",
+      "name": "monitor",
+      "response": "SONY INZONE M10S MONITOR",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODc5NDY2",
+      "name": "Champs",
+      "response": "-",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODc5NDY5",
+      "name": "so",
+      "response": "Go check out $(user.display_name)! Go follow them at twitch.tv/$(user.login) - they were last seen playing $(user.game)!",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODc5NTAz",
+      "name": "raid",
+      "response": "https://twitch.tv/synekfps",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGODkxMTA2",
+      "name": "gf",
+      "response": "Maja",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTA1NjY5",
+      "name": "youtube",
+      "response": "https://www.youtube.com/@kaajak5623",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": false,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTA1Njc4",
+      "name": "ns",
+      "response": "Our goat hit $(count) crazy shots \ud83d\udc10",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": false,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTA1Njc5",
+      "name": "nt",
+      "response": "Goat tried his best $(count) times",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTE4MTc2",
+      "name": "call",
+      "response": "-",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTE4MTg3",
+      "name": "dog",
+      "response": "Burbon (big) & Lara (small)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1NjQz",
+      "name": "fight",
+      "response": "$(sender) fought $(touser) and $(rngphrase won,lost).",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1NjQ0",
+      "name": "pp",
+      "response": "$(touser)'s pp is $(randint 0 15) Inches.",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1NjQ1",
+      "name": "kiss",
+      "response": "$(sender) kissed $(chatters.random).",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1NjQ4",
+      "name": "flirt",
+      "response": "$(sender) tried to flirt with $(touser) and it $(rngphrase was successful, failed)!",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1NzA3",
+      "name": "kurwa",
+      "response": "kaajak said kurwa $(count) times.",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1ODMw",
+      "name": "height",
+      "response": "$(touser)'s height is $(randint 0 200)cm.",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY1ODMx",
+      "name": "aura",
+      "response": "$(touser)'s Aura is $(randint -1000 1000)",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTY2NTE4",
+      "name": "specs",
+      "response": "i7-14700KF Asus TUF GAMING Z690-PLUS D4 G.Skill Ripjaws V 32GB 3200mhz 14-14-14-34 (Samsung B-DIE, overclocked) NVIDIA GeForce RTX 5080 Deepcool LT720 360mm Samsung 980 PRO 500GB Corsair 4000D Airflow Corsair RM850x Intel LGA 1700 Anti-Bending Frame Corsair VENGEANCE Airflow SONY INZONE M10S MONITOR LGG Saturn pro SOFT Wooting 60HE FNATIC LAMZU MAYA Sony INZONE H9 headset",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBhoGOTg3MDY4",
+      "name": "aimroutine",
+      "response": "lots and lots of DM\u2019s",
+      "type": "custom",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKYWNjb3VudGFnZQ",
+      "name": "accountage",
+      "response": "Fossabot created their account 2 years and 3 months ago.",
+      "type": "default",
+      "aliases": [
+        "accage"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKYWRkY29tbWFuZA",
+      "name": "addcmd",
+      "response": "Adds a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "addcom",
+        "addcommand",
+        "createcmd",
+        "createcommand"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoMbGlzdGNvbW1hbmRz",
+      "name": "commands",
+      "response": "The commands for this channel are available at: https://fossa.bot/$(channel.slug)/commands",
+      "type": "default",
+      "aliases": [
+        "cmds",
+        "comds",
+        "cmdlist",
+        "comlist",
+        "commandlist",
+        "listcmds",
+        "help"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoNZGVsZXRlY29tbWFuZA",
+      "name": "delcmd",
+      "response": "Deletes a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "delcom",
+        "delcommand",
+        "removecmd",
+        "removecommand"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoLZWRpdGNvbW1hbmQ",
+      "name": "editcmd",
+      "response": "Edits a custom chat command.",
+      "type": "default",
+      "aliases": [
+        "editcom",
+        "editcommand",
+        "updatecmd",
+        "updatecommand"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoJZm9sbG93YWdl",
+      "name": "followage",
+      "response": "Fossabot has been following Aiden for 2 years, 3 months and 4 hours.",
+      "type": "default",
+      "aliases": [
+        "followtime"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEZ2FtZQ",
+      "name": "game",
+      "response": "Returns the currently played game on stream.",
+      "type": "default",
+      "aliases": [
+        "currentgame"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKc2V0Y29tbWFuZA",
+      "name": "setcmd",
+      "response": "Edits a custom chat command if exists, else creates the command.",
+      "type": "default",
+      "aliases": [
+        "setcom",
+        "setcommand"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoIc2V0dGl0bGU",
+      "name": "settitle",
+      "response": "Changes the current stream title.",
+      "type": "default",
+      "aliases": [
+        "changetitle"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoHc2V0Z2FtZQ",
+      "name": "setgame",
+      "response": "Changes the currently played game on stream.",
+      "type": "default",
+      "aliases": [
+        "changegame"
+      ],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoFdGl0bGU",
+      "name": "title",
+      "response": "Returns the current stream title.",
+      "type": "default",
+      "aliases": [
+        "currenttitle"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGdXB0aW1l",
+      "name": "uptime",
+      "response": "Returns how long the stream has been online/offline for.",
+      "type": "default",
+      "aliases": [
+        "streamtime",
+        "howlong",
+        "live",
+        "downtime",
+        "offline"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGdmFuaXNo",
+      "name": "vanish",
+      "response": "Removes all messages sent by the requester.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoJZWlnaHRiYWxs",
+      "name": "8ball",
+      "response": "Ask the mystery 8-ball a question!",
+      "type": "default",
+      "aliases": [
+        "eightball"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoHZGFkam9rZQ",
+      "name": "dadjoke",
+      "response": "Tells an unfunny dad joke.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoKZGljdGlvbmFyeQ",
+      "name": "dictionary",
+      "response": "(noun) Kappa: The tenth letter of the Greek alphabet.",
+      "type": "default",
+      "aliases": [
+        "define",
+        "dict"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoEZmFjdA",
+      "name": "fact",
+      "response": "Posts a useless random fact in chat.",
+      "type": "default",
+      "aliases": [
+        "randomfact"
+      ],
+      "role_ids": []
+    },
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGcGVybWl0",
+      "name": "permit",
+      "response": "Permit someone to not be caught by any Fossabot filters for 60 seconds.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoHMTExNjA5Mw"
+      ]
+    }
+  ]
+}

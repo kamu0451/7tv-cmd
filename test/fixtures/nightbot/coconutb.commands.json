@@ -1,0 +1,775 @@
+{
+  "_total": 75,
+  "commands": [
+    {
+      "_id": "679d62866f63a9591272740d",
+      "createdAt": "2025-01-31T23:53:42.000Z",
+      "updatedAt": "2025-01-31T23:53:42.452Z",
+      "name": "luxdrop",
+      "alias": "",
+      "message": "Use https://luxdrop.com/r/COCO for free cases and 5% Deposit Bonus!  Use coconutsyummyyummy  for a free $2.50 MUST be under code COCO to claim!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6653fe5f94989d50fae37811",
+      "createdAt": "2024-05-27T03:30:39.000Z",
+      "updatedAt": "2024-05-27T03:30:39.055Z",
+      "name": "!winnie2",
+      "message": "https://clips.twitch.tv/TrappedAbnegateNeanderthalEagleEye-uIjYipEAEOPpVq22",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6ac7f4f791647c4567456b35",
+      "createdAt": "2026-10-08T19:54:31.000Z",
+      "updatedAt": "2026-10-08T19:54:31.829Z",
+      "name": "!wdsettings",
+      "message": "Coco's WarDogs settings - https://youtube.com/shorts/DchjflBFPEk?si=kDwX-YkttvEOw2C9",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "699cf28f92dff65d06e22e74",
+      "createdAt": "2026-02-24T00:36:31.000Z",
+      "updatedAt": "2026-02-24T23:47:37.455Z",
+      "name": "!water",
+      "message": "@CoconutB Drink some water MR BuddhaBar",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6ac7084191647c45672a2eb4",
+      "createdAt": "2026-10-08T03:04:33.000Z",
+      "updatedAt": "2026-10-08T03:04:33.969Z",
+      "name": "!wardogsettings",
+      "message": "Cocos Wardogs settings - https://youtube.com/shorts/DchjflBFPEk?si=kDwX-YkttvEOw2C9",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6aa4c83156875a27cd37c71b",
+      "createdAt": "2026-09-12T03:34:09.000Z",
+      "updatedAt": "2026-09-23T05:23:39.866Z",
+      "name": "!vtuber",
+      "message": "We have REACHED the 4k sub goal and we are getting the coconut avatar, Join the discord to be able to vote on the avatar in the near future! Cinema",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5d3ccfecde6f29214b4ef1f4",
+      "createdAt": "2019-07-27T22:27:56.000Z",
+      "updatedAt": "2019-07-27T22:27:56.579Z",
+      "name": "!version",
+      "message": "2.042 Coco",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "657df2aa212ff44105434934",
+      "createdAt": "2023-12-16T18:55:38.000Z",
+      "updatedAt": "2023-12-16T18:55:38.068Z",
+      "name": "!vader",
+      "message": "https://www.twitch.tv/erobb221/clip/ArtisticDeadArtichokeDendiFace-Tox6uSYC4R3WKHKf?filter=clips&range=7d&sort=time",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67c4e95c248603e562d95a78",
+      "createdAt": "2025-03-02T23:27:24.000Z",
+      "updatedAt": "2025-03-02T23:27:24.712Z",
+      "name": "!upgrader",
+      "alias": "",
+      "message": "Use code COCOB for 5% deposit bonus and three free cases only at https://upgrader.com/r/COCOB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67c4f276248603e562db3b1b",
+      "createdAt": "2025-03-03T00:06:14.000Z",
+      "updatedAt": "2026-03-21T22:26:47.833Z",
+      "name": "!update",
+      "message": "ur mom is ur dad",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67d51749ef82d9d3c8891402",
+      "createdAt": "2025-03-15T05:59:37.000Z",
+      "updatedAt": "2025-03-15T19:02:01.638Z",
+      "name": "!underdog",
+      "alias": "",
+      "message": "Sign up here   and deposit code COCONUT to receive up to $1K in bonus cash + a free pick! #ad     https://play.underdogfantasy.com/p-coconut-b",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "64a9e19891c6fdbd4bee2e0e",
+      "createdAt": "2023-07-08T22:22:16.000Z",
+      "updatedAt": "2023-07-08T22:22:16.145Z",
+      "name": "!tts",
+      "message": "https://tts.monster/coconutb CUSTOM TEXT TO SPEECH",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "645169ce07e94460f4e43f5d",
+      "createdAt": "2023-05-02T19:51:42.000Z",
+      "updatedAt": "2023-05-04T17:36:05.262Z",
+      "name": "!tradeit",
+      "message": "use my code https://tradeit.gg/?aff=COCOB for $5 First trade bonus  and 35% Store discount!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67563f733c41509db0887914",
+      "createdAt": "2024-12-09T00:53:07.000Z",
+      "updatedAt": "2024-12-09T01:17:48.781Z",
+      "name": "!tiers",
+      "message": "Tier 0 (Hours 0-4) All primitive items; Tier 1 (Hours 4-12) Workbench Level 1; Tier 2 (Hours 12-48) Workbench Level 2; Tier 3 (Hours 48-100) Workbench Level 3",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67450cbc315dc5696366a208",
+      "createdAt": "2024-11-25T23:48:12.000Z",
+      "updatedAt": "2026-10-09T00:52:57.256Z",
+      "name": "!team",
+      "message": "Duo with JohnSenn",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "656a34d2b672355710c67f1f",
+      "createdAt": "2023-12-01T19:32:34.000Z",
+      "updatedAt": "2023-12-01T19:32:34.013Z",
+      "name": "!subwars",
+      "message": "December 1-3. For more info, visit: https://matcherino.com/t/subwars3",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "68c8baad125993b04680dafa",
+      "createdAt": "2025-09-16T01:17:33.000Z",
+      "updatedAt": "2025-09-16T01:21:24.559Z",
+      "name": "!squadra",
+      "alias": "",
+      "message": "The Newest Dragon Ball's 4vs4 Team Battle Game \"DRAGON BALL GEKISHIN SQUADRA\" Has Officially Launched! Squad Up, Beat Down! Play Now! Details here: https://dbg-squadra.bn-ent.net/ https://wehy.pe/t/7/coconutb #sponsored",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67c0b9ed248603e5622e7fda",
+      "createdAt": "2025-02-27T19:15:57.000Z",
+      "updatedAt": "2025-02-27T19:16:06.424Z",
+      "name": "!splitgate",
+      "alias": "",
+      "message": "Play the Splitgate 2 Open Alpha now on PC, Xbox X|S, and PS5\u2022 https://cdn.gsght.com/c/dnhwwy ",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6789d0c7fe1e8261b5d7a414",
+      "createdAt": "2025-01-17T03:38:47.000Z",
+      "updatedAt": "2025-01-17T03:38:47.626Z",
+      "name": "!skinserpent",
+      "alias": "",
+      "message": "Instantly sell your steam skins at https://skinserpent.com/membership/cocob ",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6858589c48712335c80a4043",
+      "createdAt": "2025-06-22T19:25:16.000Z",
+      "updatedAt": "2025-06-22T19:25:16.686Z",
+      "name": "!scum",
+      "alias": "",
+      "message": "SCUM 1.0 is out NOW on Steam! #ad https://lurkit.cc/SCUMCoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "693720ebf7eaff09b5c14020",
+      "createdAt": "2025-12-08T19:03:07.000Z",
+      "updatedAt": "2025-12-08T19:03:07.864Z",
+      "name": "!schedule",
+      "message": "https://schedule.twitchrivals.com/events/rust-team-battle-vi-rNrkV",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6a3409ac02af1a9e690dda8e",
+      "createdAt": "2026-06-18T15:07:24.000Z",
+      "updatedAt": "2026-06-18T15:07:37.533Z",
+      "name": "!samsung",
+      "alias": "",
+      "message": "\tThursday 18th June 7pm EST / 4pm PDT. I will be taking part in the Samsung Odyssey Clash - Rocket League Edition. Remember to follow Samsung Odyssey & enter the giveaway here for your chance to win a 65\" OLED S90F 4K TV. https://samsung-odyssey.com/Coconutb-Giveaway-T",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6ac708f491647c45672a4cea",
+      "createdAt": "2026-10-08T03:07:32.000Z",
+      "updatedAt": "2026-10-08T03:07:32.858Z",
+      "name": "!rustsettings",
+      "message": "My rust settings - https://www.twitch.tv/coconutb/clip/LuckyCharmingBurritoCclamChamp-73eG_8FDJDkvTqcz",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67a274986f63a95912466325",
+      "createdAt": "2025-02-04T20:12:08.000Z",
+      "updatedAt": "2025-02-04T20:12:08.218Z",
+      "name": "!rustmagic ",
+      "alias": "",
+      "message": "Use code Coconut for a free 0.50 cents! https://rustmagic.com/r/coconut ",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "672d17d1d8f8c6c5ee9239a7",
+      "createdAt": "2024-11-07T19:41:05.000Z",
+      "updatedAt": "2024-11-07T19:41:05.134Z",
+      "name": "!rustly",
+      "message": "Use my code COCO for free five cases! https://rustly.com/r/COCO",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67571fd385c6f64d65a575bb",
+      "createdAt": "2024-12-09T16:50:27.000Z",
+      "updatedAt": "2024-12-09T17:10:06.934Z",
+      "name": "!royale",
+      "message": "Use code COCO for a 5% Deposit Bonus!  https://royale.gg/r/coco Royale.gg lets you open mystery cases filled with REAL luxury that they will deliver to your doorstep! Royale.gg accepts RUST SKINS, CRYPTO, GOOGLE PAY, APPLE PAY, CS2, DOTA 2, AND VISA/MASTERCARD",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6876b9cbf40b396d59d6b5d2",
+      "createdAt": "2025-07-15T20:27:55.000Z",
+      "updatedAt": "2025-07-15T20:27:55.507Z",
+      "name": "!readyornot",
+      "alias": "",
+      "message": "Ready Or Not is out on PlayStation 5 and Xbox Series X|S starting July 15th! https://lurkit.cc/ReadyOrNotCoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67b02589248603e5626d919b",
+      "createdAt": "2025-02-15T05:26:33.000Z",
+      "updatedAt": "2025-02-15T05:26:33.712Z",
+      "name": "!rainbet",
+      "message": "USE CODE COCO FOR A DEPOSIT BONUS - https://rainbet.com/?r=coco",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "689683dc07d2d799ff1f19c1",
+      "createdAt": "2025-08-08T23:10:20.000Z",
+      "updatedAt": "2025-08-08T23:10:20.470Z",
+      "name": "!raidzone",
+      "alias": "",
+      "message": "Once Human: RaidZone is officially launched. Join me in the server North America | RaidZone-X0039 and let\u2019s get a good raid together! #ad https://oncehuman.onelink.me/0Y6K/CoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "667e61953d1ba940c63ec7d0",
+      "createdAt": "2024-06-28T07:09:09.000Z",
+      "updatedAt": "2024-06-28T07:09:09.678Z",
+      "name": "!primal",
+      "message": "Join us on Primal Rust US 10x Quad now  connect us10x-quad.primalrust.gg and make sure to join the discord and link for a free kit discord.gg/primalrust",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6a485a1656875a27cdcb0eff",
+      "createdAt": "2026-07-04T00:55:50.000Z",
+      "updatedAt": "2026-07-04T00:55:50.674Z",
+      "name": "!peanut",
+      "message": "Coco will play with Peanut later when he is ready, please don't ask this on repeat or you will get timed out.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69a67e0466d300350134d587",
+      "createdAt": "2026-03-03T06:21:56.000Z",
+      "updatedAt": "2026-09-14T01:44:32.551Z",
+      "name": "!pc",
+      "message": "My PC specs here! - https://coconutb.carrd.co/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6751ef5d85c6f64d65da950b",
+      "createdAt": "2024-12-05T18:22:21.000Z",
+      "updatedAt": "2024-12-05T18:22:21.731Z",
+      "name": "!packdraw",
+      "message": "Use code COCO when depositing on PackDraw.com for 5% deposit bonus! PackDraw is an IRL loot box site where users can win real life items and have them shipped to your home! Want crypto instead? No problem!  https://packdraw.com?ref=COCO",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6896839ea1c3969791b9bfbb",
+      "createdAt": "2025-08-08T23:09:18.000Z",
+      "updatedAt": "2026-07-07T18:33:53.384Z",
+      "name": "!oncehuman",
+      "alias": "",
+      "message": "Pre-order the exclusive Console Starter Pack right now to secure massive launch rewards and jumpstart your Once Human survival journey! https://load.gg/coconutb-once-human #oncehuman #ad",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "689683b707d2d799ff1f1348",
+      "createdAt": "2025-08-08T23:09:43.000Z",
+      "updatedAt": "2025-08-08T23:09:43.419Z",
+      "name": "!ohrz",
+      "alias": "",
+      "message": "Once Human: RaidZone is officially launched. Join me in the server North America | RaidZone-X0039 and let\u2019s get a good raid together! #ad https://oncehuman.onelink.me/0Y6K/CoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "689683aba1c3969791b9c1f7",
+      "createdAt": "2025-08-08T23:09:31.000Z",
+      "updatedAt": "2025-08-08T23:09:31.481Z",
+      "name": "!oh",
+      "alias": "",
+      "message": "Once Human: RaidZone is officially launched. Join me in the server North America | RaidZone-X0039 and let\u2019s get a good raid together! #ad https://oncehuman.onelink.me/0Y6K/CoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "69cafb054988df5a306ec9d4",
+      "createdAt": "2026-03-30T22:36:53.000Z",
+      "updatedAt": "2026-03-30T22:36:53.686Z",
+      "name": "!nomic",
+      "message": "Windows audio -> Input Device -> Microphone (BEACN Studio)",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6a497f5871e1e5122c6bfd44",
+      "createdAt": "2026-07-04T21:47:04.000Z",
+      "updatedAt": "2026-07-04T21:47:04.293Z",
+      "name": "!newvid",
+      "message": "https://www.youtube.com/watch?v=-FZX0x_T3OY",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69d9c9f1be6d95bf81ada455",
+      "createdAt": "2026-04-11T04:11:29.000Z",
+      "updatedAt": "2026-04-11T04:11:29.874Z",
+      "name": "!myth",
+      "message": "https://www.twitch.tv/myth/clip/ProductiveTemperedPterodactylMrDestructoid-ZU-YQrWbDb3Yrejl",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5d3e0301de6f29214b532825",
+      "createdAt": "2019-07-28T20:18:09.000Z",
+      "updatedAt": "2019-07-28T20:18:09.346Z",
+      "name": "!multi",
+      "message": "https://www.twitch.tv/picco__",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "646fd0e078938826206edea8",
+      "createdAt": "2023-05-25T21:19:28.000Z",
+      "updatedAt": "2023-05-25T21:19:54.014Z",
+      "name": "!mudwtr",
+      "message": "Experience sustained energy and focus with MUD\\WTR! Click https://bit.ly/MUDWTR_coconutb to place your order now and enjoythe unique blend of ingredients that make this coffee alternative bothdelicious and beneficial for your health!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67d5181aef82d9d3c889339b",
+      "createdAt": "2025-03-15T06:03:06.000Z",
+      "updatedAt": "2025-03-15T06:03:06.230Z",
+      "name": "!mph",
+      "alias": "",
+      "message": "Wishlist on Steam: https://store.steampowered.com/app/3574840/My_Pet_Hooligan/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "675e3d0eb068b1938798d192",
+      "createdAt": "2024-12-15T02:21:02.000Z",
+      "updatedAt": "2026-04-26T22:59:51.291Z",
+      "name": "!missing",
+      "message": "Missing Drops? Check your Twitch inventory at twitch.tv/drops/inventory - if they\u2019re claimed but still missing, go to twitch.facepunch.com and click \"Check for missing drops\"!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "617b0440f393017436fcd1dd",
+      "createdAt": "2021-10-28T20:12:48.000Z",
+      "updatedAt": "2021-10-28T20:12:48.957Z",
+      "name": "!merch",
+      "message": "https://coconutb.clothing/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "67575f913c41509db0abaee0",
+      "createdAt": "2024-12-09T21:22:25.000Z",
+      "updatedAt": "2024-12-09T21:22:25.586Z",
+      "name": "!map",
+      "message": "https://drive.google.com/file/d/1R9vdCqUV5Qb_qYk3pKIG_LkvH13aR9AH/view?usp=sharing",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "687801c6f40b396d59119e2a",
+      "createdAt": "2025-07-16T19:47:18.000Z",
+      "updatedAt": "2025-07-16T19:47:18.786Z",
+      "name": "!ludeo",
+      "alias": "",
+      "message": "Powered by Ludeo! With Ludeo, you can share your best gaming moments as PLAYABLE (not just watchable) content: https://play.ludeo.com/l/1c7021",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6a23ea1d0f71916bd3f1e849",
+      "createdAt": "2026-06-06T09:36:29.000Z",
+      "updatedAt": "2026-06-06T09:36:29.734Z",
+      "name": "!kick",
+      "message": "KICK",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "60a47e642aab1d284ad05923",
+      "createdAt": "2021-05-19T02:56:36.000Z",
+      "updatedAt": "2021-05-19T02:56:36.873Z",
+      "name": "!kia",
+      "message": "kia got food poisoning and is in recovery Sadge",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "673a1213f375cfa4883c811f",
+      "createdAt": "2024-11-17T15:56:03.000Z",
+      "updatedAt": "2024-11-17T15:56:03.862Z",
+      "name": "!kai",
+      "message": "YOU CAN GET THE KAI CENAT RUG DROP BY WATCHING, AND THE KAI HOODIE FOR GIFTING ONE SUB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69fb2bd30f71916bd3625b07",
+      "createdAt": "2026-05-06T11:53:55.000Z",
+      "updatedAt": "2026-05-06T11:53:55.340Z",
+      "name": "!ig",
+      "message": "https://instagram.com/coconutb_/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "688268e2a1c3969791c3d384",
+      "createdAt": "2025-07-24T17:09:54.000Z",
+      "updatedAt": "2025-07-24T18:25:16.023Z",
+      "name": "!hope",
+      "message": "Fancy Orb GW3 x Hope for Mental Health Awareness Charity - https://donate.tiltify.com/c9723ac3-d285-4b42-9b4b-40230dbb78e8/details?origin=donate",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6881ba9407d2d799ff10213d",
+      "createdAt": "2025-07-24T04:46:12.000Z",
+      "updatedAt": "2025-07-24T04:46:12.815Z",
+      "name": "!hftdlinks",
+      "alias": "",
+      "message": "Here are some helpful links: Get Educated: http://peervention.org/ Get Involved: http://hftd.org/involvedFind Help: http://hftd.org/find-help",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6881b8e5a1c3969791ab1697",
+      "createdAt": "2025-07-24T04:39:01.000Z",
+      "updatedAt": "2025-07-24T04:39:01.194Z",
+      "name": "!hftd",
+      "alias": "",
+      "message": "Help us raise mental health awareness with HopeForTheDay #ad https://donate.tiltify.com/c9723ac3-d285-4b42-9b4b-40230dbb78e8/details?origin=donate",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "6a095aff0f71916bd30d5559",
+      "createdAt": "2026-05-17T06:06:55.000Z",
+      "updatedAt": "2026-05-17T06:06:55.387Z",
+      "name": "!hellofresh",
+      "alias": "",
+      "message": "Get a free ZWILLING dragon wok + 10 free meals through my link https://tools.thenode.gg/r/zM_eMUkn or by using my code COCONUTBHFZW, it supports me",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "68599edee8186455d9801231",
+      "createdAt": "2025-06-23T18:37:18.000Z",
+      "updatedAt": "2025-06-23T18:37:18.631Z",
+      "name": "!gw3",
+      "message": "Fancy Orb's Global Warfare 3 event: July 24 - July 28. For more information, visit https://globalwarfare.gg/ or https://x.com/FancyOrb_/status/1937209012119802085?t=22Oz3VlzCMHXNn26uEY49Q&s=19",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "683a603e48712335c886b33b",
+      "createdAt": "2025-05-31T01:49:50.000Z",
+      "updatedAt": "2025-05-31T01:49:50.154Z",
+      "name": "!gear",
+      "message": "Everything i use for my stream! - https://coconutb.carrd.co/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5e769ed995e22f088bc27d87",
+      "createdAt": "2020-03-21T23:10:17.000Z",
+      "updatedAt": "2020-03-21T23:10:17.063Z",
+      "name": "!gabba",
+      "message": "is mon peepoHappy",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "68224c16db0d73f0435718ec",
+      "createdAt": "2025-05-12T19:29:26.000Z",
+      "updatedAt": "2025-05-12T19:29:26.378Z",
+      "name": "!everything",
+      "message": "https://coconutb.carrd.co/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "64c55a309849c7a69775da74",
+      "createdAt": "2023-07-29T18:28:00.000Z",
+      "updatedAt": "2023-07-29T18:28:00.865Z",
+      "name": "!eventpoints",
+      "message": "20 points for killing a player 100 points for unlocking Oil Rig Locked Crate 200 points for unlocking a regular Locked Crate 125 points for opening an Airdrop 300 points for taking Bradley 100 points for opening a Bradley crate 500 points for taking Patrol Helicopter 200 points for opening a Patrol Helicopter crate Winning Roam Bubbles 500 points for winning an Arena",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67568c9285c6f64d65979116",
+      "createdAt": "2024-12-09T06:22:10.000Z",
+      "updatedAt": "2026-03-31T21:49:55.992Z",
+      "name": "!event",
+      "message": "Rust Kickoff June 11th - June 14th",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "67383226cc35d62070c259d4",
+      "createdAt": "2024-11-16T05:48:22.000Z",
+      "updatedAt": "2024-11-16T05:48:22.118Z",
+      "name": "!enshrouded",
+      "message": "Use my link to check the game out! https://connect.enshrouded.com/CoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 5
+    },
+    {
+      "_id": "656278a4524e43d3e9d1a617",
+      "createdAt": "2023-11-25T22:43:48.000Z",
+      "updatedAt": "2023-11-25T22:43:48.566Z",
+      "name": "!eng",
+      "message": "Please speak English. Por favor habla en ingles. por favor fale em ingl\u00eas. S'il vous plait parlez anglais. Bitte sprecht Englisch. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0435 \u043f\u043e-\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438. \u8bf7\u8bf4\u82f1\u8bed. \uc601\uc5b4\ub85c \ub9d0 \ud574\uc8fc\uc138\uc694. Vui l\u00f2ng n\u00f3i ti\u1ebfng Anh. \u0623\u0631\u062c\u0648\u0643 \u062a\u0643\u0644\u0645 \u0628\u0627\u0644\u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629. \u0644\u0637\u0641\u0627 \u0627\u0646\u06af\u0644\u06cc\u0633\u06cc \u0635\u062d\u0628\u062a \u06a9\u0646\u06cc\u062f. \u0915\u0943\u092a\u092f\u093e \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u092e\u0947\u0902 \u092c\u093e\u0924 \u0915\u0930\u0947\u0902. L\u00fctfen sadece ingilizce sohbet edin. Pros\u00edm mluv anglicky. Parler en anglais. V\u00e4nligen tala engelska. Spreek alsjeblieft Engels. V\u00e6r venlig at tale engelsk. \u05e0\u05d0 \u05dc\u05d3\u05d1\u05e8 \u05d1\u05d0\u05e0\u05d2\u05dc\u05d9\u05ea.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6ab312fd71e1e5122cc78acf",
+      "createdAt": "2026-09-22T23:45:01.000Z",
+      "updatedAt": "2026-09-22T23:45:01.859Z",
+      "name": "!dune",
+      "message": "Dune: Awakening is on PC (50% off), PS5 and XBOX (with Game Pass): https://tinyurl.com/GetDuneCoconutB",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6756805385c6f64d6595ddb6",
+      "createdAt": "2024-12-09T05:29:55.000Z",
+      "updatedAt": "2026-09-24T07:16:29.222Z",
+      "name": "!drops",
+      "message": "Rust Isles drops from September 24, 2026 - October 4, 2026 | Make sure you have your accounts linked at https://twitch.facepunch.com/ and you can earn all the general drops from watching my stream! Check your drops' progress at https://www.twitch.tv/drops/inventory",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5e8ce332125df9646766a90f",
+      "createdAt": "2020-04-07T20:31:46.000Z",
+      "updatedAt": "2021-07-09T00:06:08.290Z",
+      "name": "!dicksize",
+      "message": "Dick size is 2.9 inches PepeHands",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6a62753456875a27cd18dacf",
+      "createdAt": "2026-07-23T20:10:28.000Z",
+      "updatedAt": "2026-07-23T20:14:27.704Z",
+      "name": "!deathcounter",
+      "message": "coco has died 7 times",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "65721eddb672355710268bdc",
+      "createdAt": "2023-12-07T19:37:01.000Z",
+      "updatedAt": "2023-12-07T19:47:38.150Z",
+      "name": "!creator",
+      "message": "Support-a-streamer: December 7-31;  Support CoconutB by purchasing 2 subs and get a Rust skin! Details here: https://rust.facepunch.com/support-a-streamer",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "614a890ab9a258782d5478c3",
+      "createdAt": "2021-09-22T01:38:18.000Z",
+      "updatedAt": "2021-09-22T01:38:18.829Z",
+      "name": "!coinflip",
+      "message": "[eval]",
+      "userLevel": "moderator",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "64cc94b5198c88c7628f0e13",
+      "createdAt": "2023-08-04T06:03:33.000Z",
+      "updatedAt": "2023-08-04T06:03:33.423Z",
+      "name": "!cocosong",
+      "message": "https://www.youtube.com/watch?v=FhPjg8_K9GA",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "60100c1bfbb9b065d507642d",
+      "createdAt": "2021-01-26T12:33:31.000Z",
+      "updatedAt": "2021-01-26T12:33:31.360Z",
+      "name": "!cheer",
+      "message": "PepoCheer GO COCO PepoCheer",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "673993e9cc35d62070f460a3",
+      "createdAt": "2024-11-17T06:57:45.000Z",
+      "updatedAt": "2024-11-17T06:57:45.651Z",
+      "name": "!chase",
+      "message": "chaseDance FURRY PRIDE chaseDance",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69c1c4192118230d105634e2",
+      "createdAt": "2026-03-23T22:52:09.000Z",
+      "updatedAt": "2026-03-23T22:52:09.644Z",
+      "name": "!burp",
+      "message": "coco can't burp normally, so he makes himself Burp. It sounds like he's puking, but he's not!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69bf4bac5fee6cd301a6d2c3",
+      "createdAt": "2026-03-22T01:53:48.000Z",
+      "updatedAt": "2026-03-22T01:53:48.912Z",
+      "name": "!bourne",
+      "message": "https://www.twitch.tv/coconutb/clip/TalentedSmoothLarkVoteNay-W6GCCuD8eCXdBUO1 Cinema",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "6741661284f7cb7c5286139f",
+      "createdAt": "2024-11-23T05:20:18.000Z",
+      "updatedAt": "2024-11-23T05:20:18.770Z",
+      "name": "!blatant",
+      "message": "https://www.twitch.tv/coconutb/clip/MoldyCrispyTildeCharlieBitMe-3fdIzmxnCc2YHQtJ",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "69de9a5bbe6d95bf81aa2c12",
+      "createdAt": "2026-04-14T19:49:47.000Z",
+      "updatedAt": "2026-06-18T15:04:01.178Z",
+      "name": "!aimtrain",
+      "message": "The Aimtrain Server is Helli's | !hellis",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    }
+  ],
+  "status": 200
+}

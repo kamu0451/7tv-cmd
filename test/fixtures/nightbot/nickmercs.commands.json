@@ -1,0 +1,1026 @@
+{
+  "_total": 102,
+  "commands": [
+    {
+      "_id": "5ab3334ed4eb1704dd2c5c29",
+      "createdAt": "2018-03-22T04:38:38.000Z",
+      "updatedAt": "2018-03-22T04:38:38.306Z",
+      "name": "serioussloth",
+      "message": "SeriousSloth",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c355d9f4bec635229a61380",
+      "createdAt": "2019-01-09T02:34:07.000Z",
+      "updatedAt": "2019-01-09T02:34:07.661Z",
+      "name": "nickmercsyurr",
+      "message": "nickmercsYURR",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c2fea8d4bec6352298edddb",
+      "createdAt": "2019-01-04T23:21:49.000Z",
+      "updatedAt": "2019-01-04T23:21:49.848Z",
+      "name": "nickmercss",
+      "message": "nickmercsS",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c2fea7f4bec6352298edd87",
+      "createdAt": "2019-01-04T23:21:35.000Z",
+      "updatedAt": "2019-01-04T23:21:35.918Z",
+      "name": "nickmercshg",
+      "message": "nickmercsHG",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5920ff63ebdadc52a0bd2ab4",
+      "createdAt": "2017-05-21T02:45:55.000Z",
+      "updatedAt": "2017-05-21T02:45:55.817Z",
+      "name": "kappa",
+      "message": "Kappa",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5f2",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-05-03T23:46:16.359Z",
+      "name": "!youtube",
+      "message": "Check out all of the stream highlights and clips below! Make sure to Like, Comment, and Subscribe to your boy! TYVM https://www.youtube.com/nickmercs",
+      "userLevel": "everyone",
+      "count": 2657,
+      "coolDown": 30
+    },
+    {
+      "_id": "59edad855a3c517329a48239",
+      "createdAt": "2017-10-23T08:51:17.000Z",
+      "updatedAt": "2017-10-23T08:51:17.025Z",
+      "name": "!yawn",
+      "message": "ResidentSleeper can you not?",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "590815b48fa0ba1cd3434e7f",
+      "createdAt": "2017-05-02T05:14:28.000Z",
+      "updatedAt": "2018-07-17T23:37:36.689Z",
+      "name": "!wotd",
+      "message": "[touser] Oppositely nickmercsNECK",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5bccd5704233360824284049",
+      "createdAt": "2018-10-21T19:37:20.000Z",
+      "updatedAt": "2018-10-21T19:54:10.915Z",
+      "name": "!win",
+      "message": "Win free NICKMERCS crates and prizes for watching my Twitch Stream at http://nickmercs.sliver.tv",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a9ce16159e4f772ed4a6a3e",
+      "createdAt": "2018-03-05T06:19:13.000Z",
+      "updatedAt": "2018-07-27T11:32:57.769Z",
+      "name": "!where",
+      "message": "[touser] Please refrain from asking where people are, out of respect for Nick and the chat.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b60b",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-01-15T11:30:33.198Z",
+      "name": "!weight",
+      "message": "Nick weighs 206 pounds",
+      "userLevel": "everyone",
+      "count": 478,
+      "coolDown": 30
+    },
+    {
+      "_id": "587c52fac225c46d4931bf88",
+      "createdAt": "2017-01-16T04:58:34.000Z",
+      "updatedAt": "2018-12-09T07:28:25.515Z",
+      "name": "!wallpaper",
+      "message": "[touser], PogChamp MFAM Phone Wallpapers - https://imgur.com/a/hE7l5eY",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5fb",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2019-01-01T22:32:40.773Z",
+      "name": "!vibes",
+      "message": "[touser], Negative Vibes Don't Survive. Especially in here. Keep it positive, or rotate to the next circle! nickmercsVIBES nickmercsVIBES nickmercsVIBES",
+      "userLevel": "everyone",
+      "count": 1366,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b60a",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2017-06-25T07:24:57.285Z",
+      "name": "!uptime",
+      "message": "/me [touser] Nick has currently been streaming for [customapi]",
+      "userLevel": "everyone",
+      "count": 7496,
+      "coolDown": 30
+    },
+    {
+      "_id": "5abdf5c6a561071b3d98d11a",
+      "createdAt": "2018-03-30T08:31:02.000Z",
+      "updatedAt": "2019-05-09T21:25:06.503Z",
+      "name": "!update",
+      "message": "[touser], Click here to see the latest patch notes for Fortnite: https://www.epicgames.com/fortnite/en-US/patch-notes/v9-00",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5f1",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2017-01-25T06:15:02.117Z",
+      "name": "!twitter",
+      "message": "[touser] Follow and Interact with Nick on Twitter: https://twitter.com/NICKMERCS",
+      "userLevel": "everyone",
+      "count": 3477,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b612",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-02-20T04:56:41.493Z",
+      "name": "!tweet",
+      "message": "Click here to support the stream by tweeting it out! http://bit.ly/1MANcdY",
+      "userLevel": "everyone",
+      "count": 100,
+      "coolDown": 30
+    },
+    {
+      "_id": "5ab07efcd4eb1704dd231828",
+      "createdAt": "2018-03-20T03:24:44.000Z",
+      "updatedAt": "2018-03-20T03:24:44.641Z",
+      "name": "!tourneytime",
+      "message": "[touser], Nick is currently playing in a Tournament Match, which means he will be unable to answer questions during this time, once the match is over, he will be more interactive with the stream, please enjoy the gameplay during this time! :D",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b615",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2019-01-27T09:42:55.265Z",
+      "name": "!time",
+      "message": "[touser] Nick's current time is [time]",
+      "userLevel": "everyone",
+      "count": 528,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b3173f5c1a14f7bfa96c247",
+      "createdAt": "2018-06-25T23:00:05.000Z",
+      "updatedAt": "2018-10-01T06:14:31.268Z",
+      "name": "!subtournament",
+      "message": "[touser] More info on the subscriber tournament soon!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "57f1936b8083ad532c632569",
+      "createdAt": "2016-10-02T23:08:27.000Z",
+      "updatedAt": "2016-10-02T23:08:27.707Z",
+      "name": "!subcount",
+      "message": "[twitch]",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5f3",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-01-09T10:47:59.097Z",
+      "name": "!sub",
+      "message": "[touser] , To subscribe to my channel and join the nickmercsFAM click here - https://go.twitch.tv/subs/nickmercs ~ Your support is greatly appreciated! TYVM!",
+      "userLevel": "everyone",
+      "count": 10178,
+      "coolDown": 30
+    },
+    {
+      "_id": "59e9b2703800c15100895810",
+      "createdAt": "2017-10-20T08:23:12.000Z",
+      "updatedAt": "2018-01-19T07:59:52.205Z",
+      "name": "!streak",
+      "message": "[touser] , Nick's Longest win streak on Fortnite Battle Royale is 33 wins. https://www.youtube.com/watch?v=ELgLzbAn8ZY&feature=youtu.be",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5bfadaa07d99c238c03d397b",
+      "createdAt": "2018-11-25T17:23:44.000Z",
+      "updatedAt": "2018-11-29T00:22:00.526Z",
+      "name": "!stats",
+      "message": "[touser], Here are Nick's stats for Fortnite!: https://fortnitetracker.com/profile/pc/Nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5ccf975ade6f29214bb506ab",
+      "createdAt": "2019-05-06T02:09:30.000Z",
+      "updatedAt": "2019-05-12T20:04:26.944Z",
+      "name": "!standings",
+      "message": "[touser], Here is the World Cup Week 5 Finals Standings: https://www.epicgames.com/fortnite/competitive/en-US/events/world-cup/apiStandings/week-5?r=0",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5adeeb3597ee6a6b7f432193",
+      "createdAt": "2018-04-24T08:30:45.000Z",
+      "updatedAt": "2018-04-24T08:30:45.230Z",
+      "name": "!spoiler",
+      "message": "[touser], Nick is playing a game he has never played before. Please do not spoil it, spoilers will result into a timeout/ban. Lets keep it nickmercsVIBE nickmercsFAM",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b61d",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-05-18T01:24:23.995Z",
+      "name": "!specs",
+      "message": "[touser] Nick does not know what his computer specs are. A friend of his had parts picked for him and assembled his computer!",
+      "userLevel": "everyone",
+      "count": 60,
+      "coolDown": 30
+    },
+    {
+      "_id": "58db1a4f3ebfd135c1cbfe79",
+      "createdAt": "2017-03-29T02:22:07.000Z",
+      "updatedAt": "2017-11-15T06:10:30.813Z",
+      "name": "!song",
+      "message": "[touser] Use https://www.shazam.com/ or Google the lyrics.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b74171e0965e3470d36b66c",
+      "createdAt": "2018-08-15T12:05:50.000Z",
+      "updatedAt": "2018-08-15T12:05:50.017Z",
+      "name": "!solopr",
+      "message": "[touser] Nick's PR for kills in a solo game is 27 kills! Watch the video here if you missed it live!: https://www.youtube.com/watch?v=cy9JywlnQMM",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "580d55307b4358a64e97722d",
+      "createdAt": "2016-10-24T00:26:24.000Z",
+      "updatedAt": "2016-10-24T00:26:24.933Z",
+      "name": "!soccer",
+      "message": "Nick is an avid fan of the Manchester Penguins soccer team based out of North Dakota.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b0ca59eb7e2ee7948415e58",
+      "createdAt": "2018-05-29T00:58:06.000Z",
+      "updatedAt": "2018-05-29T00:58:06.966Z",
+      "name": "!shop",
+      "message": "[touser] If you would like to see the Fortnite item shop click this link, https://fnbr.co/shop",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "573ff8c64e0e46826e066133",
+      "createdAt": "2016-05-21T05:57:26.000Z",
+      "updatedAt": "2016-05-21T06:11:56.618Z",
+      "name": "!shades",
+      "message": "[touser] BLOCKIN' OUT THE HATERS http://i.imgur.com/gAoZznZ.jpg",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a72c8ca75930108e824cec4",
+      "createdAt": "2018-02-01T07:59:06.000Z",
+      "updatedAt": "2018-11-18T17:54:35.167Z",
+      "name": "!setup",
+      "message": "[touser] Here is a look at Nick's setup! https://twitter.com/NICKMERCS/status/894642653794451456",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a531e2675930108e8ad682b",
+      "createdAt": "2018-01-08T07:30:46.000Z",
+      "updatedAt": "2019-04-27T02:32:51.902Z",
+      "name": "!settings",
+      "message": "[touser], Nick's video settings https://clips.twitch.tv/ComfortableUgliestOrcaSaltBae",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5bcfb18c42333608243186cb",
+      "createdAt": "2018-10-23T23:41:00.000Z",
+      "updatedAt": "2019-04-27T02:34:01.633Z",
+      "name": "!sensitivity",
+      "message": "[touser], Nick uses a 2 paddle scuf controller (Left paddle to jump, right paddle to edit), and plays on builder pro. Click here to view Nick's controller settings and sensitivity! https://clips.twitch.tv/ComfortableUgliestOrcaSaltBae",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5afba74fb877637a4269058d",
+      "createdAt": "2018-05-16T03:36:47.000Z",
+      "updatedAt": "2019-04-27T02:33:25.205Z",
+      "name": "!sens",
+      "message": "[touser], Nick uses a 2 paddle scuf controller (Left paddle to jump, right paddle to edit), and plays on builder pro. Click here to view Nick's controller settings and sensitivity! https://clips.twitch.tv/ComfortableUgliestOrcaSaltBae",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "576b797e18880df8151f06ab",
+      "createdAt": "2016-06-23T05:54:06.000Z",
+      "updatedAt": "2019-04-19T00:01:05.347Z",
+      "name": "!scuf",
+      "message": "[touser], The Official MFAM Scuf Vantage and MFAM SCUF Impact are now out! Use Code 'NICKMERCS' at Checkout for 5% Off! https://scufgaming.com/nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c3197714bec63522996e06a",
+      "createdAt": "2019-01-06T05:51:45.000Z",
+      "updatedAt": "2019-05-11T01:47:03.427Z",
+      "name": "!scrims",
+      "message": "[touser], MFAM Scrims have been put on hold. Nick is \"Scrimmed Out\" and is taking a break. Do not ask in chat repeatedly or you will be timed out.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c0460968a723648943bd8f6",
+      "createdAt": "2018-12-02T22:45:42.000Z",
+      "updatedAt": "2018-12-02T22:45:42.390Z",
+      "name": "!scrimrules",
+      "message": "[touser] Here are the MFAM Scrim Rules and FAQ! http://bit.ly/2KO1iex",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a87c8cd75930108e8721c40",
+      "createdAt": "2018-02-17T06:16:45.000Z",
+      "updatedAt": "2018-02-17T06:16:45.893Z",
+      "name": "!screen",
+      "message": "[touser], Nick uses an intermission screen to prevent stream sniping. Stream sniping is when viewers try to queue into games with Nick and see where he lands.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c0dee50c8321d08a4e5fecb",
+      "createdAt": "2018-12-10T04:40:48.000Z",
+      "updatedAt": "2019-03-19T01:56:58.514Z",
+      "name": "!score",
+      "message": "[touser] Nothing to post here! SeriousSloth",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5cb51e2ede6f29214b4bd1d3",
+      "createdAt": "2019-04-16T00:13:34.000Z",
+      "updatedAt": "2019-04-16T00:13:34.419Z",
+      "name": "!rules",
+      "message": "[touser]. Click the clip to get to know some of the chat rules https://clips.twitch.tv/TransparentTiredScorpionSmoocherZ",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b61f",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-05-18T01:26:35.998Z",
+      "name": "!router",
+      "message": "[touser] Nick has the Nighthawk R7000 Router!",
+      "userLevel": "everyone",
+      "count": 90,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a6d91e875930108e8123d7c",
+      "createdAt": "2018-01-28T09:03:36.000Z",
+      "updatedAt": "2018-03-13T09:07:28.833Z",
+      "name": "!rocket",
+      "message": "https://clips.twitch.tv/SillySuccessfulEggplantCorgiDerp",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56dcfc07424758a65d9a3514",
+      "createdAt": "2016-03-07T03:56:55.000Z",
+      "updatedAt": "2016-04-30T05:21:14.180Z",
+      "name": "!resub",
+      "message": "[touser] To share sub on mobile: Load up twitch on your browser, switch to desktop mode in options, load up nicks channel and above the chat channel will be a share option.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5ac86ae0227ac7226a50ad45",
+      "createdAt": "2018-04-07T06:53:20.000Z",
+      "updatedAt": "2018-05-02T04:54:49.196Z",
+      "name": "!record",
+      "message": "[touser] Nick and Nio currently hold the record for the most kills ever in a Duos game! They were able to obtain 46 kills, 23 kills from both Nick and Nio! Click here to watch the video if you missed it live! https://www.youtube.com/watch?v=zy6sw6n_EqI",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a57f80775930108e8beac33",
+      "createdAt": "2018-01-11T23:49:27.000Z",
+      "updatedAt": "2018-01-11T23:50:55.427Z",
+      "name": "!recent",
+      "message": "[touser] , [customapi]",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "57ef00768083ad532c5cd220",
+      "createdAt": "2016-10-01T00:16:54.000Z",
+      "updatedAt": "2018-08-23T07:33:07.410Z",
+      "name": "!prime",
+      "message": "[touser] Click this link to activate your twitch prime account! https://twitch.amazon.com/prime After you link your account, click on the sub link and use the prime feature! Click here to sub! https://go.twitch.tv/subs/nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5ae1ea8197ee6a6b7f4d0ee6",
+      "createdAt": "2018-04-26T15:04:33.000Z",
+      "updatedAt": "2018-04-26T15:04:33.097Z",
+      "name": "!pr",
+      "message": "[touser], Nick's individual PR for kills in a squad game is 34! Click here to watch the video! https://www.youtube.com/watch?v=PlXiiRqIp68",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "57297bbe91d8febf71b944f8",
+      "createdAt": "2016-05-04T04:34:06.000Z",
+      "updatedAt": "2018-08-15T04:47:41.952Z",
+      "name": "!playlist",
+      "message": "[touser] Youtube: bit.ly/2N6zZvX | Spotify: https://spoti.fi/2N7olAW | Apple Music: apple.co/2LdNIkd",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b930f97625fa45567681d7b",
+      "createdAt": "2018-09-07T23:53:59.000Z",
+      "updatedAt": "2018-12-18T00:20:25.467Z",
+      "name": "!pc",
+      "message": "Check out my custom PC from BLD by NZXT here: https://nzxt.co/NickmercsPC",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a5fe96875930108e8de06bd",
+      "createdAt": "2018-01-18T00:25:12.000Z",
+      "updatedAt": "2019-05-09T21:24:54.895Z",
+      "name": "!patch",
+      "message": "[touser], Click here to see the latest patch notes for Fortnite: https://www.epicgames.com/fortnite/en-US/patch-notes/v9-00",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b601",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-03-08T04:53:50.823Z",
+      "name": "!od",
+      "message": "[touser], Overdose/Overdone = Too Much of anything. Having fun with words! #WordPlay",
+      "userLevel": "everyone",
+      "count": 418,
+      "coolDown": 30
+    },
+    {
+      "_id": "57579c8b21df1e834b5ec19d",
+      "createdAt": "2016-06-08T04:18:19.000Z",
+      "updatedAt": "2018-01-03T07:36:50.685Z",
+      "name": "!neck",
+      "message": "[Error 404] Not Found nickmercsNECK",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b634",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-09-12T05:10:34.507Z",
+      "name": "!monitor",
+      "message": "[touser] Nick uses an Alienware 25 gaming monitor. Here is the link!: https://amzn.to/2M8Ot1v",
+      "userLevel": "everyone",
+      "count": 166,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b621",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-04-29T06:25:56.349Z",
+      "name": "!mobilesub",
+      "message": "[touser] If you would like to sub on the twitch mobile app, copy the link for the !sub command and paste it in your mobile browser. From there you can follow the steps and it should work out.",
+      "userLevel": "everyone",
+      "count": 544,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a212cbcb2d7d152d37f8fb0",
+      "createdAt": "2017-12-01T10:19:40.000Z",
+      "updatedAt": "2017-12-21T09:48:03.330Z",
+      "name": "!mfamsong",
+      "message": "Show some love to the homie who made this song for the MFAM! https://soundcloud.com/cole-ryans/mfam",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c0387138a7236489438436c",
+      "createdAt": "2018-12-02T07:17:39.000Z",
+      "updatedAt": "2018-12-20T23:27:20.785Z",
+      "name": "!mfamscrims",
+      "message": "[touser] Join the Discord to play in MFAM Scrims! discord.gg/nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5be0c77a42333608246a8431",
+      "createdAt": "2018-11-05T22:43:06.000Z",
+      "updatedAt": "2018-12-09T07:22:38.922Z",
+      "name": "!mfamproject",
+      "message": "[touser] The first MFAM Project is complete. The MFAM was able to raise $54,000 for Prader-Willi Syndrome research! Watch the video behind the cause here: https://youtu.be/FvHqv7DRX7s and remember not me, not you, US! nickmercsFAM nickmercsLOVE",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b606",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2019-09-02T15:18:03.694Z",
+      "name": "!location",
+      "message": "[touser], Nick lives around Detroit, Michigan.",
+      "userLevel": "everyone",
+      "count": 340,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b512b77c1a14f7bfa097ec8",
+      "createdAt": "2018-07-20T00:23:19.000Z",
+      "updatedAt": "2018-07-20T00:23:19.668Z",
+      "name": "!list",
+      "message": "This is a list of people we do not play because they have either cheated or IP Flooded against us: http://bit.ly/29mhljE",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "59e2c8b23800c1510076ca12",
+      "createdAt": "2017-10-15T02:32:18.000Z",
+      "updatedAt": "2017-10-15T02:35:04.003Z",
+      "name": "!leaderboards",
+      "message": "Fortnite Leaderboards are finally live! PogChamp Click here to navigate throughout the Leaderboards: https://fortnitetracker.com/?lb=p9",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5f0",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-02-20T04:56:41.467Z",
+      "name": "!ldg",
+      "message": "Little Dick Gang- Together we will conquer the world #MercsFam #LDG",
+      "userLevel": "everyone",
+      "count": 1412,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a39d1f9e918332f3f21080a",
+      "createdAt": "2017-12-20T02:59:05.000Z",
+      "updatedAt": "2017-12-20T03:04:26.634Z",
+      "name": "!lasttweet",
+      "message": "[touser] , Nick's last tweet: [customapi] .",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a83b4c775930108e86348a0",
+      "createdAt": "2018-02-14T04:02:15.000Z",
+      "updatedAt": "2018-08-07T07:34:43.124Z",
+      "name": "!joey",
+      "message": "[touser], nickmercsJOEY Joey is Nick's Dog, He's a black lab! Here is his instagram! https://www.instagram.com/joemercs/",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b600",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-05-20T09:26:08.898Z",
+      "name": "!instagram",
+      "message": "Follow the Instagram and stay connected to see what I usually do, also photos of Joey nickmercsJOEY : https://instagram.com/nickmercs/",
+      "userLevel": "everyone",
+      "count": 1267,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b62b",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-12-04T05:48:58.430Z",
+      "name": "!ignore",
+      "message": "[touser] Nick plays in many scrims and Fortnite events every night and receives many alerts every stream. He never means to intentionally miss your sub or donation. He greatly appreciates your support! nickmercsFAM nickmercsLOVE",
+      "userLevel": "everyone",
+      "count": 10,
+      "coolDown": 30
+    },
+    {
+      "_id": "590938108fa0ba1cd3469ef2",
+      "createdAt": "2017-05-03T01:53:20.000Z",
+      "updatedAt": "2017-05-03T01:53:20.968Z",
+      "name": "!housevlog",
+      "message": "Check out Nick's first official vlog: a tour of the home that he bought for his folks. Make sure to smash the like button as well MiniK https://youtu.be/5hfmleXrKCA",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a64443475930108e8ef8d5b",
+      "createdAt": "2018-01-21T07:41:40.000Z",
+      "updatedAt": "2018-01-21T07:42:49.573Z",
+      "name": "!help",
+      "message": "[touser] , Don't ask Nick for streaming setup help for he is currently streaming and does not have the time to go over streaming setups! Thank you!",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b609",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-06-28T00:14:09.486Z",
+      "name": "!height",
+      "message": "[touser] Nick is 6 ft tall. nickmercsNECK",
+      "userLevel": "everyone",
+      "count": 653,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5ee",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-09-21T01:44:23.254Z",
+      "name": "!headset",
+      "message": "[touser] Nick uses the Astro A40 TR headset!",
+      "userLevel": "everyone",
+      "count": 906,
+      "coolDown": 30
+    },
+    {
+      "_id": "56cee142d20c731548f35602",
+      "createdAt": "2016-02-25T11:10:58.000Z",
+      "updatedAt": "2016-02-25T11:10:58.984Z",
+      "name": "!gbt",
+      "message": "Get Better Together [Fitness Talk]",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a3f5f6be918332f3f337c24",
+      "createdAt": "2017-12-24T08:03:55.000Z",
+      "updatedAt": "2017-12-30T07:10:37.686Z",
+      "name": "!fortnite",
+      "message": "If you guys didn't know, Epic Games made both this game and Gears of War. Nick loves games, each with terribly overpowered shotguns, so this is right up his alley.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "597fdfc42c85ba353c21cc32",
+      "createdAt": "2017-08-01T01:56:20.000Z",
+      "updatedAt": "2017-08-01T01:56:20.309Z",
+      "name": "!followercount",
+      "message": "https://socialblade.com/twitch/user/nickmercs/realtime",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c15eff9c8321d08a404b223",
+      "createdAt": "2018-12-16T06:26:01.000Z",
+      "updatedAt": "2018-12-16T06:26:01.095Z",
+      "name": "!followage",
+      "message": "[touser], Click this link then type in your twitch username and the channel username. http://twitch.center/follow",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "59081e478fa0ba1cd3436b22",
+      "createdAt": "2017-05-02T05:51:03.000Z",
+      "updatedAt": "2017-05-02T05:51:03.335Z",
+      "name": "!follow",
+      "message": "Make sure to follow the stream with live notifications on to know right when Nick goes live (especially helpful for giveaway streams) MiniK",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b4e7210c1a14f7bfafefbcf",
+      "createdAt": "2018-07-17T22:47:44.000Z",
+      "updatedAt": "2018-07-17T22:47:44.017Z",
+      "name": "!firstgame",
+      "message": "NO JUDGEMENT!! nickmercsANGRY",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "580d2e6c7b4358a64e96fa7b",
+      "createdAt": "2016-10-23T21:41:00.000Z",
+      "updatedAt": "2018-07-27T11:32:02.598Z",
+      "name": "!emotes",
+      "message": "[touser] Check out the emotes for the channel here!: https://www.twitchemotes.com/channel/nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b5fa",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-12-09T07:12:34.478Z",
+      "name": "!donate",
+      "message": "[touser] You can donate directly to Nick at https://www.twitchalerts.com/donate/nickmercs . All contributions go towards helping support the stream; including future giveaways. A $5 minimum is required for a message to appear!",
+      "userLevel": "everyone",
+      "count": 2772,
+      "coolDown": 30
+    },
+    {
+      "_id": "57ad0d6fc2840b2f254c992c",
+      "createdAt": "2016-08-11T23:42:39.000Z",
+      "updatedAt": "2018-12-15T22:25:47.302Z",
+      "name": "!discord",
+      "message": "[touser] , Come hang out with the #MercsFam! https://discord.gg/nickmercs - To sync your Twitch account with your Discord account, you go into User Settings > Connections > Twitch.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c71cc60cc39145dcc87ddab",
+      "createdAt": "2019-02-23T22:42:40.000Z",
+      "updatedAt": "2019-02-24T05:13:27.824Z",
+      "name": "!deadzone",
+      "message": "[touser] Nick's deadzone is .20, .20.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a3f88e8e918332f3f33e74d",
+      "createdAt": "2017-12-24T11:00:56.000Z",
+      "updatedAt": "2017-12-24T11:00:56.616Z",
+      "name": "!dab",
+      "message": "https://clips.twitch.tv/SeductiveBenevolentCaribou4Head",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c9edda79b420351e9b6f162",
+      "createdAt": "2019-03-30T03:08:23.000Z",
+      "updatedAt": "2019-03-30T03:08:23.754Z",
+      "name": "!customshelp",
+      "message": "[touser], This is how you join a custom lobby! https://clips.twitch.tv/HotPowerfulCaribouHeyGirl",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5c9eb4e39b420351e9b61d42",
+      "createdAt": "2019-03-30T00:14:27.000Z",
+      "updatedAt": "2019-05-01T01:37:03.139Z",
+      "name": "!customs",
+      "message": "[touser], Follow these instructions to play in the MFAM Custom matches! https://gyazo.com/14337276cecc921882f0bfd426c569c8",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5bbff632625fa45567fd8f5d",
+      "createdAt": "2018-10-12T01:17:38.000Z",
+      "updatedAt": "2018-10-12T01:19:03.858Z",
+      "name": "!creatorcode",
+      "message": "[touser] Nick has a creator code PogChamp Go to the bottom right of the item shop and click \"Support a Creator\" and type in the code \"nickmercs\" https://clips.twitch.tv/PeppyCleanNikudonEagleEye",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b602",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2019-04-18T22:55:55.189Z",
+      "name": "!controller",
+      "message": "[touser], Nick is currently using a SCUF Infinity. He does not use any Kontrol Freeks. Here is a video :D https://clips.twitch.tv/CooperativeHardMinkAllenHuhu",
+      "userLevel": "everyone",
+      "count": 420,
+      "coolDown": 30
+    },
+    {
+      "_id": "5aace5d3d4eb1704dd15d7a3",
+      "createdAt": "2018-03-17T09:54:27.000Z",
+      "updatedAt": "2018-03-17T09:54:27.725Z",
+      "name": "!cmg",
+      "message": "Nick's CMG Profile: https://www.checkmategaming.com/profile/38018/nickmercs",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a448714e918332f3f423f66",
+      "createdAt": "2017-12-28T05:54:28.000Z",
+      "updatedAt": "2017-12-28T05:54:28.474Z",
+      "name": "!christmasvid",
+      "message": "https://www.youtube.com/watch?v=R2aRIDitAEo",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b620",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-02-23T06:07:20.410Z",
+      "name": "!chicken",
+      "message": "We don't know why we say Chicken so much!",
+      "userLevel": "everyone",
+      "count": 361,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b61a",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-12-09T07:32:44.588Z",
+      "name": "!check",
+      "message": "[touser] If you are asking Nick to check Twitter, Instagram or anything of that nature, he will be able to check after the stream. He is not trying to ignore you, but when he is streaming, he wants to focus on stream.",
+      "userLevel": "everyone",
+      "count": 197,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b622",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2019-09-02T15:16:24.818Z",
+      "name": "!camera",
+      "message": "[touser] Nick uses the Logitech C920!",
+      "userLevel": "everyone",
+      "count": 35,
+      "coolDown": 30
+    },
+    {
+      "_id": "5ba43c25625fa45567a12d09",
+      "createdAt": "2018-09-21T00:32:37.000Z",
+      "updatedAt": "2018-09-21T00:32:37.869Z",
+      "name": "!bttv",
+      "message": "[touser], Download BetterTwitchTV to access new emotes and other cool features it has to offer! Click here to see how to download! http://bit.ly/2aLQ7EE",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "583f7c2800e26b6003bdd203",
+      "createdAt": "2016-12-01T01:26:00.000Z",
+      "updatedAt": "2018-04-17T03:27:29.237Z",
+      "name": "!bits",
+      "message": "[touser], You can cheer bits by clicking the diamond looking button next to the smiley face in the chat! Here is more information about cheering bits! Learn how to cheer bits here: https://help.twitch.tv/customer/portal/articles/2449458",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "59926fb360299d754d9b0898",
+      "createdAt": "2017-08-15T03:51:15.000Z",
+      "updatedAt": "2018-07-26T22:54:20.670Z",
+      "name": "!bitbadges",
+      "message": "[touser] Here is a look at the current bit badges to the channel! https://prnt.sc/kbidlr",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5bb55337625fa45567da9f5c",
+      "createdAt": "2018-10-03T23:39:35.000Z",
+      "updatedAt": "2019-01-24T04:28:22.813Z",
+      "name": "!binds",
+      "message": "[touser], Nick's current controller binds click here: https://clips.twitch.tv/ResoluteSullenWaterEleGiggle",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b611",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2016-02-20T04:56:41.493Z",
+      "name": "!bench",
+      "message": "Nick's PR for the Bench is 325 lbs.",
+      "userLevel": "everyone",
+      "count": 737,
+      "coolDown": 30
+    },
+    {
+      "_id": "5b5a530f028ed135b40ff816",
+      "createdAt": "2018-07-26T23:02:39.000Z",
+      "updatedAt": "2019-03-21T20:14:44.225Z",
+      "name": "!badges",
+      "message": "[touser], Here's a look at the Loyalty Sub Badges! https://prnt.sc/n15mxl",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a488fd8e918332f3f512e48",
+      "createdAt": "2017-12-31T07:20:56.000Z",
+      "updatedAt": "2017-12-31T07:38:51.406Z",
+      "name": "!ass",
+      "message": "\u201dMy ass is hanging out of my ass.\u201d December 30, 2017.",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "57b7ef73421334e9442995f6",
+      "createdAt": "2016-08-20T05:49:39.000Z",
+      "updatedAt": "2016-08-20T05:50:41.653Z",
+      "name": "!alberto",
+      "message": "The new #LDG leader after nick stepped down. RESPEK it",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "56c7f20970447e267df5b608",
+      "createdAt": "2016-02-20T04:56:41.000Z",
+      "updatedAt": "2018-11-21T05:02:21.955Z",
+      "name": "!age",
+      "message": "Nick is 28 Years Old",
+      "userLevel": "everyone",
+      "count": 1081,
+      "coolDown": 30
+    },
+    {
+      "_id": "5a56a5ec75930108e8b9e8ec",
+      "createdAt": "2018-01-10T23:46:52.000Z",
+      "updatedAt": "2018-05-31T10:07:48.811Z",
+      "name": "!2017",
+      "message": "[touser] Check out Nick's Best of 2017 video on YouTube! https://www.youtube.com/watch?v=t5LEF4pgfeA&t=0s",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    },
+    {
+      "_id": "5aec0ad897ee6a6b7f70b242",
+      "createdAt": "2018-05-04T07:25:12.000Z",
+      "updatedAt": "2019-05-11T05:32:52.397Z",
+      "name": "!20",
+      "message": "[touser], Nick has dropped 0 20 kill game(s) tonight! nickmercs20",
+      "userLevel": "everyone",
+      "count": 0,
+      "coolDown": 30
+    }
+  ],
+  "status": 200
+}

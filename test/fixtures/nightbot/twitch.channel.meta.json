@@ -1,0 +1,15 @@
+{
+  "url": "https://api.nightbot.tv/1/channels/twitch/twitch",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": null,
+    "access-control-allow-origin": null
+  },
+  "fetchedAt": "2026-10-21T11:53:33.752Z",
+  "bytes": 352
+}

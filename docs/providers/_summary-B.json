@@ -1,0 +1,80 @@
+[
+  {
+    "provider": "botrix",
+    "publicUrlPattern": "https://botrix.live/p/<login>/commands",
+    "endpointChain": [
+      {
+        "method": "GET",
+        "urlTemplate": "https://botrix.live/api/public/commands?user=<login>&platform=twitch",
+        "headers": {}
+      }
+    ],
+    "loginToId": "none: the lowercase Twitch login is sent as the user query parameter",
+    "listPath": "$ (top-level array; unobserved when populated, taken from the site bundle)",
+    "fields": {
+      "name": "cmd (bundle, unobserved)",
+      "aliases": "",
+      "response": "msg (bundle, unobserved)",
+      "cooldown": "",
+      "userLevel": "allowed_roles (array, includes \"all\"; bundle, unobserved)",
+      "enabled": ""
+    },
+    "channels": [
+      { "login": "auronplay", "count": 0 },
+      { "login": "spursito", "count": 0 },
+      { "login": "thegrefg", "count": 0 }
+    ],
+    "negative": { "status": 200, "bodySummary": "{\"error\":true} for an unknown login (twitch); [] for a known login with no commands" },
+    "cors": "no access-control-allow-origin on the GET response; fetch from the extension background with host permission https://botrix.live/*",
+    "requestsUsed": 20,
+    "fixtures": [
+      "test/fixtures/botrix/_negative-twitch.commands.json",
+      "test/fixtures/botrix/_negative-twitch.commands.meta.json",
+      "test/fixtures/botrix/auronplay.commands.json",
+      "test/fixtures/botrix/auronplay.commands.meta.json",
+      "test/fixtures/botrix/spursito.commands.json",
+      "test/fixtures/botrix/spursito.commands.meta.json",
+      "test/fixtures/botrix/thegrefg.commands.json",
+      "test/fixtures/botrix/thegrefg.commands.meta.json"
+    ]
+  },
+  {
+    "provider": "wizebot",
+    "publicUrlPattern": "",
+    "endpointChain": [],
+    "loginToId": "https://wizebot.tv/api/streamings_list.php lists live channels with channel_name (login) and id, but no commands endpoint was found",
+    "listPath": "",
+    "fields": { "name": "", "aliases": "", "response": "", "cooldown": "", "userLevel": "", "enabled": "" },
+    "channels": [],
+    "negative": { "status": 200, "bodySummary": "guessed public paths all redirect to the generic home page /en/index (HTML); viewer.wizebot.tv requires Twitch login" },
+    "cors": "not applicable",
+    "requestsUsed": 14,
+    "fixtures": []
+  },
+  {
+    "provider": "streamlabs-cloudbot",
+    "publicUrlPattern": "",
+    "endpointChain": [],
+    "loginToId": "GET https://streamlabs.com/api/v6/user/<login> (observed; body not saved)",
+    "listPath": "",
+    "fields": { "name": "", "aliases": "", "response": "", "cooldown": "", "userLevel": "", "enabled": "" },
+    "channels": [],
+    "negative": { "status": 200, "bodySummary": "https://streamlabs.com/coconutb/commands redirects to the creator tip page; no commands rendered, no commands API call" },
+    "cors": "not applicable",
+    "requestsUsed": 6,
+    "fixtures": []
+  },
+  {
+    "provider": "phantombot",
+    "publicUrlPattern": "",
+    "endpointChain": [],
+    "loginToId": "",
+    "listPath": "",
+    "fields": { "name": "", "aliases": "", "response": "", "cooldown": "", "userLevel": "", "enabled": "" },
+    "channels": [],
+    "negative": { "status": 0, "bodySummary": "self-hosted per streamer; no central public page and no example per-user URL found" },
+    "cors": "not applicable",
+    "requestsUsed": 2,
+    "fixtures": []
+  }
+]

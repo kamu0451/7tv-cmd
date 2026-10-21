@@ -1,0 +1,14 @@
+{
+  "channel": {
+    "_id": "681b9ae30106b63fb2471648",
+    "createdAt": "2025-05-07T17:39:47.000Z",
+    "updatedAt": "2026-07-24T15:25:36.613Z",
+    "name": "twitch",
+    "displayName": "Twitch",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7db44749-286f-4db0-9c99-574b16170d44-profile_image-300x300.png",
+    "provider": "twitch",
+    "providerId": "12826",
+    "admin": false
+  },
+  "status": 200
+}

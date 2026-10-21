@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "social": {
+      "youtube": "https://youtube.com/channel/UCD4SgJUjdLTQGYIuHf-WGYg"
+    },
+    "title": "twitch's profile",
+    "headerImage": "https://cdn.streamelements.com/static/user/profile_header_default.png"
+  },
+  "broadcasterType": "",
+  "_id": "5acfe952e0d91f2b7a59bfe3",
+  "provider": "youtube",
+  "suspended": false,
+  "providerId": "UCD4SgJUjdLTQGYIuHf-WGYg",
+  "username": "twitch",
+  "alias": "twitch",
+  "avatar": "https://yt3.ggpht.com/-SaNOduIuJ0Q/AAAAAAAAAAI/AAAAAAAAAAA/8vJXdpNI8AM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg",
+  "displayName": "Twitch",
+  "inactive": false,
+  "isPartner": false
+}

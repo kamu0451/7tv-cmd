@@ -1,0 +1,37 @@
+{
+  "provider": "botisimo",
+  "visits": [
+    {
+      "url": "https://botisimo.com/coconutb/commands",
+      "visitedAt": "2026-10-21T11:56:33.450Z",
+      "documentStatus": 200,
+      "finalUrl": "https://botisimo.com/coconutb/commands",
+      "title": "botisimo.com",
+      "error": null,
+      "requests": [
+        {
+          "method": "GET",
+          "url": "https://botisimo.com/coconutb/commands",
+          "resourceType": "document",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "requestHeaders": {
+            "upgrade-insecure-requests": "1",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+          },
+          "responseHeaders": {
+            "content-type": "text/html; charset=UTF-8",
+            "server": "Apache",
+            "vary": "Accept-Encoding"
+          },
+          "responseBytes": 995,
+          "postData": null
+        }
+      ]
+    }
+  ],
+  "note": "Trimmed to document/xhr/fetch/websocket/eventsource requests on the provider own hosts; cookies and authorization values redacted; User-Agent was the stock Chromium one (Playwright)."
+}

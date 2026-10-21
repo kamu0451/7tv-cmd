@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "title": "imkaicenat's profile",
+    "headerImage": "https://cdn.streamelements.com/static/user/profile_header_default.png"
+  },
+  "_id": "607f0112ffa1497aa7c07208",
+  "provider": "twitch",
+  "broadcasterType": "partner",
+  "suspended": false,
+  "providerId": "641972806",
+  "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf6a04cf-3f44-4986-8eed-5c36bfad542b-profile_image-300x300.png",
+  "username": "kaicenat",
+  "alias": "kaicenat",
+  "displayName": "KaiCenat",
+  "inactive": false,
+  "isPartner": true
+}

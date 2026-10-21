@@ -1,0 +1,19 @@
+{
+  "url": "https://fossabot.com/api/v2/cached/channels/28372/commands",
+  "method": "GET",
+  "status": 200,
+  "requestHeaders": {
+    "user-agent": "7tv-cmd-research/0.1"
+  },
+  "responseHeaders": {
+    "content-type": "application/json",
+    "cache-control": null,
+    "access-control-allow-origin": "*",
+    "x-ratelimit-bucket": "ip",
+    "x-ratelimit-remaining": "27",
+    "x-ratelimit-reset": "1792583527",
+    "x-ratelimit-total": "30"
+  },
+  "fetchedAt": "2026-10-21T11:53:45.857Z",
+  "bytes": 7244
+}

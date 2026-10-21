@@ -1,0 +1,75 @@
+{
+  "provider": "nightbot",
+  "visitedUrl": "https://nightbot.tv/t/coconutb/commands",
+  "visitedAt": "2026-10-21T11:50:55.056Z",
+  "gotoError": null,
+  "page": {
+    "title": "CoconutB's Commands",
+    "finalUrl": "https://nightbot.tv/t/coconutb/commands",
+    "textHead": "Nightbot\n\nCommands\n\nSong Requests\n\nMy Dashboard\n\nLogin\n\nCoconutB's Commands\n\nCommands are used to trigger responses in chat\n\nCommand\n\n\t\n\nMessage\n\n\t\n\nUser-Level\n\n\n!aimtrain\t\n\nThe Aimtrain Server is Helli's | !hellis\n\n\t\nEveryone\n\n!blatant\t\n\nhttps://www.twitch.tv/coconutb/clip/MoldyCrispyTildeCharlieBitMe-3fdIzmxnCc2YHQtJ\n\n\t\nEveryone\n\n!bourne\t\n\nhttps://www.twitch.tv/coconutb/clip/TalentedSmoothLarkVoteNay-W6GCCuD8eCXdBUO1 Cinema\n\n\t\nEveryone\n\n!burp\t\n\ncoco can't burp normally, so he makes himself Bur",
+    "textLen": 3721
+  },
+  "tallyByHostAndType": {
+    "nightbot.tv document": 1,
+    "nightbot.tv stylesheet": 3,
+    "nightbot.tv script": 10,
+    "nightbot.tv other": 1,
+    "nightbot.tv font": 2,
+    "api.nightbot.tv fetch": 2,
+    "o23210.ingest.us.sentry.io fetch": 1
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://nightbot.tv/t/coconutb/commands",
+      "resourceType": "document",
+      "status": 200,
+      "contentType": "text/html",
+      "responseBytes": 1403,
+      "accessControlAllowOrigin": null,
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      },
+      "bodyPreview": null,
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.nightbot.tv/1/channels/twitch/coconutb",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 359,
+      "accessControlAllowOrigin": "https://nightbot.tv",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "*/*",
+        "origin": "https://nightbot.tv",
+        "referer": "https://nightbot.tv/"
+      },
+      "bodyPreview": "{\"channel\":{\"_id\":\"56c7e73d70447e267df1f19d\",\"createdAt\":\"2016-02-20T04:10:37.000Z\",\"updatedAt\":\"2026-10-05T07:00:03.642Z\",\"name\":\"coconutb\",\"displayName\":\"CoconutB\",\"avatar\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/0149120c-37ef-43ad-98e5-bb07bc7ea6ad-profile_image-300x300.png\",\"provider\":\"t",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://api.nightbot.tv/1/commands",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 22653,
+      "accessControlAllowOrigin": "https://nightbot.tv",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "*/*",
+        "nightbot-channel": "56c7e73d70447e267df1f19d",
+        "origin": "https://nightbot.tv",
+        "referer": "https://nightbot.tv/"
+      },
+      "bodyPreview": "{\"_total\":75,\"commands\":[{\"_id\":\"679d62866f63a9591272740d\",\"createdAt\":\"2025-01-31T23:53:42.000Z\",\"updatedAt\":\"2025-01-31T23:53:42.452Z\",\"name\":\"luxdrop\",\"alias\":\"\",\"message\":\"Use https://luxdrop.com/r/COCO for free cases and 5% Deposit Bonus!  Use coconutsyummyyummy  for a free $2.50 MUST be under ",
+      "providerDomain": true
+    }
+  ],
+  "note": "Cookies and authorization values stripped; pseudo headers, baggage and sentry-trace removed; analytics, error-reporting and /cdn-cgi/ entries dropped (count in droppedNoiseEntries). Static assets (script/stylesheet/image/font) are only tallied in tallyByHostAndType.",
+  "droppedNoiseEntries": 1
+}

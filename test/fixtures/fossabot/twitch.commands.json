@@ -1,0 +1,23 @@
+{
+  "roles": [
+    {
+      "id": "CAEQERoGNjQ5MTUz",
+      "name": "Moderator",
+      "default": true
+    }
+  ],
+  "commands": [
+    {
+      "enabled_offline": true,
+      "enabled_online": true,
+      "id": "CAEQBxoGcGVybWl0",
+      "name": "permit",
+      "response": "Permit someone to not be caught by any Fossabot filters for 60 seconds.",
+      "type": "default",
+      "aliases": [],
+      "role_ids": [
+        "CAEQERoGNjQ5MTUz"
+      ]
+    }
+  ]
+}

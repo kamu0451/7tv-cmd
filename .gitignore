@@ -1,0 +1,22 @@
+node_modules/
+dist/
+web-ext-artifacts/
+vendor/
+test-results/
+playwright-report/
+.pw-profiles/
+*.log
+*.stackdump
+# test-run evidence (screenshots, logs, DOM dumps, recordings): kept local, never published
+docs/critics/
+docs/recordings/
+.DS_Store
+Thumbs.db
+test/fixture-page/dist/
+tools/dev/out/
+.env
+.env.*
+*.xpi
+*.crx
+.idea/
+.vscode/

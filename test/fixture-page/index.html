@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" class="tw-root--theme-dark">
+<head>
+<meta charset="utf-8">
+<title>7tv-cmd fixture chat</title>
+<style>
+  html, body { margin: 0; height: 100%; font-family: Inter, Roobert, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+  html.tw-root--theme-dark body { background: rgb(24, 24, 27); color: rgb(239, 239, 241); }
+  html.tw-root--theme-light body { background: rgb(255, 255, 255); color: rgb(14, 14, 16); }
+  #chat-room { position: absolute; left: 0; right: 0; bottom: 0; padding: 0 0 48px 0; }
+  .chat-wysiwyg-input-box { margin: 0 8px; min-height: 40px; border: 1px solid rgb(83, 83, 95); border-radius: 4px; }
+  .chat-wysiwyg-input__editor { padding: 10px; min-height: 20px; outline: none; }
+</style>
+</head>
+<body>
+<!-- Test fixture (test/fixture-page): a real slate-react editor carrying the attributes and
+     wrapper classes Twitch's chat input has (docs/part3-notes.md, "Selectors relied on").
+     ?mode=seventv wraps the input box the way 7TV re-parents it (docs/reference-7tv-popup.md).
+     ?theme=dark|light sets html.tw-root--theme-*. fixture.ts builds the wrappers and mounts the editor. -->
+<div id="chat-room" class="chat-room__content"></div>
+<script src="/__fixture/fixture.js"></script>
+</body>
+</html>

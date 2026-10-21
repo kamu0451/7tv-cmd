@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-21",
+  "clones": {
+    "sevenTv": {"repo": "SevenTV/Extension", "commit": "69eaa09a6bf556af58f95c349b4fc169299ef201", "commitDate": "2026-10-06", "version": "3.1.26"},
+    "ffz": {"repo": "FrankerFaceZ/FrankerFaceZ", "commit": "fe229eadc0abdb35b03980bf2b3255adffdb5c87", "commitDate": "2026-10-20"},
+    "bttv": {"repo": "night/betterttv", "commit": "1a616214cfebbc9dd9dfaf3f3d205f91f99f2e2f", "commitDate": "2026-10-15", "version": "7.7.28"}
+  },
+  "products": {
+    "sevenTv": {
+      "status": "partial",
+      "detail": "Completes emotes (':' list, Tab carousel) and chatter names; adds 7TV's own '/' commands to Twitch's slash list. No '!' bot commands, no bot provider code, no issue or PR asking for it.",
+      "evidence": [
+        {"ref": "src/site/twitch.tv/modules/chat-input/ChatInputModule.vue:133-197", "note": "all autocomplete settings are emote/chatter"},
+        {"ref": "src/site/twitch.tv/modules/chat-input/ChatInput.vue:521-534", "note": "colon completion only on ':'"},
+        {"ref": "src/site/twitch.tv/modules/custom-commands/CommandModule.vue:34", "note": "commands = [Dashboard, Song, Refresh, Nuke]"},
+        {"ref": "CHANGELOG.md:157", "note": "custom commands /search, /add, /remove, /rename"},
+        {"ref": "grep src nightbot|streamelements|fossabot|moobot", "note": "0 hits"},
+        {"ref": "https://github.com/SevenTV/Extension/pull/1041", "note": "Feat/new custom commands (7TV slash commands)"},
+        {"ref": "https://github.com/SevenTV/Extension/pull/853", "note": "Custom commands, closed"}
+      ],
+      "covers": "emote and chatter completion, 7TV slash commands",
+      "misses": "per-channel bot '!' commands"
+    },
+    "ffz": {
+      "status": "shipped",
+      "detail": "Core registers '!' prefix and a chat:get-tab-commands hook; official add-on 'Custom Commands Auto Completer' (iXyles, v1.0.0, 2026-02-01) fetches commands from StreamElements, Fossabot, Nightbot, Moobot.",
+      "evidence": [
+        {"ref": "src/modules/chat/index.js:97", "note": "CommandPrefixes.set('ffz', ['/', '!'])"},
+        {"ref": "src/sites/twitch-twilight/modules/chat/input.jsx:835", "note": "emit chat:get-tab-commands"},
+        {"ref": "https://github.com/FrankerFaceZ/Add-Ons/blob/master/src/custom-commands-auto-complete/manifest.json", "note": "enabled true, v1.0.0, created/updated 2026-02-01"},
+        {"ref": "https://github.com/FrankerFaceZ/Add-Ons/blob/master/src/custom-commands-auto-complete/presets.js", "note": "api.streamelements.com, fossabot.com, api.nightbot.tv endpoints; Streamlabs excluded (CORS)"},
+        {"ref": "https://github.com/FrankerFaceZ/Add-Ons/blob/master/src/custom-commands-auto-complete/sources.js", "note": "source applies only when bot detected in channel"},
+        {"ref": "https://github.com/FrankerFaceZ/FrankerFaceZ/issues/1625", "note": "only related issue: Filter Slash Commands"}
+      ],
+      "covers": "free per-channel multi-bot '!' completion in Twitch web chat",
+      "misses": "needs FFZ installed and the add-on enabled; no update since v1.0.0; not live-verified here"
+    },
+    "bttv": {
+      "status": "shipped",
+      "detail": "'Command Autocomplete' on '!' for Nightbot, Fossabot, Moobot, StreamElements, in releases through 7.7.28; gated to BTTV Pro (paid); data via BTTV backend cached/users/<provider>/<id>/autocomplete.",
+      "evidence": [
+        {"ref": "src/modules/command_autocomplete/twitch/Autocomplete.jsx:41-46", "note": "bot providers"},
+        {"ref": "src/modules/command_autocomplete/twitch/Autocomplete.jsx:286-296", "note": "fetch per-channel suggestions"},
+        {"ref": "src/actions/autocomplete.js:24", "note": "BTTV API cached/users/{provider}/{id}/autocomplete"},
+        {"ref": "src/constants.js:448", "note": "COMMAND_PREFIX = '!'"},
+        {"ref": "src/utils/pro.js:5-17", "note": "setting forced to default unless user.pro"},
+        {"ref": "src/modules/settings/settings/global/ChatBots.jsx:13-31", "note": "Command Autocomplete setting with Pro badge"},
+        {"ref": "https://github.com/night/betterttv/pull/8202", "note": "merged 2026-08-30"},
+        {"ref": "https://github.com/night/betterttv/pull/8089", "note": "merged 2026-06-25"},
+        {"ref": "https://github.com/night/betterttv/pull/8160", "note": "pro upgrade page"}
+      ],
+      "covers": "full '!' popup with arguments, user levels, Tab/Enter, Twitch and YouTube",
+      "misses": "paywalled (Pro + BTTV login); origin PR and public price not located"
+    },
+    "chatterino": {
+      "status": "none",
+      "detail": "Desktop Qt client, not a browser extension. Completes Chatterino, custom, plugin and Twitch '/' commands; open PR #7289 adds a popup for '/' and '.' commands only.",
+      "evidence": [
+        {"ref": "src/controllers/completion/sources/CommandSource.cpp:74-101", "note": "command sources: Chatterino, custom, plugin, TWITCH_DEFAULT_COMMANDS"},
+        {"ref": "https://github.com/Chatterino/chatterino2/pull/7289", "note": "open, command completion popup"},
+        {"ref": "https://github.com/Chatterino/chatterino2/pull/7250", "note": "merged, command tab completion in replies"}
+      ],
+      "covers": "own and Twitch slash commands",
+      "misses": "bot commands; not Twitch web chat"
+    }
+  },
+  "standalone": [
+    {"name": "CommandMate", "url": "https://addons.mozilla.org/en-US/firefox/addon/commandmate/", "covers": "per-stream command menu, not inline autocomplete", "lastUpdate": "2025-08-08", "fetchesBotProviders": "not stated (uses nugrunonly.com)"},
+    {"name": "Small Twitch Commands", "url": "https://github.com/Mana24/Small-Twitch-Commands", "covers": "shrinks !command messages", "lastUpdate": "unknown", "fetchesBotProviders": false},
+    {"name": "Library Twitch Command Buttons", "url": "https://greasyfork.org/scripts/547394", "covers": "userscript helper library for chat input", "lastUpdate": "unknown", "fetchesBotProviders": false},
+    {"name": "ttv-chat", "url": "https://github.com/luckydye/ttv-chat", "covers": "separate chat client with a Nightbot service", "lastUpdate": "unknown", "fetchesBotProviders": "Nightbot only, not inspected"},
+    {"name": "Streamer.bot chat client", "url": "https://docs.streamer.bot/guide/extra-features/chat", "covers": "desktop app; snippet says autocomplete includes '!' commands", "lastUpdate": "unknown", "fetchesBotProviders": "unverified"}
+  ],
+  "verdict": "Yes: BetterTTV (Pro-only, paid) and FrankerFaceZ via its free official add-on 'Custom Commands Auto Completer' already ship per-channel bot-command autocomplete in the Twitch web chat input; 7TV, Chatterino and the standalone tools found do not.",
+  "deferred": [
+    "live test of FFZ add-on and BTTV Pro feature",
+    "BTTV origin PR and Pro price page",
+    "direct Chrome Web Store search (consent redirect)"
+  ]
+}

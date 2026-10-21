@@ -1,0 +1,82 @@
+{
+  "provider": "moobot",
+  "visitedUrl": "https://moo.bot/r/commands#pokimane",
+  "visitedAt": "2026-10-21T11:58:03.710Z",
+  "gotoError": null,
+  "page": {
+    "title": "Moobot, your Twitch Chat Bot: Twitch Chat Command List",
+    "finalUrl": "https://moo.bot/r/commands#pokimane",
+    "textHead": "Command list for Pokimane\nRefresh\nCOMMAND\t\nTopic\tTopic: \u00abChat text\u00bb (by By ...\nCommands provided by Moobot",
+    "textLen": 106
+  },
+  "tallyByHostAndType": {
+    "moo.bot document": 1,
+    "moo.bot stylesheet": 1,
+    "moo.bot font": 4,
+    "moo.bot script": 2,
+    "www.googletagmanager.com script": 1,
+    "region1.google-analytics.com fetch": 1,
+    "moo.bot fetch": 2
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://moo.bot/r/commands",
+      "resourceType": "document",
+      "status": 200,
+      "contentType": null,
+      "responseBytes": 3952,
+      "accessControlAllowOrigin": null,
+      "cacheControl": "no-cache, must-revalidate, max-age=60",
+      "requestHeaders": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "if-modified-since": "Sun, 13 Sep 2026 14:29:28 GMT"
+      },
+      "requestBody": null,
+      "bodyPreview": null,
+      "providerDomain": true
+    },
+    {
+      "method": "POST",
+      "url": "https://moo.bot/a/1/channel/meta",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 175,
+      "accessControlAllowOrigin": "https://moo.bot",
+      "cacheControl": "no-cache, no-store, must-revalidate, private, no-cache, must-revalidate, max-age=60",
+      "requestHeaders": {
+        "accept": "application/json",
+        "content-length": "13",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "origin": "https://moo.bot",
+        "referer": "https://moo.bot/r/commands"
+      },
+      "requestBody": "name=pokimane",
+      "bodyPreview": "{\"status\":{\"autojoin\":false,\"joined\":true,\"moderated\":false},\"channel\":{\"trial\":true,\"points\":15,\"userid\":\"44445592\",\"username\":\"pokimane\"},\"version\":476,\"assistant\":\"1.1.14\"}",
+      "providerDomain": true
+    },
+    {
+      "method": "POST",
+      "url": "https://moo.bot/a/1/channel/public/commands/list",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "responseBytes": 138,
+      "accessControlAllowOrigin": "https://moo.bot",
+      "cacheControl": "no-cache, no-store, must-revalidate, private, no-cache, must-revalidate, max-age=60",
+      "requestHeaders": {
+        "accept": "application/json",
+        "content-length": "54",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "origin": "https://moo.bot",
+        "referer": "https://moo.bot/r/commands"
+      },
+      "requestBody": "_limit=15&_offset=0&_order=identifier&channel=44445592",
+      "bodyPreview": "{\"list\":[{\"type\":\"custom\",\"identifier\":\"topic\",\"response\":\"Topic: \\u003ctext\\u003e (by \\u003cby\\u003e \\u003cwhen\\u003e ago)\"}],\"_total\":1}",
+      "providerDomain": true
+    }
+  ],
+  "note": "Cookies and authorization values stripped; pseudo headers, baggage and sentry-trace removed; analytics, error-reporting and /cdn-cgi/ entries dropped (count in droppedNoiseEntries). Static assets (script/stylesheet/image/font) are only tallied in tallyByHostAndType.",
+  "droppedNoiseEntries": 2
+}

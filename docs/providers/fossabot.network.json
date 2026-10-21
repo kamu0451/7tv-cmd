@@ -1,0 +1,108 @@
+{
+  "provider": "fossabot",
+  "visitedUrl": "https://fossabot.com/twitchdev/commands",
+  "visitedAt": "2026-10-21T11:52:08.532Z",
+  "gotoError": null,
+  "page": {
+    "title": "TwitchDev - Commands",
+    "finalUrl": "https://fossabot.com/twitchdev/commands",
+    "textHead": "Log in\nTwitchDev\ntwitch.tv/twitchdev\nChat Commands\nName\n\t\nResponse\n\t\nEnabled\n\n!addcmd\t\nAdds a custom chat command.\nRoles: Moderator\n\tAlways\n!bugs\t\nReport bugs that are affecting developer related products at Twitch: github.com/twitchdev/bugs\n\tAlways\n!build\t\nToday we are building a chatbot for giveways. Join -> https://glitch.com/~hungry-dinghy\n\tAlways\n!calc\t\n$(math \"$(query)\")\nRoles: Broadcaster, Moderator, [Imported] Channel Admin, [Imported] Channel Editor\n\tAlways\n!cli\t\nTwitch API CLI tool: ht",
+    "textLen": 2921
+  },
+  "tallyByHostAndType": {
+    "fossabot.com document": 1,
+    "use.typekit.net stylesheet": 1,
+    "static-assets.fossabot.com stylesheet": 2,
+    "static-assets.fossabot.com manifest": 1,
+    "p.typekit.net stylesheet": 1,
+    "static.cloudflareinsights.com script": 1,
+    "static-assets.fossabot.com script": 63,
+    "use.typekit.net font": 3,
+    "fossabot.com script": 1,
+    " script": 1,
+    "static-assets.fossabot.com other": 1,
+    "fossabot.com xhr": 1,
+    "fossabot.com fetch": 3,
+    "static-cdn.jtvnw.net image": 1,
+    "o242937.ingest.sentry.io fetch": 1
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://fossabot.com/twitchdev/commands",
+      "resourceType": "document",
+      "status": 200,
+      "contentType": "text/html",
+      "responseBytes": 26692,
+      "accessControlAllowOrigin": null,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "requestHeaders": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      },
+      "bodyPreview": null,
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://fossabot.com/api/v2/cached/channels/by-slug/twitchdev",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json",
+      "responseBytes": 429,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": "max-age=30",
+      "requestHeaders": {
+        "accept": "application/json",
+        "fossadev-1p-client-build-id": "9a0d6a2f-926e-41f3-9a7f-5a9b06bce849",
+        "fossadev-1p-client-name": "fossadev.torch.fossabot.clio",
+        "fossadev-client-id": "3FtBOg2weSgLuuzbxAHEbreHanj",
+        "fossadev-version": "bff76bc",
+        "referer": "https://fossabot.com/twitchdev/commands"
+      },
+      "bodyPreview": "{\"channel\":{\"id\":\"28372\",\"login\":\"twitchdev\",\"display_name\":\"TwitchDev\",\"avatar\":\"https://static-cdn.jtvnw.net/jtv_user_pictures/8a6381c7-d0c0-4576-b179-38bd5ce1d6af-profile_image-300x300.png\",\"slug\":\"twitchdev\",\"broadcaster_type\":\"partner\",\"provider\":\"twitch\",\"provider_id\":\"141981764\",\"provider_url",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://fossabot.com/api/v2/cached/channels/28372/stream",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json",
+      "responseBytes": 79,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "fossadev-1p-client-build-id": "9a0d6a2f-926e-41f3-9a7f-5a9b06bce849",
+        "fossadev-1p-client-name": "fossadev.torch.fossabot.clio",
+        "fossadev-client-id": "3FtBOg2weSgLuuzbxAHEbreHanj",
+        "fossadev-version": "bff76bc",
+        "referer": "https://fossabot.com/twitchdev/commands"
+      },
+      "bodyPreview": "{\"is_live\":false,\"current_timestamp\":\"2024-10-16T19:25:34.308519Z\",\"game\":null}",
+      "providerDomain": true
+    },
+    {
+      "method": "GET",
+      "url": "https://fossabot.com/api/v2/cached/channels/28372/commands",
+      "resourceType": "fetch",
+      "status": 200,
+      "contentType": "application/json",
+      "responseBytes": 7244,
+      "accessControlAllowOrigin": "*",
+      "cacheControl": null,
+      "requestHeaders": {
+        "accept": "application/json",
+        "fossadev-1p-client-build-id": "9a0d6a2f-926e-41f3-9a7f-5a9b06bce849",
+        "fossadev-1p-client-name": "fossadev.torch.fossabot.clio",
+        "fossadev-client-id": "3FtBOg2weSgLuuzbxAHEbreHanj",
+        "fossadev-version": "bff76bc",
+        "referer": "https://fossabot.com/twitchdev/commands"
+      },
+      "bodyPreview": "{\"roles\":[{\"id\":\"CAEQERoGMjI0ODUx\",\"name\":\"Broadcaster\",\"default\":true},{\"id\":\"CAEQERoGMjI0ODUz\",\"name\":\"Moderator\",\"default\":true},{\"id\":\"CAEQERoGMjI0ODU1\",\"name\":\"[Imported] Channel Editor\",\"default\":false},{\"id\":\"CAEQERoGMjI0ODU0\",\"name\":\"[Imported] Channel Admin\",\"default\":false}],\"commands\":[{\"",
+      "providerDomain": true
+    }
+  ],
+  "note": "Cookies and authorization values stripped; pseudo headers, baggage and sentry-trace removed; analytics, error-reporting and /cdn-cgi/ entries dropped (count in droppedNoiseEntries). Static assets (script/stylesheet/image/font) are only tallied in tallyByHostAndType.",
+  "droppedNoiseEntries": 2
+}

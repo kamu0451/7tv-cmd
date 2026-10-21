@@ -1,0 +1,19 @@
+{
+  "channel": {
+    "id": "738161041054085120",
+    "login": "kaajak1",
+    "display_name": "kaajak1",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9072dac6-8e1c-4966-9e32-1f85fbfcb39a-profile_image-300x300.png",
+    "slug": "kaajak1",
+    "broadcaster_type": "partner",
+    "provider": "twitch",
+    "provider_id": "176673133",
+    "provider_url": "twitch.tv/kaajak1",
+    "created_at": "2025-07-29T22:28:26.556026Z"
+  },
+  "parent": {
+    "id": "738161041083445248",
+    "type": "channel",
+    "parent_id": "738161041054085120"
+  }
+}

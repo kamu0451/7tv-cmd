@@ -1,0 +1,237 @@
+[
+  {
+    "provider": "nightbot",
+    "publicUrlPattern": "https://nightbot.tv/t/<login>/commands",
+    "endpointChain": [
+      {
+        "method": "GET",
+        "urlTemplate": "https://api.nightbot.tv/1/channels/twitch/<login>",
+        "headers": {}
+      },
+      {
+        "method": "GET",
+        "urlTemplate": "https://api.nightbot.tv/1/commands",
+        "headers": {
+          "Nightbot-Channel": "<id>"
+        }
+      }
+    ],
+    "loginToId": "$.channel._id from step 1 (24 hex); $.channel.providerId is the Twitch user id",
+    "listPath": "$.commands",
+    "fields": {
+      "name": "$.commands[].name (usually with leading \"!\", sometimes without: strip it)",
+      "aliases": "$.commands[].alias (single string, \"\" in all fixtures)",
+      "response": "$.commands[].message",
+      "cooldown": "$.commands[].coolDown (seconds)",
+      "userLevel": "$.commands[].userLevel (everyone, moderator seen)",
+      "enabled": "none (no field)"
+    },
+    "channels": [
+      {
+        "login": "coconutb",
+        "count": 75
+      },
+      {
+        "login": "nickmercs",
+        "count": 102
+      },
+      {
+        "login": "lirik",
+        "count": 1
+      }
+    ],
+    "negative": {
+      "status": 404,
+      "bodySummary": "login unknown to Nightbot (dansgaming): {\"message\":\"user not found\",\"status\":404} on step 1; missing Nightbot-Channel header gives 400 {\"message\":\"invalid channel\"}; twitch exists with 4 commands so it is not negative"
+    },
+    "cors": "Access-Control-Allow-Origin reflects the request Origin (https://nightbot.tv and https://www.twitch.tv tested; preflight 204 allows Nightbot-Channel); none sent without Origin",
+    "requestsUsed": 20,
+    "fixtures": [
+      "test/fixtures/nightbot/_negative-dansgaming.channel.json",
+      "test/fixtures/nightbot/_negative-noheader.commands.json",
+      "test/fixtures/nightbot/_negative-summit1g.channel.json",
+      "test/fixtures/nightbot/_negative-timthetatman.channel.json",
+      "test/fixtures/nightbot/coconutb.channel.json",
+      "test/fixtures/nightbot/coconutb.commands.json",
+      "test/fixtures/nightbot/lirik.channel.json",
+      "test/fixtures/nightbot/lirik.commands.json",
+      "test/fixtures/nightbot/nickmercs.channel.json",
+      "test/fixtures/nightbot/nickmercs.commands.json",
+      "test/fixtures/nightbot/twitch.channel.json",
+      "test/fixtures/nightbot/twitch.commands.json"
+    ]
+  },
+  {
+    "provider": "streamelements",
+    "publicUrlPattern": "https://streamelements.com/<login>/commands",
+    "endpointChain": [
+      {
+        "method": "GET",
+        "urlTemplate": "https://api.streamelements.com/kappa/v2/channels/<login>",
+        "headers": {}
+      },
+      {
+        "method": "GET",
+        "urlTemplate": "https://api.streamelements.com/kappa/v2/bot/commands/<id>",
+        "headers": {}
+      }
+    ],
+    "loginToId": "$._id from step 1 (24 hex); $.providerId is the Twitch user id",
+    "listPath": "$ (bare array)",
+    "fields": {
+      "name": "$[].command (no leading \"!\")",
+      "aliases": "$[].aliases[]",
+      "response": "$[].reply",
+      "cooldown": "$[].cooldown.user and $[].cooldown.global (seconds)",
+      "userLevel": "$[].accessLevel (number: 100, 500, 1000 seen)",
+      "enabled": "$[].enabled plus enabledOnline/enabledOffline; disabled commands ARE returned (16/176, 5/19, 69/75)"
+    },
+    "channels": [
+      {
+        "login": "coconutb",
+        "count": 176
+      },
+      {
+        "login": "kaicenat",
+        "count": 19
+      },
+      {
+        "login": "ludwig",
+        "count": 75
+      }
+    ],
+    "negative": {
+      "status": 404,
+      "bodySummary": "unknown login: 404 {\"statusCode\":404,\"error\":\"Not Found\",\"message\":\"channel <login> was not found\"}; login twitch is known: step 1 200, step 2 200 with body []"
+    },
+    "cors": "Access-Control-Allow-Origin: * on all responses",
+    "requestsUsed": 14,
+    "fixtures": [
+      "test/fixtures/streamelements/_negative-nosuchuser.channel.json",
+      "test/fixtures/streamelements/_negative-twitch.channel.json",
+      "test/fixtures/streamelements/_negative-twitch.commands.json",
+      "test/fixtures/streamelements/coconutb.channel.json",
+      "test/fixtures/streamelements/coconutb.commands-default.json",
+      "test/fixtures/streamelements/coconutb.commands.json",
+      "test/fixtures/streamelements/kaicenat.channel.json",
+      "test/fixtures/streamelements/kaicenat.commands.json",
+      "test/fixtures/streamelements/ludwig.channel.json",
+      "test/fixtures/streamelements/ludwig.commands.json"
+    ]
+  },
+  {
+    "provider": "fossabot",
+    "publicUrlPattern": "https://fossabot.com/<slug>/commands (slug = Twitch login)",
+    "endpointChain": [
+      {
+        "method": "GET",
+        "urlTemplate": "https://fossabot.com/api/v2/cached/channels/by-slug/<login>",
+        "headers": {}
+      },
+      {
+        "method": "GET",
+        "urlTemplate": "https://fossabot.com/api/v2/cached/channels/<id>/commands",
+        "headers": {}
+      }
+    ],
+    "loginToId": "$.channel.id from step 1 (string, Fossabot internal); $.channel.provider_id is the Twitch user id; fossadev-* headers the page sends are not required",
+    "listPath": "$.commands",
+    "fields": {
+      "name": "$.commands[].name (no leading \"!\")",
+      "aliases": "$.commands[].aliases[]",
+      "response": "$.commands[].response",
+      "cooldown": "none (not exposed)",
+      "userLevel": "$.commands[].role_ids[] joined to $.roles[].name (empty = everyone)",
+      "enabled": "$.commands[].enabled_online / enabled_offline (no single flag; default commands included)"
+    },
+    "channels": [
+      {
+        "login": "twitchdev",
+        "count": 32
+      },
+      {
+        "login": "kaajak1",
+        "count": 72
+      },
+      {
+        "login": "ipqow",
+        "count": 51
+      }
+    ],
+    "negative": {
+      "status": 404,
+      "bodySummary": "coconutb (no Fossabot): step 1 404 {\"code\":\"not_found\",\"error\":\"Not Found\",\"message\":\"Resource not found\",\"status\":404}"
+    },
+    "cors": "Access-Control-Allow-Origin: * on all responses",
+    "requestsUsed": 16,
+    "fixtures": [
+      "test/fixtures/fossabot/_negative-coconutb.channel.json",
+      "test/fixtures/fossabot/ipqow.channel.json",
+      "test/fixtures/fossabot/ipqow.commands.json",
+      "test/fixtures/fossabot/kaajak1.channel.json",
+      "test/fixtures/fossabot/kaajak1.commands.json",
+      "test/fixtures/fossabot/twitch.channel.json",
+      "test/fixtures/fossabot/twitch.commands.json",
+      "test/fixtures/fossabot/twitchdev.channel.json",
+      "test/fixtures/fossabot/twitchdev.commands.json"
+    ]
+  },
+  {
+    "provider": "moobot",
+    "publicUrlPattern": "https://moo.bot/r/commands#<login> (login in the URL fragment)",
+    "endpointChain": [
+      {
+        "method": "POST",
+        "urlTemplate": "https://moo.bot/a/1/channel/meta",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "Accept": "application/json"
+        },
+        "body": "name=<login>"
+      },
+      {
+        "method": "POST",
+        "urlTemplate": "https://moo.bot/a/1/channel/public/commands/list",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "Accept": "application/json"
+        },
+        "body": "_limit=15&_offset=0&_order=identifier&channel=<userid>"
+      }
+    ],
+    "loginToId": "$.channel.userid from step 1 (the Twitch user id); absent when Moobot does not know the login",
+    "listPath": "$.list",
+    "fields": {
+      "name": "$.list[].identifier (no leading \"!\")",
+      "aliases": "none",
+      "response": "$.list[].response (placeholders in angle brackets)",
+      "cooldown": "none",
+      "userLevel": "none (restricted commands hidden per docs)",
+      "enabled": "none (disabled commands hidden per docs)"
+    },
+    "channels": [
+      {
+        "login": "pokimane",
+        "count": 1
+      }
+    ],
+    "negative": {
+      "status": 200,
+      "bodySummary": "unknown login: {\"version\":476,\"assistant\":\"1.1.14\"} with no channel key; known channel without commands: {\"list\":[],\"_total\":0}"
+    },
+    "cors": "Access-Control-Allow-Origin: https://moo.bot (fixed, not reflected): twitch.tv pages cannot read it, background fetch needed",
+    "requestsUsed": 20,
+    "fixtures": [
+      "test/fixtures/moobot/_negative-esl_csgo.channel.json",
+      "test/fixtures/moobot/_negative-esl_csgo.commands.json",
+      "test/fixtures/moobot/_negative-ninja.channel.json",
+      "test/fixtures/moobot/_negative-ninja.commands.json",
+      "test/fixtures/moobot/_negative-northernlion.channel.json",
+      "test/fixtures/moobot/_negative-northernlion.commands.json",
+      "test/fixtures/moobot/_negative-nosuchuser.channel.json",
+      "test/fixtures/moobot/_negative-sodapoppin.channel.json",
+      "test/fixtures/moobot/pokimane.channel.json",
+      "test/fixtures/moobot/pokimane.commands.json"
+    ]
+  }
+]

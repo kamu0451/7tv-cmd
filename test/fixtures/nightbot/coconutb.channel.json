@@ -1,0 +1,14 @@
+{
+  "channel": {
+    "_id": "56c7e73d70447e267df1f19d",
+    "createdAt": "2016-02-20T04:10:37.000Z",
+    "updatedAt": "2026-10-05T07:00:03.642Z",
+    "name": "coconutb",
+    "displayName": "CoconutB",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/0149120c-37ef-43ad-98e5-bb07bc7ea6ad-profile_image-300x300.png",
+    "provider": "twitch",
+    "providerId": "56395702",
+    "admin": false
+  },
+  "status": 200
+}
