@@ -8,8 +8,8 @@ Fossabot and Moobot. No Twitch login, no Twitch API credentials, no setup. It co
 Unofficial: not affiliated with or endorsed by 7TV, Twitch or any of the bot providers; the name
 only says what it sits next to.
 
-Status: 0.1.0, unsigned, development installs only; audited before publishing
-(`docs/audit/SUMMARY.md`). The contract is
+Status: 0.1.0, signed by Mozilla on 2026-10-22 as a self-distributed (unlisted) add-on, source
+archive attached; audited before publishing (`docs/audit/SUMMARY.md`). The contract is
 `docs/SPEC.md`; decisions that override it are in `docs/LEDGER.md`; provider research is in
 `PROVIDERS.md`. Licence: MIT, see `LICENSE`.
 
